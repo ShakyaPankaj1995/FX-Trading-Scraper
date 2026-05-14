@@ -2,13 +2,37 @@ import asyncio
 import time
 import os
 import json
+import requests
+from datetime import datetime
 from playwright.async_api import async_playwright
 
-# Configuration
+# --- CONFIGURATION ---
 URL = "https://fx-trading-dashboard-v4.vercel.app/"
 SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "S&P500", "NASDAQ"]
 SCRAPE_INTERVAL_SECONDS = 300  # 5 minutes
 OUTPUT_FILE = "trades.json"
+
+# To enable telegram alerts, provide your details here
+TELEGRAM_BOT_TOKEN = "" # e.g. "123456789:ABCDEF..."
+TELEGRAM_CHAT_ID = ""   # e.g. "987654321"
+
+def send_telegram_alert(trade):
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return
+    
+    message = f"🚀 *New FX Signal Found!*\n\n"
+    message += f"💎 *Pair:* {trade['symbol']}\n"
+    message += f"📈 *Entry:* {trade['entry']}\n"
+    message += f"🛑 *SL:* {trade['sl']}\n"
+    message += f"🎯 *TP:* {trade['tp']}\n"
+    message += f"\n⏰ _Identified at: {trade['time_identified']}_"
+    
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    try:
+        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
+        print(f"  [Telegram] Alert sent for {trade['symbol']}")
+    except Exception as e:
+        print(f"  [Telegram Error] {e}")
 
 async def scrape_active_trades(page, symbol):
     """
@@ -52,19 +76,24 @@ async def scrape_active_trades(page, symbol):
         except Exception as e:
             print(f"  [Info] Could not click Scan Market: {e}")
 
-        # Wait for the log table rows to appear (if any)
+        # Wait for the log table wrapper to appear
         try:
-            # Increase wait time to 10 seconds for data to fetch
-            await page.wait_for_selector('.log-table-row', timeout=10000)
+            await page.wait_for_selector('.log-table-wrapper', timeout=10000)
         except:
             pass
         
         # 4. Filter for 'active' status trades
-        active_rows_locator = page.locator('.log-table-row').filter(has_text="Active")
+        # We target ONLY the rows inside the table wrapper to avoid the top "Active" stat label.
+        # We look for a badge/element that says "Active" inside those rows.
+        active_rows_locator = page.locator('.log-table-wrapper .log-table-row').filter(has_text="Active")
         active_rows = await active_rows_locator.all()
         
         if not active_rows:
-            print(f"No active trades found for {symbol}.")
+            print(f"No active trades found in the log table for {symbol}.")
+            # Debug: Check if there's ANY row at all
+            total_rows = await page.locator('.log-table-wrapper .log-table-row').count()
+            if total_rows > 0:
+                print(f"  (Note: Found {total_rows} total rows, but none are marked 'Active')")
         else:
             print(f"Found {len(active_rows)} active trade(s).")
             for row in active_rows:
@@ -76,12 +105,18 @@ async def scrape_active_trades(page, symbol):
                     sl_val = (await row.locator('div:nth-child(8)').inner_text()).strip()
                     tp_val = (await row.locator('div:nth-child(9)').inner_text()).strip()
                     
-                    trades.append({
+                    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    trade_data = {
                         "symbol": sym_val,
                         "entry": entry_val,
                         "sl": sl_val,
-                        "tp": tp_val
-                    })
+                        "tp": tp_val,
+                        "time_identified": now
+                    }
+                    trades.append(trade_data)
+                    
+                    # Send Telegram Notification
+                    send_telegram_alert(trade_data)
                 except Exception as e:
                     print(f"  [Error] Failed to extract row data: {e}")
 
