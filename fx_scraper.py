@@ -16,21 +16,30 @@ OUTPUT_FILE = "trades.json"
 TELEGRAM_BOT_TOKEN = "" # e.g. "123456789:ABCDEF..."
 TELEGRAM_CHAT_ID = ""   # e.g. "987654321"
 
-def send_telegram_alert(trade):
+def send_telegram_alert(trade, is_update=False):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return
     
-    message = f"🚀 *New FX Signal Found!*\n\n"
-    message += f"💎 *Pair:* {trade['symbol']}\n"
-    message += f"📈 *Entry:* {trade['entry']}\n"
-    message += f"🛑 *SL:* {trade['sl']}\n"
-    message += f"🎯 *TP:* {trade['tp']}\n"
-    message += f"\n⏰ _Identified at: {trade['time_identified']}_"
+    if is_update:
+        message = f"📢 *Trade Update Alert*\n\n"
+        message += f"💎 *Pair:* {trade['symbol']}\n"
+        message += f"📊 *Strategy:* {trade['strategy']}\n"
+        message += f"🏁 *New Status:* {trade['status'].upper()}\n"
+        message += f"💵 *PNL:* {trade['pnl']}\n"
+    else:
+        message = f"🚀 *New FX Signal Found!*\n\n"
+        message += f"💎 *Pair:* {trade['symbol']}\n"
+        message += f"📊 *Strategy:* {trade['strategy']}\n"
+        message += f"📈 *Entry:* {trade['entry']}\n"
+        message += f"🛑 *SL:* {trade['sl']}\n"
+        message += f"🎯 *TP:* {trade['tp']}\n"
+    
+    message += f"\n⏰ _Time: {trade['time_identified']}_"
     
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
         requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
-        print(f"  [Telegram] Alert sent for {trade['symbol']}")
+        print(f"  [Telegram] {'Update' if is_update else 'New Alert'} sent for {trade['symbol']}")
     except Exception as e:
         print(f"  [Telegram Error] {e}")
 
@@ -82,43 +91,56 @@ async def scrape_active_trades(page, symbol):
         except:
             pass
         
-        # 4. Filter for 'active' status trades
-        # We target ONLY the rows inside the table wrapper to avoid the top "Active" stat label.
-        # We look for a badge/element that says "Active" inside those rows.
-        active_rows_locator = page.locator('.log-table-wrapper .log-table-row').filter(has_text="Active")
-        active_rows = await active_rows_locator.all()
+        # 4. Scrape ALL rows from the table to track history and outcomes
+        all_rows = await page.locator('.log-table-wrapper .log-table-row').all()
+        print(f"Found {len(all_rows)} total log entries for {symbol}.")
         
-        if not active_rows:
-            print(f"No active trades found in the log table for {symbol}.")
-            # Debug: Check if there's ANY row at all
-            total_rows = await page.locator('.log-table-wrapper .log-table-row').count()
-            if total_rows > 0:
-                print(f"  (Note: Found {total_rows} total rows, but none are marked 'Active')")
-        else:
-            print(f"Found {len(active_rows)} active trade(s).")
-            for row in active_rows:
-                try:
-                    # 5. Extract: Symbol (3rd), Entry Price (7th), SL (8th), TP (9th)
-                    # Use indices identified by browser subagent
-                    sym_val = (await row.locator('div:nth-child(3)').inner_text()).strip()
-                    entry_val = (await row.locator('div:nth-child(7)').inner_text()).strip()
-                    sl_val = (await row.locator('div:nth-child(8)').inner_text()).strip()
-                    tp_val = (await row.locator('div:nth-child(9)').inner_text()).strip()
-                    
-                    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    trade_data = {
-                        "symbol": sym_val,
-                        "entry": entry_val,
-                        "sl": sl_val,
-                        "tp": tp_val,
-                        "time_identified": now
-                    }
+        for row in all_rows:
+            try:
+                # Extract: Symbol(3), Strategy(5), Entry(7), SL(8), TP(9), PNL(11), Status(12)
+                sym_val = (await row.locator('div:nth-child(3)').inner_text()).strip()
+                strat_val = (await row.locator('div:nth-child(5)').inner_text()).strip()
+                entry_val = (await row.locator('div:nth-child(7)').inner_text()).strip()
+                sl_val = (await row.locator('div:nth-child(8)').inner_text()).strip()
+                tp_val = (await row.locator('div:nth-child(9)').inner_text()).strip()
+                pnl_val = (await row.locator('div:nth-child(11)').inner_text()).strip()
+                status_val = (await row.locator('div:nth-child(12)').inner_text()).strip()
+                
+                # Unique ID for tracking (Symbol + Strategy + Entry)
+                trade_id = f"{sym_val}_{strat_val}_{entry_val}"
+                
+                now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                trade_data = {
+                    "id": trade_id,
+                    "symbol": sym_val,
+                    "strategy": strat_val,
+                    "entry": entry_val,
+                    "sl": sl_val,
+                    "tp": tp_val,
+                    "pnl": pnl_val,
+                    "status": status_val,
+                    "time_identified": now
+                }
+                
+                # Check if we already have this trade in our master list
+                # If it's already there, we update its status/pnl
+                existing_trade = next((t for t in trades if t["id"] == trade_id), None)
+                if existing_trade:
+                    if existing_trade["status"] != status_val:
+                        print(f"  [Update] {sym_val} {strat_val} status changed: {existing_trade['status']} -> {status_val}")
+                        existing_trade["status"] = status_val
+                        existing_trade["pnl"] = pnl_val
+                        # Send alert if it just closed
+                        if status_val in ["Success", "Failed"]:
+                            send_telegram_alert(existing_trade, is_update=True)
+                else:
                     trades.append(trade_data)
-                    
-                    # Send Telegram Notification
-                    send_telegram_alert(trade_data)
-                except Exception as e:
-                    print(f"  [Error] Failed to extract row data: {e}")
+                    print(f"  [New] Identified {status_val} trade for {sym_val}")
+                    if status_val == "Active":
+                        send_telegram_alert(trade_data)
+                        
+            except Exception as e:
+                print(f"  [Error] Failed to extract row data: {e}")
 
         # Close the Signal Log dialog
         close_btn = page.locator('.log-close-btn')
