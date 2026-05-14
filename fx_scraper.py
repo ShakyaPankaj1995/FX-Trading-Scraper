@@ -97,9 +97,10 @@ async def scrape_active_trades(page, symbol):
         
         for row in all_rows:
             try:
-                # Extract: Symbol(3), Strategy(5), Entry(7), SL(8), TP(9), PNL(11), Status(12)
+                # Extract: Symbol(3), Strategy(5), Signal(6), Entry(7), SL(8), TP(9), PNL(11), Status(12)
                 sym_val = (await row.locator('div:nth-child(3)').inner_text()).strip()
                 strat_val = (await row.locator('div:nth-child(5)').inner_text()).strip()
+                signal_val = (await row.locator('div:nth-child(6)').inner_text()).strip().upper()
                 entry_val = (await row.locator('div:nth-child(7)').inner_text()).strip()
                 sl_val = (await row.locator('div:nth-child(8)').inner_text()).strip()
                 tp_val = (await row.locator('div:nth-child(9)').inner_text()).strip()
@@ -114,6 +115,7 @@ async def scrape_active_trades(page, symbol):
                     "id": trade_id,
                     "symbol": sym_val,
                     "strategy": strat_val,
+                    "signal": signal_val, # BUY or SELL
                     "entry": entry_val,
                     "sl": sl_val,
                     "tp": tp_val,
