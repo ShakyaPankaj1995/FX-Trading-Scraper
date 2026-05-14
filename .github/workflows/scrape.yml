@@ -1,0 +1,37 @@
+name: FX Scraper
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Run every 5 minutes
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright pandas flask
+          playwright install chromium
+          sudo playwright install-deps chromium
+
+      - name: Run Scraper
+        run: python fx_scraper.py --once
+
+      - name: Commit and push if trades.json changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add trades.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update trades.json" && git push)

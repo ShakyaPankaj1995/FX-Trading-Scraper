@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+debug_screenshot.png
+log_modal_debug.png
+log_modal_sp500.png
+page_debug.html
+verify_structure.py
+debug_log.py
+get_html.py
+test_scraper.py
+.streamlit/
