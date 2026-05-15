@@ -22,9 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright pandas flask
-          playwright install chromium
-          sudo playwright install-deps chromium
+          pip install playwright pandas requests
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
 
       - name: Run Scraper
         run: python fx_scraper.py --once
