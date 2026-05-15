@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, FX Master Tools"
 #property link      "https://localhost:8501"
-#property version   "1.00"
+#property version   "1.10"
 #property strict
 
 #include <Trade\Trade.mqh>
@@ -13,12 +13,13 @@
 // --- INPUT PARAMETERS ---
 input string   InpServerUrl   = "https://raw.githubusercontent.com/ShakyaPankaj1995/FX-Trading-Scraper/master/trades.json"; 
 input double   InpRiskPercent = 1.0;                            // Risk percent per trade
-input int      InpTimerSeconds = 30;                            // Pinging interval (seconds)
+input int      InpTimerSeconds = 15;                            // Pinging interval (seconds)
 input string   InpMagicNum    = "88888";                        // Magic number
+input bool     InpDebugMode   = true;                           // Show detailed logs
 
 // --- GLOBALS ---
 CTrade trade;
-string last_processed_ids = ""; // Simple way to track processed trades
+string last_processed_ids = ""; 
 
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
@@ -27,17 +28,11 @@ int OnInit()
 {
    EventSetTimer(InpTimerSeconds);
    trade.SetExpertMagicNumber(StringToInteger(InpMagicNum));
-   Print("FX Master Bridge EA Started. Targeting: ", InpServerUrl);
+   Print("FX Master Bridge v1.10 Started. Tracking: ", InpServerUrl);
    return(INIT_SUCCEEDED);
 }
 
-//+------------------------------------------------------------------+
-//| Expert deinitialization function                                 |
-//+------------------------------------------------------------------+
-void OnDeinit(const int reason)
-{
-   EventKillTimer();
-}
+void OnDeinit(const int reason) { EventKillTimer(); }
 
 //+------------------------------------------------------------------+
 //| Timer function - Main Logic                                      |
@@ -49,32 +44,29 @@ void OnTimer()
    string result_headers;
    int res;
    
-   // 1. Fetch JSON from our Bridge Server
+   if(InpDebugMode) Print("Pinging GitHub for new signals...");
+
+   // 1. Fetch JSON
    res = WebRequest("GET", InpServerUrl, NULL, NULL, 5000, data, 0, result, result_headers);
    
    if(res == -1)
    {
-      Print("Error in WebRequest. Check MT5 -> Tools -> Options -> Expert Advisors -> Allow WebRequest for URL.");
+      Print("WebRequest Error: ", _LastError, ". Check Tools -> Options -> EAs -> Allow WebRequest for URL.");
       return;
    }
    
    string json_text = CharArrayToString(result);
-   if(json_text == "" || json_text == "[]") return;
+   if(json_text == "" || json_text == "[]") 
+   {
+      if(InpDebugMode) Print("Connection OK. No signals found.");
+      return;
+   }
 
-   // 2. Simple Parsing (Since MQL5 native JSON is limited, we use string searching for this demo)
-   // For production, highly recommend using a library like JAson.mqh
    ProcessSignals(json_text);
 }
 
-//+------------------------------------------------------------------+
-//| Parse and Execute trades                                         |
-//+------------------------------------------------------------------+
 void ProcessSignals(string json)
 {
-   // Note: This is a simplified parsing approach for the template.
-   // We look for active trades in the JSON string.
-   
-   // Find the start of an object
    int start_pos = 0;
    while((start_pos = StringFind(json, "{", start_pos)) != -1)
    {
@@ -88,46 +80,46 @@ void ProcessSignals(string json)
    }
 }
 
-//+------------------------------------------------------------------+
-//| Extract values and Send Order                                    |
-//+------------------------------------------------------------------+
 void ExecuteTradeFromObject(string obj)
 {
-   // Check if Active
-   if(StringFind(obj, "\"status\":\"Active\"") == -1) return;
+   // Check status
+   string status = ExtractValue(obj, "\"status\"");
+   if(status != "Active") return;
    
-   // Extract ID to prevent duplicates
-   string id = ExtractValue(obj, "\"id\":\"");
-   if(StringFind(last_processed_ids, id) != -1) return; // Already traded this signal
+   // Extract ID
+   string id = ExtractValue(obj, "\"id\"");
+   if(id == "" || StringFind(last_processed_ids, id) != -1) return;
    
-   string symbol = ExtractValue(obj, "\"symbol\":\"");
-   string signal = ExtractValue(obj, "\"signal\":\"");
-   double entry  = StringToDouble(ExtractValue(obj, "\"entry\":\""));
-   double sl     = StringToDouble(ExtractValue(obj, "\"sl\":\""));
-   double tp     = StringToDouble(ExtractValue(obj, "\"tp\":\""));
+   string symbol = ExtractValue(obj, "\"symbol\"");
+   string signal = ExtractValue(obj, "\"signal\"");
+   double entry  = StringToDouble(ExtractValue(obj, "\"entry\""));
+   double sl     = StringToDouble(ExtractValue(obj, "\"sl\""));
+   double tp     = StringToDouble(ExtractValue(obj, "\"tp\""));
 
-   // 3. Risk Management: Calculate Lot Size
+   if(InpDebugMode) Print("Found Signal: ", symbol, " ", signal, " @ ", entry, " (ID: ", id, ")");
+
+   // Risk Management
    double lot = CalculateLotSize(symbol, sl, entry);
-   
-   if(lot <= 0) return;
+   if(lot <= 0) { Print("Lot size calculation failed. Check SL/Price distance."); return; }
 
-   // 4. Execution
+   // Execution
    bool success = false;
    if(signal == "BUY")
-      success = trade.Buy(lot, symbol, entry, sl, tp, "FX Master Auto Signal");
+      success = trade.Buy(lot, symbol, entry, sl, tp, "FX Master Auto");
    else if(signal == "SELL")
-      success = trade.Sell(lot, symbol, entry, sl, tp, "FX Master Auto Signal");
+      success = trade.Sell(lot, symbol, entry, sl, tp, "FX Master Auto");
 
    if(success)
    {
-      Print("Successfully executed ", signal, " on ", symbol, " with lot ", lot);
+      Print("Trade EXECUTED: ", signal, " ", symbol, " Lot: ", lot);
       last_processed_ids += id + "|";
+   }
+   else
+   {
+      Print("Execution FAILED for ", symbol, ". Check MT5 Journal for details.");
    }
 }
 
-//+------------------------------------------------------------------+
-//| Calculate Lot Size for 1% Risk                                   |
-//+------------------------------------------------------------------+
 double CalculateLotSize(string sym, double sl, double entry)
 {
    double equity = AccountInfoDouble(ACCOUNT_EQUITY);
@@ -136,34 +128,35 @@ double CalculateLotSize(string sym, double sl, double entry)
    double tick_value = SymbolInfoDouble(sym, SYMBOL_TRADE_TICK_VALUE);
    double tick_size = SymbolInfoDouble(sym, SYMBOL_TRADE_TICK_SIZE);
    
-   if(tick_value <= 0 || tick_size <= 0) return 0;
-   
    double points_risk = MathAbs(entry - sl);
-   if(points_risk <= 0) return 0;
+   if(points_risk <= 0 || tick_value <= 0) return 0;
    
-   // Lot calculation formula: Risk Amount / (Points Risk * (Tick Value / Tick Size))
    double lot = risk_amount / (points_risk * (tick_value / tick_size));
    
-   // Normalize lot size
    double lot_step = SymbolInfoDouble(sym, SYMBOL_VOLUME_STEP);
    lot = MathFloor(lot / lot_step) * lot_step;
-   
-   double min_lot = SymbolInfoDouble(sym, SYMBOL_VOLUME_MIN);
-   double max_lot = SymbolInfoDouble(sym, SYMBOL_VOLUME_MAX);
-   
-   if(lot < min_lot) lot = min_lot;
-   if(lot > max_lot) lot = max_lot;
    
    return lot;
 }
 
-// Helper to extract values from simple JSON strings
+// Improved Extractor for both strings and numbers
 string ExtractValue(string obj, string key)
 {
-   int start = StringFind(obj, key);
-   if(start == -1) return "";
-   start += StringLen(key);
-   int end = StringFind(obj, "\"", start);
-   if(end == -1) return "";
-   return StringSubstr(obj, start, end - start);
+   int key_pos = StringFind(obj, key);
+   if(key_pos == -1) return "";
+   
+   int colon_pos = StringFind(obj, ":", key_pos);
+   if(colon_pos == -1) return "";
+   
+   int start = colon_pos + 1;
+   // Skip whitespace or quotes
+   while(start < StringLen(obj) && (StringSubstr(obj, start, 1) == " " || StringSubstr(obj, start, 1) == "\"" || StringSubstr(obj, start, 1) == "\n"))
+      start++;
+      
+   int end = start;
+   // Read until comma, quote, or brace
+   while(end < StringLen(obj) && StringSubstr(obj, end, 1) != "," && StringSubstr(obj, end, 1) != "\"" && StringSubstr(obj, end, 1) != "}" && StringSubstr(obj, end, 1) != "\n")
+      end++;
+      
+   return StringTrimLeft(StringTrimRight(StringSubstr(obj, start, end - start)));
 }
