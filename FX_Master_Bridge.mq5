@@ -44,10 +44,14 @@ void OnTimer()
    string result_headers;
    int res;
    
-   if(InpDebugMode) Print("Pinging GitHub for new signals...");
+   // Cache-bust: append a timestamp so GitHub CDN always serves the freshest file
+   string timestamp = IntegerToString((long)TimeGMT());
+   string url = InpServerUrl + "?t=" + timestamp;
+   
+   if(InpDebugMode) Print("Pinging GitHub for new signals... t=", timestamp);
 
    // 1. Fetch JSON
-   res = WebRequest("GET", InpServerUrl, NULL, NULL, 5000, data, 0, result, result_headers);
+   res = WebRequest("GET", url, NULL, NULL, 5000, data, 0, result, result_headers);
    
    if(res == -1)
    {

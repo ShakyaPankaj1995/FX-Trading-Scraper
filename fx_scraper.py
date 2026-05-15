@@ -1,5 +1,6 @@
 import asyncio
 import json
+import os
 import requests
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
@@ -8,7 +9,7 @@ from playwright.async_api import async_playwright
 URL = "https://fx-trading-dashboard-v4.vercel.app/"
 SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "S&P500", "NASDAQ"]
 OUTPUT_FILE = "trades.json"
-FRESHNESS_MINUTES = 5  # Only capture trades started within this window
+FRESHNESS_MINUTES = 8  # Extended to 8 mins to compensate for GitHub Action scheduling delays
 
 # To enable Telegram alerts, fill in your credentials:
 TELEGRAM_BOT_TOKEN = ""
@@ -137,11 +138,31 @@ async def run_scraper():
             except Exception as e:
                 print(f"  [Error] Failed to process row: {e}")
 
-        # STEP 5: Save to trades.json
+        # STEP 5: Save to trades.json (current active signals for EA)
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(trades, f, indent=2)
 
-        print(f"\n--- Done. {len(trades)} fresh trade(s) sent to EA via trades.json ---")
+        # STEP 6: Append to history.json (persistent, never overwritten)
+        HISTORY_FILE = "history.json"
+        history = []
+        if os.path.exists(HISTORY_FILE):
+            try:
+                with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                    history = json.load(f)
+            except:
+                history = []
+        
+        existing_ids = {t["id"] for t in history}
+        new_count = 0
+        for trade in trades:
+            if trade["id"] not in existing_ids:
+                history.append(trade)
+                new_count += 1
+        
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, indent=2)
+        
+        print(f"\n--- Done. {len(trades)} fresh trade(s) sent to EA. {new_count} new trade(s) added to history.json (total: {len(history)}) ---")
         await browser.close()
 
 if __name__ == "__main__":
