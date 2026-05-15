@@ -1,6 +1,4 @@
 import asyncio
-import time
-import os
 import json
 import requests
 from datetime import datetime, timedelta
@@ -10,119 +8,141 @@ from playwright.async_api import async_playwright
 URL = "https://fx-trading-dashboard-v4.vercel.app/"
 SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "S&P500", "NASDAQ"]
 OUTPUT_FILE = "trades.json"
+FRESHNESS_MINUTES = 5  # Only capture trades started within this window
 
-# To enable telegram alerts, provide your details here
-TELEGRAM_BOT_TOKEN = "" 
-TELEGRAM_CHAT_ID = ""   
+# To enable Telegram alerts, fill in your credentials:
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
-def send_telegram_alert(trade, is_update=False):
+def send_telegram_alert(trade):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return
-    
-    if is_update:
-        message = f"📢 *Trade Update Alert*\n\n"
-        message += f"💎 *Pair:* {trade['symbol']}\n"
-        message += f"🏁 *New Status:* {trade['status'].upper()}\n"
-    else:
-        message = f"🚀 *New FX Signal Found!*\n\n"
-        message += f"💎 *Pair:* {trade['symbol']}\n"
-        message += f"📈 *Entry:* {trade['entry']}\n"
-        message += f"🛑 *SL:* {trade['sl']}\n"
-        message += f"🎯 *TP:* {trade['tp']}\n"
-    
-    message += f"\n⏰ _Time: {trade['time_identified']}_"
-    
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    msg = (
+        f"New FX Signal: {trade['symbol']} {trade['signal']}\n"
+        f"Entry: {trade['entry']}\nSL: {trade['sl']}\nTP: {trade['tp']}\n"
+        f"Strategy: {trade['strategy']} | Time: {trade['trade_time']}"
+    )
     try:
-        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
-    except: pass
+        requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": msg},
+            timeout=5
+        )
+    except:
+        pass
 
-async def run_new_flow():
+async def run_scraper():
     async with async_playwright() as p:
-        print("🚀 Starting New Optimized Scraper Flow...")
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(viewport={'width': 1920, 'height': 1080})
+        context = await browser.new_context(viewport={"width": 1920, "height": 1080})
         page = await context.new_page()
-        
+
+        print("--- FX Scraper Starting ---")
         await page.goto(URL, wait_until="networkidle")
-        
-        # 1. Sequential Pair Clicks (Warm-up)
+        await asyncio.sleep(3)
+
+        # STEP 1: Click each pair sequentially (3s between each)
+        print("Warming up: Clicking all pairs...")
         for symbol in SYMBOLS:
-            print(f"  - Clicking {symbol}...")
             try:
-                btn = page.get_by_role("button", name=symbol, exact=True)
-                await btn.click()
-                await asyncio.sleep(3) # Wait 3 seconds as requested
-            except:
-                print(f"    [Error] Could not click {symbol}")
+                await page.get_by_role("button", name=symbol, exact=True).click()
+                print(f"  Clicked: {symbol}")
+                await asyncio.sleep(3)
+            except Exception as e:
+                print(f"  [Error] Could not click {symbol}: {e}")
 
-        # 2. Open Signal Log once
-        print("📂 Opening Signal Log...")
-        await page.locator('button.log-nav-btn').click()
-        await asyncio.sleep(5) # Wait for table to populate
-        
-        # 3. Identify and Filter Trades
-        trades = []
-        rows = await page.locator('.log-table-wrapper div').filter(has_text="Active").all()
-        
-        # Get current time for the 5-min filter
+        # STEP 2: Click Signal Log button
+        print("Opening Signal Log...")
+        await page.locator("button.log-nav-btn").click()
+        await asyncio.sleep(5)
+
+        # STEP 3: Scrape .log-row-active rows (rows that are Active)
+        # The site uses <tr class="log-row log-row-active"> for active trades
+        active_rows = await page.locator("tr.log-row-active").all()
+        print(f"Found {len(active_rows)} active trade row(s).")
+
         now = datetime.now()
-        print(f"🔍 Scanning Log (Current UTC: {now.strftime('%H:%M')})")
+        trades = []
 
-        processed_texts = set()
-        for row in rows:
+        for row in active_rows:
             try:
-                txt = await row.inner_text()
-                if ("BUY" in txt or "SELL" in txt) and len(txt) > 30 and txt not in processed_texts:
-                    processed_texts.add(txt)
-                    
-                    # Extract Data (Indices based on site structure)
-                    # Date(1), StartTime(2), Symbol(3), Strategy(5), Signal(6), Entry(7), SL(8), TP(9)
-                    cells = await row.locator('div').all()
-                    if len(cells) < 10: continue
-                    
-                    start_time_str = (await cells[1].inner_text()).strip() # e.g. "12:45"
-                    symbol_val = (await cells[2].inner_text()).strip()
-                    signal_val = (await cells[5].inner_text()).strip().upper()
-                    entry_val = (await cells[6].inner_text()).strip()
-                    sl_val = (await cells[7].inner_text()).strip()
-                    tp_val = (await cells[8].inner_text()).strip()
-                    
-                    # 4. Check if trade started within last 5 minutes
-                    try:
-                        trade_time = datetime.strptime(start_time_str, "%H:%M").replace(
-                            year=now.year, month=now.month, day=now.day
-                        )
-                        # Handle day crossover if necessary (simple version)
-                        time_diff = (now - trade_time).total_seconds() / 60
-                        
-                        if 0 <= time_diff <= 5:
-                            print(f"✅ MATCH: {symbol_val} {signal_val} started {int(time_diff)} mins ago.")
-                            trade_data = {
-                                "id": f"{symbol_val}_{start_time_str}",
-                                "symbol": symbol_val,
-                                "signal": signal_val,
-                                "entry": entry_val,
-                                "sl": sl_val,
-                                "tp": tp_val,
-                                "status": "Active",
-                                "time_identified": now.strftime("%Y-%m-%d %H:%M:%S")
-                            }
-                            trades.append(trade_data)
-                            send_telegram_alert(trade_data)
-                        else:
-                            print(f"⏩ SKIPPED: {symbol_val} is too old ({int(time_diff)} mins ago).")
-                    except:
-                        print(f"⚠️ Could not parse time for {symbol_val}")
+                # Extract each <td> cell
+                cells = await row.locator("td").all()
+                cell_texts = []
+                for c in cells:
+                    cell_texts.append((await c.inner_text()).strip())
 
-            except: continue
+                # Map cells to fields based on confirmed structure
+                date_str    = cell_texts[0] if len(cell_texts) > 0 else ""
+                time_str    = cell_texts[1] if len(cell_texts) > 1 else ""
+                symbol_val  = cell_texts[2] if len(cell_texts) > 2 else ""
+                tf_val      = cell_texts[3] if len(cell_texts) > 3 else ""
+                strat_val   = cell_texts[4] if len(cell_texts) > 4 else ""
+                signal_val  = cell_texts[5].replace("\n", "").strip() if len(cell_texts) > 5 else ""
+                entry_val   = cell_texts[6] if len(cell_texts) > 6 else ""
+                sl_val      = cell_texts[7] if len(cell_texts) > 7 else ""
+                tp_val      = cell_texts[8] if len(cell_texts) > 8 else ""
 
-        # 5. Save and Finish
-        with open(OUTPUT_FILE, "w") as f:
+                # Clean BUY/SELL from signal (may have SVG text)
+                if "BUY" in signal_val.upper():
+                    signal_val = "BUY"
+                elif "SELL" in signal_val.upper():
+                    signal_val = "SELL"
+                else:
+                    print(f"  [Skip] Unrecognized signal: '{signal_val}'")
+                    continue
+
+                print(f"  Row: {symbol_val} {signal_val} | Entry:{entry_val} SL:{sl_val} TP:{tp_val} | Time:{time_str}")
+
+                # STEP 4: 5-minute freshness filter
+                is_fresh = True
+                age_mins = -1
+
+                if time_str:
+                    for fmt in ["%I:%M %p", "%H:%M", "%I:%M%p"]:
+                        try:
+                            parsed = datetime.strptime(time_str.strip(), fmt)
+                            trade_time = parsed.replace(year=now.year, month=now.month, day=now.day)
+                            age_mins = (now - trade_time).total_seconds() / 60
+                            if age_mins < -60:   # Handle midnight rollover
+                                age_mins += 1440
+                            is_fresh = 0 <= age_mins <= FRESHNESS_MINUTES
+                            break
+                        except:
+                            continue
+
+                if age_mins >= 0:
+                    status = "MATCH (sending to EA)" if is_fresh else f"SKIPPED ({age_mins:.1f} min old)"
+                    print(f"    -> {status}")
+                else:
+                    print(f"    -> Time parse failed for '{time_str}', including by default")
+
+                if is_fresh:
+                    trade_data = {
+                        "id": f"{symbol_val}_{time_str.replace(':', '').replace(' ', '')}_{entry_val}",
+                        "symbol": symbol_val,
+                        "timeframe": tf_val,
+                        "strategy": strat_val,
+                        "signal": signal_val,
+                        "entry": entry_val,
+                        "sl": sl_val,
+                        "tp": tp_val,
+                        "status": "Active",
+                        "trade_time": f"{date_str} {time_str}",
+                        "time_identified": now.strftime("%Y-%m-%d %H:%M:%S")
+                    }
+                    trades.append(trade_data)
+                    send_telegram_alert(trade_data)
+
+            except Exception as e:
+                print(f"  [Error] Failed to process row: {e}")
+
+        # STEP 5: Save to trades.json
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(trades, f, indent=2)
-        
-        print(f"📊 Done. Sent {len(trades)} fresh trades to EA.")
+
+        print(f"\n--- Done. {len(trades)} fresh trade(s) sent to EA via trades.json ---")
         await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(run_new_flow())
+    asyncio.run(run_scraper())
