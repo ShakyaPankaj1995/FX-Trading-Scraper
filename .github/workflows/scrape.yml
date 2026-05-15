@@ -2,8 +2,8 @@ name: FX Scraper
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Run every 5 minutes
-  workflow_dispatch: # Allow manual trigger
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
