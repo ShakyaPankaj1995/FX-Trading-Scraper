@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "TEST_AUTO_001",
+    "symbol": "EURUSD",
+    "strategy": "TEST_MODE",
+    "signal": "BUY",
+    "entry": 1.08500,
+    "sl": 1.08000,
+    "tp": 1.10000,
+    "pnl": "0.0",
+    "status": "Active",
+    "time_identified": "2026-05-15 16:13:00"
+  }
+]
