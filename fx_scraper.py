@@ -73,39 +73,22 @@ async def scrape_active_trades(page, symbol):
         log_btn = page.locator('button.log-nav-btn')
         await log_btn.click()
         print("Opened Signal Log.")
+        await asyncio.sleep(5) # Give table time to render
         
-        # 3.5. Click 'Scan Market' to ensure active trades are populated
-        try:
-            scan_btn = page.locator('#scan-btn') # ID identified from HTML inspection
-            if await scan_btn.is_visible():
-                print("Clicking 'Scan Market' to populate signals...")
-                await scan_btn.click()
-                # Wait for the scanning process to complete and rows to appear
-                await asyncio.sleep(5) 
-        except Exception as e:
-            print(f"  [Info] Could not click Scan Market: {e}")
-
-        # Wait for the log table wrapper to appear
-        try:
-            await page.wait_for_selector('.log-table-wrapper', timeout=10000)
-        except:
-            pass
+        # 4. Scrape ONLY 'Active' status trades from the table
+        active_rows = await page.locator('.log-table-wrapper .log-table-row').filter(has_text="Active").all()
+        print(f"Found {len(active_rows)} active trade(s) for {symbol}.")
         
-        # 4. Scrape ALL rows from the table to track history and outcomes
-        all_rows = await page.locator('.log-table-wrapper .log-table-row').all()
-        print(f"Found {len(all_rows)} total log entries for {symbol}.")
-        
-        for row in all_rows:
+        for row in active_rows:
             try:
-                # Extract: Symbol(3), Strategy(5), Signal(6), Entry(7), SL(8), TP(9), PNL(11), Status(12)
+                # Extract: Symbol(3), Strategy(5), Signal(6), Entry(7), SL(8), TP(9), Status(12)
                 sym_val = (await row.locator('div:nth-child(3)').inner_text()).strip()
                 strat_val = (await row.locator('div:nth-child(5)').inner_text()).strip()
                 signal_val = (await row.locator('div:nth-child(6)').inner_text()).strip().upper()
                 entry_val = (await row.locator('div:nth-child(7)').inner_text()).strip()
                 sl_val = (await row.locator('div:nth-child(8)').inner_text()).strip()
                 tp_val = (await row.locator('div:nth-child(9)').inner_text()).strip()
-                pnl_val = (await row.locator('div:nth-child(11)').inner_text()).strip()
-                status_val = (await row.locator('div:nth-child(12)').inner_text()).strip()
+                status_val = "Active"
                 
                 # Unique ID for tracking (Symbol + Strategy + Entry)
                 trade_id = f"{sym_val}_{strat_val}_{entry_val}"
@@ -115,31 +98,23 @@ async def scrape_active_trades(page, symbol):
                     "id": trade_id,
                     "symbol": sym_val,
                     "strategy": strat_val,
-                    "signal": signal_val, # BUY or SELL
+                    "signal": signal_val,
                     "entry": entry_val,
                     "sl": sl_val,
                     "tp": tp_val,
-                    "pnl": pnl_val,
+                    "pnl": "0.0",
                     "status": status_val,
                     "time_identified": now
                 }
                 
-                # Check if we already have this trade in our master list
-                # If it's already there, we update its status/pnl
-                existing_trade = next((t for t in trades if t["id"] == trade_id), None)
-                if existing_trade:
-                    if existing_trade["status"] != status_val:
-                        print(f"  [Update] {sym_val} {strat_val} status changed: {existing_trade['status']} -> {status_val}")
-                        existing_trade["status"] = status_val
-                        existing_trade["pnl"] = pnl_val
-                        # Send alert if it just closed
-                        if status_val in ["Success", "Failed"]:
-                            send_telegram_alert(existing_trade, is_update=True)
-                else:
+                # Check for duplicates in the current list
+                if not any(t["id"] == trade_id for t in trades):
                     trades.append(trade_data)
-                    print(f"  [New] Identified {status_val} trade for {sym_val}")
-                    if status_val == "Active":
-                        send_telegram_alert(trade_data)
+                    print(f"  [New] Captured active trade: {sym_val} {signal_val}")
+                    send_telegram_alert(trade_data)
+                        
+            except Exception as e:
+                print(f"  [Error] Failed to extract row data: {e}")
                         
             except Exception as e:
                 print(f"  [Error] Failed to extract row data: {e}")
