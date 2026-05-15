@@ -61,25 +61,57 @@ async def scrape_active_trades(page, symbol):
                 await page.keyboard.press("Escape")
             await page.locator('.log-overlay').wait_for(state="hidden", timeout=5000)
 
+        # --- ONE-TIME INITIALIZATION ---
+        # On a fresh page load, we must trigger one scan to populate the global log data.
+        # This only happens once per run.
+        if symbol == SYMBOLS[0]:
+            print("🔄 Initializing Signal Data (First Pair Scan)...")
+            try:
+                # Open log first to find the button
+                await page.locator('button.log-nav-btn').click()
+                await asyncio.sleep(2)
+                scan_btn = page.locator('#scan-btn')
+                if await scan_btn.is_visible():
+                    await scan_btn.click()
+                    print("  [Trigger] Global scan started...")
+                    await asyncio.sleep(10) # Wait for initial data to load
+                # Close log to start the pair-by-pair path
+                await page.keyboard.press("Escape")
+                await asyncio.sleep(2)
+            except:
+                pass
+
+        # --- YOUR REQUESTED PATH START ---
         # 1. Click on the currency symbol button
         symbol_btn = page.get_by_role("button", name=symbol, exact=True)
         await symbol_btn.click()
-        print(f"Clicked {symbol}. Waiting 5 seconds for page load...")
-        
-        # 2. Wait 5 seconds for the page to fully load
+        print(f"Clicked {symbol}. Waiting 5 seconds for dashboard update...")
         await asyncio.sleep(5)
         
-        # 3. Click on Signal Log
+        # 2. Open Signal Log
         log_btn = page.locator('button.log-nav-btn')
         await log_btn.click()
-        print("Opened Signal Log.")
+        print(f"Opened Signal Log for {symbol}.")
         await asyncio.sleep(5) # Give table time to render
         
-        # 4. Scrape ONLY 'Active' status trades from the table
-        active_rows = await page.locator('.log-table-wrapper .log-table-row').filter(has_text="Active").all()
-        print(f"Found {len(active_rows)} active trade(s) for {symbol}.")
+        # 3. Scrape ONLY 'Active' status trades from the table
+        # Using a much more robust selector to catch both .log-row and .log-table-row
+        active_rows = await page.locator('.log-table-wrapper div').filter(has_text="Active").all()
         
-        for row in active_rows:
+        final_rows = []
+        seen_ids = set()
+        for el in active_rows:
+            txt = await el.inner_text()
+            # Ensure it's a full row containing a Signal (BUY/SELL)
+            if ("BUY" in txt or "SELL" in txt) and len(txt) > 20:
+                # Deduplicate based on content
+                if txt[:50] not in seen_ids:
+                    final_rows.append(el)
+                    seen_ids.add(txt[:50])
+
+        print(f"Found {len(final_rows)} active trade(s) in the log.")
+        
+        for row in final_rows:
             try:
                 # Extract: Symbol(3), Strategy(5), Signal(6), Entry(7), SL(8), TP(9), Status(12)
                 sym_val = (await row.locator('div:nth-child(3)').inner_text()).strip()
