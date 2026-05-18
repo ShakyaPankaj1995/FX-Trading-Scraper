@@ -557,5 +557,18 @@
     "status": "Active",
     "trade_time": "18 May 11:31 am",
     "time_identified": "2026-05-18 06:01:55"
+  },
+  {
+    "id": "S&P500_1136am_7389.75",
+    "symbol": "S&P500",
+    "timeframe": "4H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7389.75",
+    "sl": "7313.43",
+    "tp": "7540.00",
+    "status": "Active",
+    "trade_time": "18 May 11:36 am",
+    "time_identified": "2026-05-18 06:06:28"
   }
 ]
