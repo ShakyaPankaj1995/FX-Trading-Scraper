@@ -81,8 +81,8 @@ void OnDeinit(const int reason)
 //+------------------------------------------------------------------+
 string ResolveSymbol(string s)
 {
-   if(s == "NASDAQ")  return "ND100m";
-   if(s == "S&P500")  return "SP500m";
+   if(s == "NASDAQ")  return "USTECH100M";
+   if(s == "S&P500")  return "US500M";
    if(s == "XAUUSD")  return "XAUUSD";
    if(s == "EURUSD")  return "EURUSD";
    if(s == "GBPUSD")  return "GBPUSD";

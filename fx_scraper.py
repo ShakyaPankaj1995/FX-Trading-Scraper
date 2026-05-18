@@ -147,11 +147,8 @@ async def run_scraper():
                 else:
                     print(f"    -> INCLUDED (time unparseable - accepting by default)")
 
-                # STEP 5: 1-trade-per-symbol dedup for trades.json
-                if symbol_val in seen_symbols:
-                    print(f"    -> SKIPPED (already have a trade for {symbol_val} this run)")
-                    continue
-                seen_symbols.add(symbol_val)
+                # removed 1-trade-per-symbol dedup per user request
+
 
                 trade_data = {
                     "id": dedup_key,
