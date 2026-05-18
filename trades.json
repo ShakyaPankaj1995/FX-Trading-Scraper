@@ -1,15 +1,15 @@
 [
   {
-    "id": "GBPUSD_1H_18_May_0717_pm",
+    "id": "GBPUSD_5M_18_May_0719_pm",
     "symbol": "GBPUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
     "signal": "SELL",
-    "entry": "1.33906",
-    "sl": "1.34201",
-    "tp": "1.33039",
+    "entry": "1.33996",
+    "sl": "1.34001",
+    "tp": "1.33982",
     "status": "Active",
-    "trade_time": "18 May 07:17 pm",
-    "time_identified": "2026-05-18 13:47:26"
+    "trade_time": "18 May 07:19 pm",
+    "time_identified": "2026-05-18 13:49:25"
   }
 ]
