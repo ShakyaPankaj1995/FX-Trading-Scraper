@@ -2650,5 +2650,31 @@
     "status": "Active",
     "trade_time": "18 May 05:21 pm",
     "time_identified": "2026-05-18 11:51:32"
+  },
+  {
+    "id": "GBPUSD_0526pm_1.33731",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33731",
+    "sl": "1.33966",
+    "tp": "1.33039",
+    "status": "Active",
+    "trade_time": "18 May 05:26 pm",
+    "time_identified": "2026-05-18 11:56:25"
+  },
+  {
+    "id": "GBPUSD_0526pm_1.33731",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33731",
+    "sl": "1.34168",
+    "tp": "1.33039",
+    "status": "Active",
+    "trade_time": "18 May 05:26 pm",
+    "time_identified": "2026-05-18 11:56:25"
   }
 ]
