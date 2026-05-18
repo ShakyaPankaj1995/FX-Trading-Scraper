@@ -8240,5 +8240,31 @@
     "status": "Active",
     "trade_time": "19 May 02:21 am",
     "time_identified": "2026-05-18 20:51:37"
+  },
+  {
+    "id": "NASDAQ_15M_19_May_0223_am",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29084.50",
+    "sl": "28931.73",
+    "tp": "29419.75",
+    "status": "Active",
+    "trade_time": "19 May 02:23 am",
+    "time_identified": "2026-05-18 20:53:26"
+  },
+  {
+    "id": "USDJPY_5M_19_May_0223_am",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.81300",
+    "sl": "158.72564",
+    "tp": "159.07509",
+    "status": "Active",
+    "trade_time": "19 May 02:23 am",
+    "time_identified": "2026-05-18 20:53:26"
   }
 ]
