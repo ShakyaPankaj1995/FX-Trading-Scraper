@@ -2234,5 +2234,31 @@
     "status": "Active",
     "trade_time": "18 May 04:25 pm",
     "time_identified": "2026-05-18 10:56:26"
+  },
+  {
+    "id": "GBPUSD_0431pm_1.33506",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.33506",
+    "sl": "1.33395",
+    "tp": "1.33835",
+    "status": "Active",
+    "trade_time": "18 May 04:31 pm",
+    "time_identified": "2026-05-18 11:01:51"
+  },
+  {
+    "id": "EURUSD_0431pm_1.16320",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16320",
+    "sl": "1.16306",
+    "tp": "1.16362",
+    "status": "Active",
+    "trade_time": "18 May 04:31 pm",
+    "time_identified": "2026-05-18 11:01:51"
   }
 ]
