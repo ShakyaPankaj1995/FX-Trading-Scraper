@@ -1,28 +1,28 @@
 [
   {
-    "id": "NASDAQ_15M_19_May_1247_am",
+    "id": "NASDAQ_15M_19_May_1251_am",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "28923.00",
+    "entry": "28985.00",
     "sl": "28899.56",
-    "tp": "28993.31",
+    "tp": "29241.31",
     "status": "Active",
-    "trade_time": "19 May 12:47 am",
-    "time_identified": "2026-05-18 19:17:35"
+    "trade_time": "19 May 12:51 am",
+    "time_identified": "2026-05-18 19:21:50"
   },
   {
-    "id": "GBPUSD_1H_19_May_1247_am",
+    "id": "GBPUSD_1H_19_May_1251_am",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34214",
+    "entry": "1.34262",
     "sl": "1.34298",
-    "tp": "1.33961",
+    "tp": "1.34156",
     "status": "Active",
-    "trade_time": "19 May 12:47 am",
-    "time_identified": "2026-05-18 19:17:35"
+    "trade_time": "19 May 12:51 am",
+    "time_identified": "2026-05-18 19:21:50"
   }
 ]
