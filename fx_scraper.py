@@ -95,28 +95,38 @@ async def run_scraper():
 
                 print(f"  Row: {symbol_val} {signal_val} | Entry:{entry_val} SL:{sl_val} TP:{tp_val} | Time:{time_str}")
 
-                # STEP 4: 5-minute freshness filter
-                is_fresh = True
-                age_mins = -1
+                # STEP 4: Timezone-safe freshness filter
+                # GitHub Actions runs on UTC. The site shows local time (e.g. IST = UTC+5:30).
+                # Simple approach: find the closest possible timestamp across ±1 day.
+                # Only SKIP if the trade is clearly old (>60 min away from now).
+                is_fresh = True  # Default: always include if we can't parse time
+                age_mins = None
 
                 if time_str:
                     for fmt in ["%I:%M %p", "%H:%M", "%I:%M%p"]:
                         try:
                             parsed = datetime.strptime(time_str.strip(), fmt)
-                            trade_time = parsed.replace(year=now.year, month=now.month, day=now.day)
-                            age_mins = (now - trade_time).total_seconds() / 60
-                            if age_mins < -60:   # Handle midnight rollover
-                                age_mins += 1440
-                            is_fresh = 0 <= age_mins <= FRESHNESS_MINUTES
+                            # Build 3 candidates: yesterday, today, tomorrow (handles all TZ crossings)
+                            candidates = []
+                            for day_delta in [-1, 0, 1]:
+                                c = parsed.replace(year=now.year, month=now.month, day=now.day)
+                                c = c + timedelta(days=day_delta)
+                                candidates.append(c)
+                            # Pick the one closest in time to now
+                            closest = min(candidates, key=lambda c: abs((now - c).total_seconds()))
+                            age_mins = (now - closest).total_seconds() / 60
+                            # Only skip if truly old (>60 min). Accepts fresh + timezone-offset trades.
+                            if age_mins > 60:
+                                is_fresh = False
+                                print(f"    -> SKIPPED (trade is {age_mins:.0f} min old - clearly stale)")
+                            else:
+                                is_fresh = True
+                                print(f"    -> MATCH ({age_mins:.1f} min ago - sending to EA)")
                             break
                         except:
                             continue
-
-                if age_mins >= 0:
-                    status = "MATCH (sending to EA)" if is_fresh else f"SKIPPED ({age_mins:.1f} min old)"
-                    print(f"    -> {status}")
-                else:
-                    print(f"    -> Time parse failed for '{time_str}', including by default")
+                    if age_mins is None:
+                        print(f"    -> INCLUDED (could not parse '{time_str}' - accepting by default)")
 
                 if is_fresh:
                     trade_data = {
