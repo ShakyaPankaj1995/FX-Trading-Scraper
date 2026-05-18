@@ -3365,5 +3365,18 @@
     "status": "Active",
     "trade_time": "18 May 10:05 pm",
     "time_identified": "2026-05-18 16:35:38"
+  },
+  {
+    "id": "NASDAQ_15M_18_May_1007_pm",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "28928.75",
+    "sl": "28861.85",
+    "tp": "29129.46",
+    "status": "Active",
+    "trade_time": "18 May 10:07 pm",
+    "time_identified": "2026-05-18 16:37:48"
   }
 ]
