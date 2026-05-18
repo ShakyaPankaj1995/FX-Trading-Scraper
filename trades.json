@@ -1,28 +1,15 @@
 [
   {
-    "id": "S&P500_1211pm_7376.00",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "7376.00",
-    "sl": "7371.76",
-    "tp": "7388.72",
-    "status": "Active",
-    "trade_time": "18 May 12:11 pm",
-    "time_identified": "2026-05-18 06:41:28"
-  },
-  {
-    "id": "S&P500_1211pm_7376.25",
+    "id": "S&P500_1216pm_7385.25",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7376.25",
+    "entry": "7385.25",
     "sl": "7313.43",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 12:11 pm",
-    "time_identified": "2026-05-18 06:41:28"
+    "trade_time": "18 May 12:16 pm",
+    "time_identified": "2026-05-18 06:46:32"
   }
 ]
