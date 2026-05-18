@@ -1,67 +1,41 @@
 [
   {
-    "id": "NASDAQ_15M_18_May_1139_pm",
+    "id": "NASDAQ_15M_18_May_1141_pm",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29014.25",
-    "sl": "28888.07",
-    "tp": "29392.79",
+    "entry": "28979.25",
+    "sl": "28905.24",
+    "tp": "29201.28",
     "status": "Active",
-    "trade_time": "18 May 11:39 pm",
-    "time_identified": "2026-05-18 18:09:27"
+    "trade_time": "18 May 11:41 pm",
+    "time_identified": "2026-05-18 18:11:49"
   },
   {
-    "id": "S&P500_5M_18_May_1139_pm",
-    "symbol": "S&P500",
+    "id": "USDJPY_5M_18_May_1141_pm",
+    "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7409.25",
-    "sl": "7426.67",
-    "tp": "7381.75",
+    "entry": "158.95100",
+    "sl": "158.99761",
+    "tp": "158.81117",
     "status": "Active",
-    "trade_time": "18 May 11:39 pm",
-    "time_identified": "2026-05-18 18:09:27"
+    "trade_time": "18 May 11:41 pm",
+    "time_identified": "2026-05-18 18:11:49"
   },
   {
-    "id": "XAUUSD_1H_18_May_1139_pm",
-    "symbol": "XAUUSD",
-    "timeframe": "1H",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "4551.00",
-    "sl": "4532.42",
-    "tp": "4579.90",
-    "status": "Active",
-    "trade_time": "18 May 11:39 pm",
-    "time_identified": "2026-05-18 18:09:27"
-  },
-  {
-    "id": "USDJPY_15M_18_May_1139_pm",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "158.94099",
-    "sl": "159.06975",
-    "tp": "158.60400",
-    "status": "Active",
-    "trade_time": "18 May 11:39 pm",
-    "time_identified": "2026-05-18 18:09:27"
-  },
-  {
-    "id": "GBPUSD_1H_18_May_1139_pm",
+    "id": "GBPUSD_1H_18_May_1141_pm",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34199",
+    "entry": "1.34187",
     "sl": "1.34265",
-    "tp": "1.34003",
+    "tp": "1.33953",
     "status": "Active",
-    "trade_time": "18 May 11:39 pm",
-    "time_identified": "2026-05-18 18:09:27"
+    "trade_time": "18 May 11:41 pm",
+    "time_identified": "2026-05-18 18:11:49"
   }
 ]
