@@ -115,10 +115,10 @@ async def run_scraper():
                             # Pick the one closest in time to now
                             closest = min(candidates, key=lambda c: abs((now - c).total_seconds()))
                             age_mins = (now - closest).total_seconds() / 60
-                            # Only skip if truly old (>60 min). Accepts fresh + timezone-offset trades.
-                            if age_mins > 60:
+                            # Reject trades older than 10 minutes
+                            if age_mins > 10:
                                 is_fresh = False
-                                print(f"    -> SKIPPED (trade is {age_mins:.0f} min old - clearly stale)")
+                                print(f"    -> SKIPPED (trade is {age_mins:.0f} min old - over 10min limit)")
                             else:
                                 is_fresh = True
                                 print(f"    -> MATCH ({age_mins:.1f} min ago - sending to EA)")
