@@ -1,54 +1,67 @@
 [
   {
-    "id": "NASDAQ_0111pm_29152.50",
+    "id": "NASDAQ_0116pm_29126.25",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29152.50",
-    "sl": "29201.41",
-    "tp": "29005.77",
+    "entry": "29126.25",
+    "sl": "29205.59",
+    "tp": "28926.00",
     "status": "Active",
-    "trade_time": "18 May 01:11 pm",
-    "time_identified": "2026-05-18 07:41:33"
+    "trade_time": "18 May 01:16 pm",
+    "time_identified": "2026-05-18 07:46:35"
   },
   {
-    "id": "S&P500_0111pm_7403.00",
+    "id": "NASDAQ_0116pm_29126.25",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29126.25",
+    "sl": "29144.29",
+    "tp": "29072.14",
+    "status": "Active",
+    "trade_time": "18 May 01:16 pm",
+    "time_identified": "2026-05-18 07:46:35"
+  },
+  {
+    "id": "S&P500_0116pm_7397.50",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7403.00",
-    "sl": "7407.50",
-    "tp": "7389.50",
+    "entry": "7397.50",
+    "sl": "7408.38",
+    "tp": "7375.00",
     "status": "Active",
-    "trade_time": "18 May 01:11 pm",
-    "time_identified": "2026-05-18 07:41:33"
+    "trade_time": "18 May 01:16 pm",
+    "time_identified": "2026-05-18 07:46:35"
   },
   {
-    "id": "XAUUSD_0111pm_4559.70",
+    "id": "XAUUSD_0116pm_4556.20",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4559.70",
-    "sl": "4586.86",
+    "entry": "4556.20",
+    "sl": "4586.91",
     "tp": "4483.50",
     "status": "Active",
-    "trade_time": "18 May 01:11 pm",
-    "time_identified": "2026-05-18 07:41:33"
+    "trade_time": "18 May 01:16 pm",
+    "time_identified": "2026-05-18 07:46:35"
   },
   {
-    "id": "USDJPY_0111pm_158.87601",
+    "id": "USDJPY_0116pm_158.85100",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.87601",
-    "sl": "158.75068",
+    "entry": "158.85100",
+    "sl": "158.74982",
     "tp": "159.07300",
     "status": "Active",
-    "trade_time": "18 May 01:11 pm",
-    "time_identified": "2026-05-18 07:41:33"
+    "trade_time": "18 May 01:16 pm",
+    "time_identified": "2026-05-18 07:46:35"
   }
 ]
