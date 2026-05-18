@@ -1,41 +1,41 @@
 [
   {
-    "id": "S&P500_1111am_7385.50",
+    "id": "NASDAQ_1116am_29083.75",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29083.75",
+    "sl": "29161.77",
+    "tp": "28937.50",
+    "status": "Active",
+    "trade_time": "18 May 11:16 am",
+    "time_identified": "2026-05-18 05:46:30"
+  },
+  {
+    "id": "S&P500_1116am_7391.50",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7385.50",
+    "entry": "7391.50",
     "sl": "7314.13",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 11:11 am",
-    "time_identified": "2026-05-18 05:41:34"
+    "trade_time": "18 May 11:16 am",
+    "time_identified": "2026-05-18 05:46:30"
   },
   {
-    "id": "XAUUSD_1111am_4551.40",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "4551.40",
-    "sl": "4555.05",
-    "tp": "4545.60",
-    "status": "Active",
-    "trade_time": "18 May 11:11 am",
-    "time_identified": "2026-05-18 05:41:34"
-  },
-  {
-    "id": "XAUUSD_1111am_4551.40",
+    "id": "XAUUSD_1116am_4547.60",
     "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4551.40",
-    "sl": "4564.74",
-    "tp": "4511.38",
+    "entry": "4547.60",
+    "sl": "4564.61",
+    "tp": "4496.57",
     "status": "Active",
-    "trade_time": "18 May 11:11 am",
-    "time_identified": "2026-05-18 05:41:34"
+    "trade_time": "18 May 11:16 am",
+    "time_identified": "2026-05-18 05:46:30"
   }
 ]
