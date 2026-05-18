@@ -20,6 +20,49 @@ CTrade g_trade;
 string g_processed_ids = "";
 
 //+------------------------------------------------------------------+
+//| Manage Pending Orders: Delete if SL or TP is reached before entry|
+//+------------------------------------------------------------------+
+void ManagePendingOrders()
+{
+   for(int i = OrdersTotal() - 1; i >= 0; i--)
+   {
+      ulong ticket = OrderGetTicket(i);
+      if(OrderSelect(ticket))
+      {
+         if((long)OrderGetInteger(ORDER_MAGIC) == (long)InpMagicNumber)
+         {
+            string sym = OrderGetString(ORDER_SYMBOL);
+            double sl  = OrderGetDouble(ORDER_SL);
+            double tp  = OrderGetDouble(ORDER_TP);
+            long type  = OrderGetInteger(ORDER_TYPE);
+            
+            double bid = SymbolInfoDouble(sym, SYMBOL_BID);
+            double ask = SymbolInfoDouble(sym, SYMBOL_ASK);
+            
+            bool should_delete = false;
+            
+            // For Buy Limit / Buy Stop
+            if(type == ORDER_TYPE_BUY_LIMIT || type == ORDER_TYPE_BUY_STOP)
+            {
+               if((sl > 0 && bid <= sl) || (tp > 0 && bid >= tp)) should_delete = true;
+            }
+            // For Sell Limit / Sell Stop
+            else if(type == ORDER_TYPE_SELL_LIMIT || type == ORDER_TYPE_SELL_STOP)
+            {
+               if((sl > 0 && ask >= sl) || (tp > 0 && ask <= tp)) should_delete = true;
+            }
+            
+            if(should_delete)
+            {
+               Print("[Cancel] Price hit SL/TP before entry. Deleting pending order: ", sym);
+               g_trade.OrderDelete(ticket);
+            }
+         }
+      }
+   }
+}
+
+//+------------------------------------------------------------------+
 int OnInit()
 {
    g_trade.SetExpertMagicNumber(InpMagicNumber);
@@ -76,6 +119,8 @@ bool TradeActiveForSymbol(string symbol)
 //+------------------------------------------------------------------+
 void OnTimer()
 {
+   ManagePendingOrders();
+
    string url = InpServerUrl + "?t=" + IntegerToString(TimeGMT());
    if(InpDebugMode) Print("Fetching: ", url);
 
@@ -151,6 +196,17 @@ void TryExecuteTrade(string obj)
       if(InpDebugMode) Print("[Skip] Trade already active for: ", symbol);
       return;
    }
+
+   //--- GUARD 3: Cross-chart race condition lock (if EA runs on multiple charts)
+   string lock_name = "FX_Lock_" + symbol;
+   if(GlobalVariableCheck(lock_name))
+   {
+      if(TimeCurrent() - (datetime)GlobalVariableGet(lock_name) < 10)
+      {
+         return; // Another chart's EA grabbed this exact trade in the last 10 seconds
+      }
+   }
+   GlobalVariableSet(lock_name, TimeCurrent());
 
    Print("[Signal] ", symbol, " ", signal,
          " | Entry:", entry, " SL:", sl, " TP:", tp,
