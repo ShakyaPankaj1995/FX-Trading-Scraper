@@ -5237,5 +5237,57 @@
     "status": "Active",
     "trade_time": "18 May 11:49 pm",
     "time_identified": "2026-05-18 18:19:30"
+  },
+  {
+    "id": "NASDAQ_15M_18_May_1151_pm",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "28941.25",
+    "sl": "28899.43",
+    "tp": "29066.71",
+    "status": "Active",
+    "trade_time": "18 May 11:51 pm",
+    "time_identified": "2026-05-18 18:21:52"
+  },
+  {
+    "id": "S&P500_15M_18_May_1151_pm",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7396.25",
+    "sl": "7360.01",
+    "tp": "7454.25",
+    "status": "Active",
+    "trade_time": "18 May 11:51 pm",
+    "time_identified": "2026-05-18 18:21:52"
+  },
+  {
+    "id": "USDJPY_5M_18_May_1151_pm",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "158.97600",
+    "sl": "158.99665",
+    "tp": "158.91404",
+    "status": "Active",
+    "trade_time": "18 May 11:51 pm",
+    "time_identified": "2026-05-18 18:21:52"
+  },
+  {
+    "id": "GBPUSD_1H_18_May_1151_pm",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34185",
+    "sl": "1.34266",
+    "tp": "1.33942",
+    "status": "Active",
+    "trade_time": "18 May 11:51 pm",
+    "time_identified": "2026-05-18 18:21:52"
   }
 ]
