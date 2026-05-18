@@ -1,54 +1,54 @@
 [
   {
-    "id": "S&P500_15M_19_May_1225_am",
+    "id": "S&P500_15M_19_May_1227_am",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7385.25",
-    "sl": "7363.04",
-    "tp": "7451.89",
+    "entry": "7385.00",
+    "sl": "7362.88",
+    "tp": "7451.38",
     "status": "Active",
-    "trade_time": "19 May 12:25 am",
-    "time_identified": "2026-05-18 18:55:41"
+    "trade_time": "19 May 12:27 am",
+    "time_identified": "2026-05-18 18:57:28"
   },
   {
-    "id": "XAUUSD_15M_19_May_1225_am",
+    "id": "XAUUSD_15M_19_May_1227_am",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4545.10",
-    "sl": "4523.95",
+    "entry": "4546.10",
+    "sl": "4523.79",
     "tp": "4588.60",
     "status": "Active",
-    "trade_time": "19 May 12:25 am",
-    "time_identified": "2026-05-18 18:55:41"
+    "trade_time": "19 May 12:27 am",
+    "time_identified": "2026-05-18 18:57:28"
   },
   {
-    "id": "GBPUSD_5M_19_May_1225_am",
+    "id": "GBPUSD_5M_19_May_1227_am",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "1.34073",
-    "sl": "1.33793",
+    "sl": "1.33794",
     "tp": "1.34497",
     "status": "Active",
-    "trade_time": "19 May 12:25 am",
-    "time_identified": "2026-05-18 18:55:41"
+    "trade_time": "19 May 12:27 am",
+    "time_identified": "2026-05-18 18:57:28"
   },
   {
-    "id": "EURUSD_1H_19_May_1225_am",
+    "id": "EURUSD_1H_19_May_1226_am",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "CRT (AMD)",
     "signal": "BUY",
-    "entry": "1.16401",
+    "entry": "1.16387",
     "sl": "1.16363",
-    "tp": "1.16515",
+    "tp": "1.16461",
     "status": "Active",
-    "trade_time": "19 May 12:25 am",
-    "time_identified": "2026-05-18 18:55:41"
+    "trade_time": "19 May 12:26 am",
+    "time_identified": "2026-05-18 18:57:28"
   }
 ]
