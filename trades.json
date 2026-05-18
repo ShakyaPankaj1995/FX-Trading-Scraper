@@ -1,41 +1,41 @@
 [
   {
-    "id": "NASDAQ_15M_18_May_1111_pm",
+    "id": "NASDAQ_15M_18_May_1113_pm",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29005.75",
-    "sl": "28881.83",
-    "tp": "29377.51",
+    "entry": "28991.50",
+    "sl": "28878.99",
+    "tp": "29329.03",
     "status": "Active",
-    "trade_time": "18 May 11:11 pm",
-    "time_identified": "2026-05-18 17:41:58"
+    "trade_time": "18 May 11:13 pm",
+    "time_identified": "2026-05-18 17:43:36"
   },
   {
-    "id": "USDJPY_15M_18_May_1111_pm",
+    "id": "USDJPY_15M_18_May_1113_pm",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.89700",
-    "sl": "159.07500",
+    "entry": "158.90401",
+    "sl": "159.07628",
     "tp": "158.60400",
     "status": "Active",
-    "trade_time": "18 May 11:11 pm",
-    "time_identified": "2026-05-18 17:41:58"
+    "trade_time": "18 May 11:13 pm",
+    "time_identified": "2026-05-18 17:43:36"
   },
   {
-    "id": "GBPUSD_15M_18_May_1111_pm",
+    "id": "GBPUSD_15M_18_May_1113_pm",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "CRT (AMD)",
     "signal": "BUY",
-    "entry": "1.34311",
+    "entry": "1.34297",
     "sl": "1.34200",
     "tp": "1.34497",
     "status": "Active",
-    "trade_time": "18 May 11:11 pm",
-    "time_identified": "2026-05-18 17:41:58"
+    "trade_time": "18 May 11:13 pm",
+    "time_identified": "2026-05-18 17:43:36"
   }
 ]
