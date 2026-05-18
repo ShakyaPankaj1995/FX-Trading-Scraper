@@ -90,31 +90,7 @@ string ResolveSymbol(string s)
    return s;
 }
 
-//+------------------------------------------------------------------+
-//| Check if we already have an open position or pending order      |
-//+------------------------------------------------------------------+
-bool TradeActiveForSymbol(string symbol)
-{
-   // Check Open Positions
-   for(int i = 0; i < PositionsTotal(); i++)
-   {
-      ulong ticket = PositionGetTicket(i);
-      if(PositionSelectByTicket(ticket))
-         if(PositionGetString(POSITION_SYMBOL) == symbol &&
-            (long)PositionGetInteger(POSITION_MAGIC) == (long)InpMagicNumber)
-            return true;
-   }
-   // Check Pending Orders
-   for(int i = 0; i < OrdersTotal(); i++)
-   {
-      ulong ticket = OrderGetTicket(i);
-      if(OrderSelect(ticket))
-         if(OrderGetString(ORDER_SYMBOL) == symbol &&
-            (long)OrderGetInteger(ORDER_MAGIC) == (long)InpMagicNumber)
-            return true;
-   }
-   return false;
-}
+// (Removed TradeActiveForSymbol to allow multiple trades per symbol)
 
 //+------------------------------------------------------------------+
 void OnTimer()
@@ -190,15 +166,8 @@ void TryExecuteTrade(string obj)
       return;
    }
 
-   //--- GUARD 2: Already have an open position or pending order for this symbol?
-   if(TradeActiveForSymbol(symbol))
-   {
-      if(InpDebugMode) Print("[Skip] Trade already active for: ", symbol);
-      return;
-   }
-
    //--- GUARD 3: Cross-chart race condition lock (if EA runs on multiple charts)
-   string lock_name = "FX_Lock_" + symbol;
+   string lock_name = "FX_Lock_" + id;
    if(GlobalVariableCheck(lock_name))
    {
       if(TimeCurrent() - (datetime)GlobalVariableGet(lock_name) < 10)
