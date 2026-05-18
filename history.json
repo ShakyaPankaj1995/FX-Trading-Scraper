@@ -1051,5 +1051,18 @@
     "status": "Active",
     "trade_time": "18 May 08:05 pm",
     "time_identified": "2026-05-18 14:35:33"
+  },
+  {
+    "id": "GBPUSD_1H_18_May_0807_pm",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33897",
+    "sl": "1.34204",
+    "tp": "1.33039",
+    "status": "Active",
+    "trade_time": "18 May 08:07 pm",
+    "time_identified": "2026-05-18 14:37:21"
   }
 ]
