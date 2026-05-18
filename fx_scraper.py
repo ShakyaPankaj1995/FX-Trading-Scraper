@@ -9,7 +9,8 @@ from playwright.async_api import async_playwright
 URL = "https://fx-trading-dashboard-v4.vercel.app/"
 SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "S&P500", "NASDAQ"]
 OUTPUT_FILE = "trades.json"
-FRESHNESS_MINUTES = 8  # Extended to 8 mins to compensate for GitHub Action scheduling delays
+HISTORY_FILE = "history.json"
+FRESHNESS_MINUTES = 10  # Reject trades older than 10 minutes
 
 # To enable Telegram alerts, fill in your credentials:
 TELEGRAM_BOT_TOKEN = ""
@@ -20,8 +21,9 @@ def send_telegram_alert(trade):
         return
     msg = (
         f"New FX Signal: {trade['symbol']} {trade['signal']}\n"
-        f"Entry: {trade['entry']}\nSL: {trade['sl']}\nTP: {trade['tp']}\n"
-        f"Strategy: {trade['strategy']} | Time: {trade['trade_time']}"
+        f"TF: {trade['timeframe']} | Entry: {trade['entry']}\n"
+        f"SL: {trade['sl']} | TP: {trade['tp']}\n"
+        f"Time: {trade['trade_time']}"
     )
     try:
         requests.post(
@@ -31,6 +33,37 @@ def send_telegram_alert(trade):
         )
     except:
         pass
+
+def parse_trade_time(time_str, now):
+    """
+    Timezone-safe freshness check.
+    GitHub Actions runs UTC; site shows local time (IST = UTC+5:30).
+    Strategy: find closest candidate across ±1 day, reject if >FRESHNESS_MINUTES.
+    FIX: .upper() ensures lowercase 'am/pm' parses correctly on Linux locale.
+    """
+    for fmt in ["%I:%M %p", "%H:%M", "%I:%M%p"]:
+        try:
+            # .upper() on time_str fixes Linux locale issue where lowercase 'am/pm' fails
+            # Do NOT upper() the fmt string - %P is not valid, only %p is
+            parsed = datetime.strptime(time_str.strip().upper(), fmt)
+            candidates = []
+            for day_delta in [-1, 0, 1]:
+                c = parsed.replace(year=now.year, month=now.month, day=now.day)
+                c = c + timedelta(days=day_delta)
+                candidates.append(c)
+            closest = min(candidates, key=lambda c: abs((now - c).total_seconds()))
+            age_mins = (now - closest).total_seconds() / 60
+            return age_mins
+        except:
+            continue
+    return None  # Could not parse
+
+def make_dedup_key(symbol, timeframe, trade_time):
+    """
+    Deduplication key: symbol + timeframe + trade start time.
+    Does NOT include entry price — same signal at different entry = same trade.
+    """
+    return f"{symbol}_{timeframe}_{trade_time.replace(' ', '_').replace(':', '')}"
 
 async def run_scraper():
     async with async_playwright() as p:
@@ -42,7 +75,7 @@ async def run_scraper():
         await page.goto(URL, wait_until="networkidle")
         await asyncio.sleep(3)
 
-        # STEP 1: Click each pair sequentially (3s between each)
+        # STEP 1: Click each pair sequentially (3s between each) to warm up data
         print("Warming up: Clicking all pairs...")
         for symbol in SYMBOLS:
             try:
@@ -52,39 +85,44 @@ async def run_scraper():
             except Exception as e:
                 print(f"  [Error] Could not click {symbol}: {e}")
 
-        # STEP 2: Click Signal Log button
+        # STEP 2: Open Signal Log
         print("Opening Signal Log...")
         await page.locator("button.log-nav-btn").click()
         await asyncio.sleep(5)
 
-        # STEP 3: Scrape .log-row-active rows (rows that are Active)
-        # The site uses <tr class="log-row log-row-active"> for active trades
+        # FIX: Scroll inside the log modal to ensure ALL rows are loaded/visible
+        try:
+            modal = page.locator(".log-modal, .log-overlay, [class*='log-table']").first
+            await modal.evaluate("el => el.scrollTop = el.scrollHeight")
+            await asyncio.sleep(1)
+            print("  Scrolled log modal to bottom.")
+        except:
+            pass
+
+        # STEP 3: Get all active rows
         active_rows = await page.locator("tr.log-row-active").all()
         print(f"Found {len(active_rows)} active trade row(s).")
 
         now = datetime.now()
         trades = []
+        seen_symbols = set()  # DEDUP: only 1 trade per symbol per run in trades.json
 
         for row in active_rows:
             try:
-                # Extract each <td> cell
                 cells = await row.locator("td").all()
-                cell_texts = []
-                for c in cells:
-                    cell_texts.append((await c.inner_text()).strip())
+                cell_texts = [(await c.inner_text()).strip() for c in cells]
 
-                # Map cells to fields based on confirmed structure
-                date_str    = cell_texts[0] if len(cell_texts) > 0 else ""
-                time_str    = cell_texts[1] if len(cell_texts) > 1 else ""
-                symbol_val  = cell_texts[2] if len(cell_texts) > 2 else ""
-                tf_val      = cell_texts[3] if len(cell_texts) > 3 else ""
-                strat_val   = cell_texts[4] if len(cell_texts) > 4 else ""
-                signal_val  = cell_texts[5].replace("\n", "").strip() if len(cell_texts) > 5 else ""
-                entry_val   = cell_texts[6] if len(cell_texts) > 6 else ""
-                sl_val      = cell_texts[7] if len(cell_texts) > 7 else ""
-                tp_val      = cell_texts[8] if len(cell_texts) > 8 else ""
+                date_str   = cell_texts[0] if len(cell_texts) > 0 else ""
+                time_str   = cell_texts[1] if len(cell_texts) > 1 else ""
+                symbol_val = cell_texts[2] if len(cell_texts) > 2 else ""
+                tf_val     = cell_texts[3] if len(cell_texts) > 3 else ""
+                strat_val  = cell_texts[4] if len(cell_texts) > 4 else ""
+                signal_val = cell_texts[5].replace("\n", "").strip() if len(cell_texts) > 5 else ""
+                entry_val  = cell_texts[6] if len(cell_texts) > 6 else ""
+                sl_val     = cell_texts[7] if len(cell_texts) > 7 else ""
+                tp_val     = cell_texts[8] if len(cell_texts) > 8 else ""
 
-                # Clean BUY/SELL from signal (may have SVG text)
+                # Clean BUY/SELL
                 if "BUY" in signal_val.upper():
                     signal_val = "BUY"
                 elif "SELL" in signal_val.upper():
@@ -93,67 +131,53 @@ async def run_scraper():
                     print(f"  [Skip] Unrecognized signal: '{signal_val}'")
                     continue
 
-                print(f"  Row: {symbol_val} {signal_val} | Entry:{entry_val} SL:{sl_val} TP:{tp_val} | Time:{time_str}")
+                trade_time_str = f"{date_str} {time_str}"
+                dedup_key = make_dedup_key(symbol_val, tf_val, trade_time_str)
 
-                # STEP 4: Timezone-safe freshness filter
-                # GitHub Actions runs on UTC. The site shows local time (e.g. IST = UTC+5:30).
-                # Simple approach: find the closest possible timestamp across ±1 day.
-                # Only SKIP if the trade is clearly old (>60 min away from now).
-                is_fresh = True  # Default: always include if we can't parse time
-                age_mins = None
+                print(f"  Row: {symbol_val} {signal_val} {tf_val} | {time_str} | Entry:{entry_val}")
 
-                if time_str:
-                    for fmt in ["%I:%M %p", "%H:%M", "%I:%M%p"]:
-                        try:
-                            parsed = datetime.strptime(time_str.strip(), fmt)
-                            # Build 3 candidates: yesterday, today, tomorrow (handles all TZ crossings)
-                            candidates = []
-                            for day_delta in [-1, 0, 1]:
-                                c = parsed.replace(year=now.year, month=now.month, day=now.day)
-                                c = c + timedelta(days=day_delta)
-                                candidates.append(c)
-                            # Pick the one closest in time to now
-                            closest = min(candidates, key=lambda c: abs((now - c).total_seconds()))
-                            age_mins = (now - closest).total_seconds() / 60
-                            # Reject trades older than 10 minutes
-                            if age_mins > 10:
-                                is_fresh = False
-                                print(f"    -> SKIPPED (trade is {age_mins:.0f} min old - over 10min limit)")
-                            else:
-                                is_fresh = True
-                                print(f"    -> MATCH ({age_mins:.1f} min ago - sending to EA)")
-                            break
-                        except:
-                            continue
-                    if age_mins is None:
-                        print(f"    -> INCLUDED (could not parse '{time_str}' - accepting by default)")
+                # STEP 4: Freshness filter (timezone-safe)
+                age_mins = parse_trade_time(time_str, now)
 
-                if is_fresh:
-                    trade_data = {
-                        "id": f"{symbol_val}_{time_str.replace(':', '').replace(' ', '')}_{entry_val}",
-                        "symbol": symbol_val,
-                        "timeframe": tf_val,
-                        "strategy": strat_val,
-                        "signal": signal_val,
-                        "entry": entry_val,
-                        "sl": sl_val,
-                        "tp": tp_val,
-                        "status": "Active",
-                        "trade_time": f"{date_str} {time_str}",
-                        "time_identified": now.strftime("%Y-%m-%d %H:%M:%S")
-                    }
-                    trades.append(trade_data)
-                    send_telegram_alert(trade_data)
+                if age_mins is not None and age_mins > FRESHNESS_MINUTES:
+                    print(f"    -> SKIPPED ({age_mins:.0f} min old - over {FRESHNESS_MINUTES}min limit)")
+                    continue
+                elif age_mins is not None:
+                    print(f"    -> MATCH ({age_mins:.1f} min ago)")
+                else:
+                    print(f"    -> INCLUDED (time unparseable - accepting by default)")
+
+                # STEP 5: 1-trade-per-symbol dedup for trades.json
+                if symbol_val in seen_symbols:
+                    print(f"    -> SKIPPED (already have a trade for {symbol_val} this run)")
+                    continue
+                seen_symbols.add(symbol_val)
+
+                trade_data = {
+                    "id": dedup_key,
+                    "symbol": symbol_val,
+                    "timeframe": tf_val,
+                    "strategy": strat_val,
+                    "signal": signal_val,
+                    "entry": entry_val,
+                    "sl": sl_val,
+                    "tp": tp_val,
+                    "status": "Active",
+                    "trade_time": trade_time_str,
+                    "time_identified": now.strftime("%Y-%m-%d %H:%M:%S")
+                }
+                trades.append(trade_data)
+                send_telegram_alert(trade_data)
 
             except Exception as e:
                 print(f"  [Error] Failed to process row: {e}")
 
-        # STEP 5: Save to trades.json (current active signals for EA)
+        # STEP 6: Save trades.json (EA reads this - 1 trade per symbol)
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(trades, f, indent=2)
 
-        # STEP 6: Append to history.json (persistent, never overwritten)
-        HISTORY_FILE = "history.json"
+        # STEP 7: Append to history.json with deduplication
+        # Key = symbol+timeframe+trade_start_time (NOT entry price)
         history = []
         if os.path.exists(HISTORY_FILE):
             try:
@@ -161,18 +185,20 @@ async def run_scraper():
                     history = json.load(f)
             except:
                 history = []
-        
-        existing_ids = {t["id"] for t in history}
+
+        existing_keys = {t["id"] for t in history}
         new_count = 0
         for trade in trades:
-            if trade["id"] not in existing_ids:
+            if trade["id"] not in existing_keys:
                 history.append(trade)
+                existing_keys.add(trade["id"])
                 new_count += 1
-        
+
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, indent=2)
-        
-        print(f"\n--- Done. {len(trades)} fresh trade(s) sent to EA. {new_count} new trade(s) added to history.json (total: {len(history)}) ---")
+
+        print(f"\n--- Done. {len(trades)} unique trade(s) sent to EA. "
+              f"{new_count} new unique trade(s) added to history (total: {len(history)}) ---")
         await browser.close()
 
 if __name__ == "__main__":
