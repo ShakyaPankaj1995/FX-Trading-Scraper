@@ -1,41 +1,54 @@
 [
   {
-    "id": "XAUUSD_1H_19_May_0457_am",
+    "id": "NASDAQ_15M_19_May_0459_am",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "29147.25",
+    "sl": "29129.95",
+    "tp": "29173.50",
+    "status": "Active",
+    "trade_time": "19 May 04:59 am",
+    "time_identified": "2026-05-18 23:29:28"
+  },
+  {
+    "id": "XAUUSD_1H_19_May_0459_am",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4589.20",
-    "sl": "4619.22",
-    "tp": "4499.14",
+    "entry": "4587.70",
+    "sl": "4619.24",
+    "tp": "4493.07",
     "status": "Active",
-    "trade_time": "19 May 04:57 am",
-    "time_identified": "2026-05-18 23:27:25"
+    "trade_time": "19 May 04:59 am",
+    "time_identified": "2026-05-18 23:29:28"
   },
   {
-    "id": "USDJPY_15M_19_May_0457_am",
+    "id": "USDJPY_15M_19_May_0459_am",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.80600",
+    "entry": "158.81100",
     "sl": "158.62989",
     "tp": "159.08299",
     "status": "Active",
-    "trade_time": "19 May 04:57 am",
-    "time_identified": "2026-05-18 23:27:25"
+    "trade_time": "19 May 04:59 am",
+    "time_identified": "2026-05-18 23:29:28"
   },
   {
-    "id": "EURUSD_15M_19_May_0456_am",
+    "id": "EURUSD_15M_19_May_0459_am",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
     "entry": "1.16618",
-    "sl": "1.16678",
-    "tp": "1.16438",
+    "sl": "1.16680",
+    "tp": "1.16434",
     "status": "Active",
-    "trade_time": "19 May 04:56 am",
-    "time_identified": "2026-05-18 23:27:25"
+    "trade_time": "19 May 04:59 am",
+    "time_identified": "2026-05-18 23:29:28"
   }
 ]
