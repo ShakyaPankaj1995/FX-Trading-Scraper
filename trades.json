@@ -1,41 +1,28 @@
 [
   {
-    "id": "S&P500_0501pm_7401.75",
+    "id": "S&P500_0506pm_7401.00",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7401.75",
+    "entry": "7401.00",
     "sl": "7311.88",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 05:01 pm",
-    "time_identified": "2026-05-18 11:31:59"
+    "trade_time": "18 May 05:06 pm",
+    "time_identified": "2026-05-18 11:36:25"
   },
   {
-    "id": "GBPUSD_0501pm_1.33565",
+    "id": "GBPUSD_0506pm_1.33640",
     "symbol": "GBPUSD",
-    "timeframe": "5M",
+    "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.33565",
-    "sl": "1.33391",
-    "tp": "1.33835",
+    "signal": "SELL",
+    "entry": "1.33640",
+    "sl": "1.33957",
+    "tp": "1.33039",
     "status": "Active",
-    "trade_time": "18 May 05:01 pm",
-    "time_identified": "2026-05-18 11:31:59"
-  },
-  {
-    "id": "EURUSD_0501pm_1.16360",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16360",
-    "sl": "1.16300",
-    "tp": "1.16482",
-    "status": "Active",
-    "trade_time": "18 May 05:01 pm",
-    "time_identified": "2026-05-18 11:31:59"
+    "trade_time": "18 May 05:06 pm",
+    "time_identified": "2026-05-18 11:36:25"
   }
 ]
