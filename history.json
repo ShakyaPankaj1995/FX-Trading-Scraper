@@ -10606,5 +10606,31 @@
     "status": "Active",
     "trade_time": "19 May 04:42 am",
     "time_identified": "2026-05-18 23:13:27"
+  },
+  {
+    "id": "XAUUSD_1H_19_May_0445_am",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4584.10",
+    "sl": "4618.64",
+    "tp": "4483.50",
+    "status": "Active",
+    "trade_time": "19 May 04:45 am",
+    "time_identified": "2026-05-18 23:15:27"
+  },
+  {
+    "id": "EURUSD_15M_19_May_0444_am",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16604",
+    "sl": "1.16681",
+    "tp": "1.16375",
+    "status": "Active",
+    "trade_time": "19 May 04:44 am",
+    "time_identified": "2026-05-18 23:15:27"
   }
 ]
