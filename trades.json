@@ -1,41 +1,41 @@
 [
   {
-    "id": "XAUUSD_1H_19_May_0415_am",
+    "id": "XAUUSD_1H_19_May_0417_am",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4577.10",
+    "entry": "4577.20",
     "sl": "4619.07",
     "tp": "4483.50",
     "status": "Active",
-    "trade_time": "19 May 04:15 am",
-    "time_identified": "2026-05-18 22:45:22"
+    "trade_time": "19 May 04:17 am",
+    "time_identified": "2026-05-18 22:47:21"
   },
   {
-    "id": "USDJPY_15M_19_May_0415_am",
+    "id": "USDJPY_15M_19_May_0417_am",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "158.81500",
-    "sl": "158.65582",
+    "sl": "158.66289",
     "tp": "159.08299",
     "status": "Active",
-    "trade_time": "19 May 04:15 am",
-    "time_identified": "2026-05-18 22:45:22"
+    "trade_time": "19 May 04:17 am",
+    "time_identified": "2026-05-18 22:47:21"
   },
   {
-    "id": "EURUSD_15M_19_May_0414_am",
+    "id": "EURUSD_15M_19_May_0416_am",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.16632",
-    "sl": "1.16646",
-    "tp": "1.16588",
+    "entry": "1.16618",
+    "sl": "1.16642",
+    "tp": "1.16547",
     "status": "Active",
-    "trade_time": "19 May 04:14 am",
-    "time_identified": "2026-05-18 22:45:22"
+    "trade_time": "19 May 04:16 am",
+    "time_identified": "2026-05-18 22:47:21"
   }
 ]
