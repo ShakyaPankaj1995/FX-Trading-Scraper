@@ -1,28 +1,28 @@
 [
   {
-    "id": "GBPUSD_0526pm_1.33731",
+    "id": "GBPUSD_0531pm_1.33786",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33731",
-    "sl": "1.33966",
-    "tp": "1.33039",
+    "entry": "1.33786",
+    "sl": "1.33949",
+    "tp": "1.33299",
     "status": "Active",
-    "trade_time": "18 May 05:26 pm",
-    "time_identified": "2026-05-18 11:56:25"
+    "trade_time": "18 May 05:31 pm",
+    "time_identified": "2026-05-18 12:01:58"
   },
   {
-    "id": "GBPUSD_0526pm_1.33731",
+    "id": "GBPUSD_0531pm_1.33786",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33731",
+    "entry": "1.33786",
     "sl": "1.34168",
     "tp": "1.33039",
     "status": "Active",
-    "trade_time": "18 May 05:26 pm",
-    "time_identified": "2026-05-18 11:56:25"
+    "trade_time": "18 May 05:31 pm",
+    "time_identified": "2026-05-18 12:01:58"
   }
 ]
