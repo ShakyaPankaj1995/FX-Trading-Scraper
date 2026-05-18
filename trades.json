@@ -1,67 +1,28 @@
 [
   {
-    "id": "NASDAQ_0116pm_29126.25",
-    "symbol": "NASDAQ",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29126.25",
-    "sl": "29205.59",
-    "tp": "28926.00",
-    "status": "Active",
-    "trade_time": "18 May 01:16 pm",
-    "time_identified": "2026-05-18 07:46:35"
-  },
-  {
-    "id": "NASDAQ_0116pm_29126.25",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29126.25",
-    "sl": "29144.29",
-    "tp": "29072.14",
-    "status": "Active",
-    "trade_time": "18 May 01:16 pm",
-    "time_identified": "2026-05-18 07:46:35"
-  },
-  {
-    "id": "S&P500_0116pm_7397.50",
+    "id": "S&P500_0121pm_7390.50",
     "symbol": "S&P500",
-    "timeframe": "15M",
+    "timeframe": "4H",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7397.50",
-    "sl": "7408.38",
-    "tp": "7375.00",
+    "signal": "BUY",
+    "entry": "7390.50",
+    "sl": "7313.43",
+    "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 01:16 pm",
-    "time_identified": "2026-05-18 07:46:35"
+    "trade_time": "18 May 01:21 pm",
+    "time_identified": "2026-05-18 07:51:37"
   },
   {
-    "id": "XAUUSD_0116pm_4556.20",
+    "id": "XAUUSD_0121pm_4554.20",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4556.20",
-    "sl": "4586.91",
+    "entry": "4554.20",
+    "sl": "4587.01",
     "tp": "4483.50",
     "status": "Active",
-    "trade_time": "18 May 01:16 pm",
-    "time_identified": "2026-05-18 07:46:35"
-  },
-  {
-    "id": "USDJPY_0116pm_158.85100",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "158.85100",
-    "sl": "158.74982",
-    "tp": "159.07300",
-    "status": "Active",
-    "trade_time": "18 May 01:16 pm",
-    "time_identified": "2026-05-18 07:46:35"
+    "trade_time": "18 May 01:21 pm",
+    "time_identified": "2026-05-18 07:51:37"
   }
 ]
