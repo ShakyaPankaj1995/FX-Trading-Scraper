@@ -804,5 +804,31 @@
     "status": "Active",
     "trade_time": "18 May 07:41 pm",
     "time_identified": "2026-05-18 14:11:42"
+  },
+  {
+    "id": "XAUUSD_5M_18_May_0743_pm",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "4571.50",
+    "sl": "4566.41",
+    "tp": "4579.80",
+    "status": "Active",
+    "trade_time": "18 May 07:43 pm",
+    "time_identified": "2026-05-18 14:13:32"
+  },
+  {
+    "id": "GBPUSD_1H_18_May_0743_pm",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33901",
+    "sl": "1.34196",
+    "tp": "1.33039",
+    "status": "Active",
+    "trade_time": "18 May 07:43 pm",
+    "time_identified": "2026-05-18 14:13:32"
   }
 ]
