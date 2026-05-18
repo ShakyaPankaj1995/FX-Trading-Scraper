@@ -1,28 +1,15 @@
 [
   {
-    "id": "S&P500_0356pm_7401.75",
+    "id": "S&P500_0401pm_7403.00",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7401.75",
+    "entry": "7403.00",
     "sl": "7311.88",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 03:56 pm",
-    "time_identified": "2026-05-18 10:26:24"
-  },
-  {
-    "id": "USDJPY_0356pm_158.91299",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "158.91299",
-    "sl": "158.98175",
-    "tp": "158.78400",
-    "status": "Active",
-    "trade_time": "18 May 03:56 pm",
-    "time_identified": "2026-05-18 10:26:24"
+    "trade_time": "18 May 04:01 pm",
+    "time_identified": "2026-05-18 10:31:38"
   }
 ]
