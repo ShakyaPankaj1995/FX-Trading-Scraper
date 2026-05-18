@@ -1,80 +1,54 @@
 [
   {
-    "id": "NASDAQ_0106pm_29118.50",
+    "id": "NASDAQ_0111pm_29152.50",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29118.50",
-    "sl": "29202.83",
-    "tp": "28926.00",
+    "entry": "29152.50",
+    "sl": "29201.41",
+    "tp": "29005.77",
     "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
+    "trade_time": "18 May 01:11 pm",
+    "time_identified": "2026-05-18 07:41:33"
   },
   {
-    "id": "NASDAQ_0106pm_29115.00",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29115.00",
-    "sl": "29141.90",
-    "tp": "29034.29",
-    "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
-  },
-  {
-    "id": "S&P500_0106pm_7396.25",
+    "id": "S&P500_0111pm_7403.00",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7396.25",
-    "sl": "7407.58",
-    "tp": "7375.00",
+    "entry": "7403.00",
+    "sl": "7407.50",
+    "tp": "7389.50",
     "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
+    "trade_time": "18 May 01:11 pm",
+    "time_identified": "2026-05-18 07:41:33"
   },
   {
-    "id": "XAUUSD_0106pm_4551.20",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "4551.20",
-    "sl": "4557.57",
-    "tp": "4538.60",
-    "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
-  },
-  {
-    "id": "XAUUSD_0106pm_4551.20",
+    "id": "XAUUSD_0111pm_4559.70",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4551.20",
-    "sl": "4586.67",
+    "entry": "4559.70",
+    "sl": "4586.86",
     "tp": "4483.50",
     "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
+    "trade_time": "18 May 01:11 pm",
+    "time_identified": "2026-05-18 07:41:33"
   },
   {
-    "id": "USDJPY_0106pm_158.86400",
+    "id": "USDJPY_0111pm_158.87601",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.86400",
-    "sl": "158.74982",
+    "entry": "158.87601",
+    "sl": "158.75068",
     "tp": "159.07300",
     "status": "Active",
-    "trade_time": "18 May 01:06 pm",
-    "time_identified": "2026-05-18 07:36:27"
+    "trade_time": "18 May 01:11 pm",
+    "time_identified": "2026-05-18 07:41:33"
   }
 ]
