@@ -48,16 +48,26 @@ string ResolveSymbol(string s)
 }
 
 //+------------------------------------------------------------------+
-//| Check if we already have an open position for this symbol       |
+//| Check if we already have an open position or pending order      |
 //+------------------------------------------------------------------+
-bool PositionOpenForSymbol(string symbol)
+bool TradeActiveForSymbol(string symbol)
 {
+   // Check Open Positions
    for(int i = 0; i < PositionsTotal(); i++)
    {
       ulong ticket = PositionGetTicket(i);
       if(PositionSelectByTicket(ticket))
          if(PositionGetString(POSITION_SYMBOL) == symbol &&
             (long)PositionGetInteger(POSITION_MAGIC) == (long)InpMagicNumber)
+            return true;
+   }
+   // Check Pending Orders
+   for(int i = 0; i < OrdersTotal(); i++)
+   {
+      ulong ticket = OrderGetTicket(i);
+      if(OrderSelect(ticket))
+         if(OrderGetString(ORDER_SYMBOL) == symbol &&
+            (long)OrderGetInteger(ORDER_MAGIC) == (long)InpMagicNumber)
             return true;
    }
    return false;
@@ -135,10 +145,10 @@ void TryExecuteTrade(string obj)
       return;
    }
 
-   //--- GUARD 2: Already have an open position for this symbol?
-   if(PositionOpenForSymbol(symbol))
+   //--- GUARD 2: Already have an open position or pending order for this symbol?
+   if(TradeActiveForSymbol(symbol))
    {
-      if(InpDebugMode) Print("[Skip] Position already open for: ", symbol);
+      if(InpDebugMode) Print("[Skip] Trade already active for: ", symbol);
       return;
    }
 
@@ -156,10 +166,31 @@ void TryExecuteTrade(string obj)
    }
 
    bool ok = false;
+   double ask = SymbolInfoDouble(symbol, SYMBOL_ASK);
+   double bid = SymbolInfoDouble(symbol, SYMBOL_BID);
+   double point = SymbolInfoDouble(symbol, SYMBOL_POINT);
+   
+   // 3 pip tolerance for market execution
+   double tolerance = 30 * point; 
+
    if(signal == "BUY")
-      ok = g_trade.Buy(lot, symbol, 0, sl, tp, "FX_" + id);
+   {
+      if(MathAbs(ask - entry) <= tolerance)
+         ok = g_trade.Buy(lot, symbol, 0, sl, tp, "FX_" + id);
+      else if(ask > entry)
+         ok = g_trade.BuyLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+      else
+         ok = g_trade.BuyStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+   }
    else if(signal == "SELL")
-      ok = g_trade.Sell(lot, symbol, 0, sl, tp, "FX_" + id);
+   {
+      if(MathAbs(bid - entry) <= tolerance)
+         ok = g_trade.Sell(lot, symbol, 0, sl, tp, "FX_" + id);
+      else if(bid < entry)
+         ok = g_trade.SellLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+      else
+         ok = g_trade.SellStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+   }
 
    if(ok)
    {
