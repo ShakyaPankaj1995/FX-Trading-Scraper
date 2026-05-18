@@ -1,54 +1,28 @@
 [
   {
-    "id": "NASDAQ_5M_19_May_0211_am",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "29085.50",
-    "sl": "29093.08",
-    "tp": "29072.50",
-    "status": "Active",
-    "trade_time": "19 May 02:11 am",
-    "time_identified": "2026-05-18 20:41:38"
-  },
-  {
-    "id": "NASDAQ_15M_19_May_0211_am",
+    "id": "NASDAQ_15M_19_May_0213_am",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29085.75",
+    "entry": "29074.50",
     "sl": "28931.73",
     "tp": "29419.75",
     "status": "Active",
-    "trade_time": "19 May 02:11 am",
-    "time_identified": "2026-05-18 20:41:38"
+    "trade_time": "19 May 02:13 am",
+    "time_identified": "2026-05-18 20:43:35"
   },
   {
-    "id": "XAUUSD_15M_19_May_0211_am",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "4568.60",
-    "sl": "4572.13",
-    "tp": "4562.40",
-    "status": "Active",
-    "trade_time": "19 May 02:11 am",
-    "time_identified": "2026-05-18 20:41:38"
-  },
-  {
-    "id": "USDJPY_5M_19_May_0211_am",
+    "id": "USDJPY_5M_19_May_0213_am",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.86501",
+    "entry": "158.86301",
     "sl": "158.73775",
     "tp": "159.08299",
     "status": "Active",
-    "trade_time": "19 May 02:11 am",
-    "time_identified": "2026-05-18 20:41:38"
+    "trade_time": "19 May 02:13 am",
+    "time_identified": "2026-05-18 20:43:35"
   }
 ]
