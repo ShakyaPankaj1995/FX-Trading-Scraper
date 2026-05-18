@@ -817,5 +817,31 @@
     "status": "Active",
     "trade_time": "18 May 12:26 pm",
     "time_identified": "2026-05-18 06:56:27"
+  },
+  {
+    "id": "S&P500_1231pm_7388.75",
+    "symbol": "S&P500",
+    "timeframe": "4H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7388.75",
+    "sl": "7313.43",
+    "tp": "7540.00",
+    "status": "Active",
+    "trade_time": "18 May 12:31 pm",
+    "time_identified": "2026-05-18 07:02:04"
+  },
+  {
+    "id": "XAUUSD_1231pm_4547.40",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4547.40",
+    "sl": "4587.75",
+    "tp": "4483.50",
+    "status": "Active",
+    "trade_time": "18 May 12:31 pm",
+    "time_identified": "2026-05-18 07:02:04"
   }
 ]
