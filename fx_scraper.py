@@ -10,7 +10,7 @@ URL = "https://fx-trading-dashboard-v4.vercel.app/"
 SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "S&P500", "NASDAQ"]
 OUTPUT_FILE = "trades.json"
 HISTORY_FILE = "history.json"
-FRESHNESS_MINUTES = 10  # Reject trades older than 10 minutes
+FRESHNESS_MINUTES = 4  # Reduced to match 2-min cron (allows 2m buffer for script runtime)
 
 # To enable Telegram alerts, fill in your credentials:
 TELEGRAM_BOT_TOKEN = ""
