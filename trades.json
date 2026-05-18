@@ -1,67 +1,41 @@
 [
   {
-    "id": "NASDAQ_0446pm_29094.75",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "29094.75",
-    "sl": "29074.88",
-    "tp": "29141.75",
-    "status": "Active",
-    "trade_time": "18 May 04:46 pm",
-    "time_identified": "2026-05-18 11:16:35"
-  },
-  {
-    "id": "S&P500_0446pm_7396.25",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "7396.25",
-    "sl": "7393.13",
-    "tp": "7403.50",
-    "status": "Active",
-    "trade_time": "18 May 04:46 pm",
-    "time_identified": "2026-05-18 11:16:35"
-  },
-  {
-    "id": "S&P500_0446pm_7396.25",
+    "id": "S&P500_0451pm_7393.50",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7396.25",
+    "entry": "7393.50",
     "sl": "7311.88",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 04:46 pm",
-    "time_identified": "2026-05-18 11:16:35"
+    "trade_time": "18 May 04:51 pm",
+    "time_identified": "2026-05-18 11:21:31"
   },
   {
-    "id": "GBPUSD_0446pm_1.33552",
+    "id": "GBPUSD_0451pm_1.33568",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.33552",
-    "sl": "1.33389",
+    "entry": "1.33568",
+    "sl": "1.33393",
     "tp": "1.33835",
     "status": "Active",
-    "trade_time": "18 May 04:46 pm",
-    "time_identified": "2026-05-18 11:16:35"
+    "trade_time": "18 May 04:51 pm",
+    "time_identified": "2026-05-18 11:21:31"
   },
   {
-    "id": "EURUSD_0446pm_1.16333",
+    "id": "EURUSD_0451pm_1.16333",
     "symbol": "EURUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "1.16333",
-    "sl": "1.16298",
-    "tp": "1.16438",
+    "sl": "1.16300",
+    "tp": "1.16433",
     "status": "Active",
-    "trade_time": "18 May 04:46 pm",
-    "time_identified": "2026-05-18 11:16:35"
+    "trade_time": "18 May 04:51 pm",
+    "time_identified": "2026-05-18 11:21:31"
   }
 ]
