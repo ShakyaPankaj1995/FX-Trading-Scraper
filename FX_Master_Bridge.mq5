@@ -166,14 +166,11 @@ void TryExecuteTrade(string obj)
       return;
    }
 
-   //--- GUARD 3: Cross-chart race condition lock (if EA runs on multiple charts)
+   //--- GUARD 2: Cross-chart execution lock (if EA runs on multiple charts)
    string lock_name = "FX_Lock_" + id;
    if(GlobalVariableCheck(lock_name))
    {
-      if(TimeCurrent() - (datetime)GlobalVariableGet(lock_name) < 10)
-      {
-         return; // Another chart's EA grabbed this exact trade in the last 10 seconds
-      }
+      return; // This exact trade was already executed by an EA on this terminal
    }
    GlobalVariableSet(lock_name, TimeCurrent());
 
@@ -223,7 +220,10 @@ void TryExecuteTrade(string obj)
       g_processed_ids += id + "|";
    }
    else
+   {
       Print("[Failed] ", signal, " ", symbol, " Error:", GetLastError());
+      GlobalVariableDel(lock_name); // Delete lock so we can retry on next tick
+   }
 }
 
 //+------------------------------------------------------------------+
