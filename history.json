@@ -9033,5 +9033,31 @@
     "status": "Active",
     "trade_time": "19 May 03:15 am",
     "time_identified": "2026-05-18 21:45:30"
+  },
+  {
+    "id": "USDJPY_15M_19_May_0317_am",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.76601",
+    "sl": "158.63482",
+    "tp": "159.08299",
+    "status": "Active",
+    "trade_time": "19 May 03:17 am",
+    "time_identified": "2026-05-18 21:47:22"
+  },
+  {
+    "id": "EURUSD_15M_19_May_0316_am",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16618",
+    "sl": "1.16671",
+    "tp": "1.16460",
+    "status": "Active",
+    "trade_time": "19 May 03:16 am",
+    "time_identified": "2026-05-18 21:47:22"
   }
 ]
