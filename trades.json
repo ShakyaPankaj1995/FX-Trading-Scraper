@@ -1,28 +1,15 @@
 [
   {
-    "id": "GBPUSD_15M_18_May_0601_pm",
+    "id": "GBPUSD_1H_18_May_0606_pm",
     "symbol": "GBPUSD",
-    "timeframe": "15M",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33865",
-    "sl": "1.33945",
-    "tp": "1.33627",
+    "entry": "1.33962",
+    "sl": "1.34189",
+    "tp": "1.33281",
     "status": "Active",
-    "trade_time": "18 May 06:01 pm",
-    "time_identified": "2026-05-18 12:31:54"
-  },
-  {
-    "id": "EURUSD_5M_18_May_0601_pm",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "1.16509",
-    "sl": "1.16524",
-    "tp": "1.16482",
-    "status": "Active",
-    "trade_time": "18 May 06:01 pm",
-    "time_identified": "2026-05-18 12:31:54"
+    "trade_time": "18 May 06:06 pm",
+    "time_identified": "2026-05-18 12:36:43"
   }
 ]
