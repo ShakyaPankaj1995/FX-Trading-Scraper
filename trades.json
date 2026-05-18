@@ -1,54 +1,41 @@
 [
   {
-    "id": "NASDAQ_1256pm_29081.25",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29081.25",
-    "sl": "29140.24",
-    "tp": "28990.50",
-    "status": "Active",
-    "trade_time": "18 May 12:56 pm",
-    "time_identified": "2026-05-18 07:26:23"
-  },
-  {
-    "id": "S&P500_1256pm_7389.00",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "7389.00",
-    "sl": "7387.55",
-    "tp": "7393.35",
-    "status": "Active",
-    "trade_time": "18 May 12:56 pm",
-    "time_identified": "2026-05-18 07:26:23"
-  },
-  {
-    "id": "S&P500_1256pm_7389.00",
+    "id": "S&P500_0101pm_7386.00",
     "symbol": "S&P500",
     "timeframe": "4H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7389.00",
+    "entry": "7386.00",
     "sl": "7313.43",
     "tp": "7540.00",
     "status": "Active",
-    "trade_time": "18 May 12:56 pm",
-    "time_identified": "2026-05-18 07:26:23"
+    "trade_time": "18 May 01:01 pm",
+    "time_identified": "2026-05-18 07:31:41"
   },
   {
-    "id": "XAUUSD_1256pm_4545.10",
-    "symbol": "XAUUSD",
+    "id": "USDJPY_0101pm_158.83400",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.83400",
+    "sl": "158.75036",
+    "tp": "159.07300",
+    "status": "Active",
+    "trade_time": "18 May 01:01 pm",
+    "time_identified": "2026-05-18 07:31:41"
+  },
+  {
+    "id": "USDJPY_0101pm_158.83600",
+    "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4545.10",
-    "sl": "4585.73",
-    "tp": "4483.50",
+    "signal": "BUY",
+    "entry": "158.83600",
+    "sl": "158.68921",
+    "tp": "159.07300",
     "status": "Active",
-    "trade_time": "18 May 12:56 pm",
-    "time_identified": "2026-05-18 07:26:23"
+    "trade_time": "18 May 01:01 pm",
+    "time_identified": "2026-05-18 07:31:41"
   }
 ]
