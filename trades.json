@@ -1,28 +1,15 @@
 [
   {
-    "id": "XAUUSD_15M_19_May_0749_am",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "4560.30",
-    "sl": "4556.42",
-    "tp": "4571.94",
-    "status": "Active",
-    "trade_time": "19 May 07:49 am",
-    "time_identified": "2026-05-19 02:19:27"
-  },
-  {
-    "id": "XAUUSD_5M_19_May_0749_am",
+    "id": "XAUUSD_5M_19_May_0751_am",
     "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4560.30",
-    "sl": "4547.29",
-    "tp": "4593.20",
+    "entry": "4558.90",
+    "sl": "4547.88",
+    "tp": "4591.95",
     "status": "Active",
-    "trade_time": "19 May 07:49 am",
-    "time_identified": "2026-05-19 02:19:27"
+    "trade_time": "19 May 07:51 am",
+    "time_identified": "2026-05-19 02:21:35"
   }
 ]
