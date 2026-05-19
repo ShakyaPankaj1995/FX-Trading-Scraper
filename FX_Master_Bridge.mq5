@@ -10,7 +10,7 @@
 
 //--- Input Parameters
 input string   InpServerUrl    = "https://raw.githubusercontent.com/ShakyaPankaj1995/FX-Trading-Scraper/master/trades.json";
-input double   InpRiskPercent  = 1.0;   // Risk % per trade
+input double   InpRiskPercent  = 5.0;   // Risk % per trade
 input int      InpTimerSeconds = 15;    // Check interval (seconds)
 input int      InpMagicNumber  = 88888; // Magic number
 input bool     InpDebugMode    = true;  // Print detailed logs
@@ -366,6 +366,15 @@ double CalcLot(string symbol, double entry, double sl)
    lot = MathFloor(lot / lot_step) * lot_step;
    lot = MathMax(lot, lot_min);
    lot = MathMin(lot, lot_max);
+
+   // --- STRICT RISK RULE: Reject if the forced lot size exceeds max risk ---
+   double actual_risk = lot * sl_ticks * tick_val;
+   if(actual_risk > risk_money)
+   {
+      Print("[Error] Trade Rejected! Min lot ", lot, " risks $", DoubleToString(actual_risk, 2), 
+            " which exceeds max allowed ", InpRiskPercent, "% ($", DoubleToString(risk_money, 2), ").");
+      return 0; // Return 0 to abort execution
+   }
 
    return lot;
 }
