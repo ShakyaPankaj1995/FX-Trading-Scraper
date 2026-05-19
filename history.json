@@ -19134,5 +19134,31 @@
     "status": "Active",
     "trade_time": "19 May 10:17 pm",
     "time_identified": "2026-05-19 16:47:25"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4512.20_4525.49_4472.34",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4512.20",
+    "sl": "4525.49",
+    "tp": "4472.34",
+    "status": "Active",
+    "trade_time": "19 May 10:19 pm",
+    "time_identified": "2026-05-19 16:49:28"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.34002_1.34055_1.33842",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34002",
+    "sl": "1.34055",
+    "tp": "1.33842",
+    "status": "Active",
+    "trade_time": "19 May 10:19 pm",
+    "time_identified": "2026-05-19 16:49:28"
   }
 ]
