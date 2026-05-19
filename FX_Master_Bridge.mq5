@@ -262,7 +262,7 @@ void TryExecuteTrade(string obj)
          " | Entry:", entry, " SL:", sl, " TP:", tp,
          " | ID:", id);
 
-   double lot = CalcLot(symbol, entry, sl);
+   double lot = CalcLot(symbol, entry, sl, signal);
    if(lot <= 0)
    {
       Print("[Error] Lot calc failed for ", symbol,
@@ -345,19 +345,29 @@ string JsonGet(string obj, string key)
 //+------------------------------------------------------------------+
 //| Calculate lot size for X% risk                                   |
 //+------------------------------------------------------------------+
-double CalcLot(string symbol, double entry, double sl)
+//+------------------------------------------------------------------+
+//| Calculate lot size for X% risk using native MT5 calculator       |
+//+------------------------------------------------------------------+
+double CalcLot(string symbol, double entry, double sl, string signal)
 {
    double equity     = AccountInfoDouble(ACCOUNT_EQUITY);
    double risk_money = equity * InpRiskPercent / 100.0;
-
-   double tick_val  = SymbolInfoDouble(symbol, SYMBOL_TRADE_TICK_VALUE);
-   double tick_size = SymbolInfoDouble(symbol, SYMBOL_TRADE_TICK_SIZE);
-   double sl_dist   = MathAbs(entry - sl);
-
-   if(sl_dist <= 0 || tick_size <= 0 || tick_val <= 0) return 0;
-
-   double sl_ticks = sl_dist / tick_size;
-   double lot = risk_money / (sl_ticks * tick_val);
+   
+   ENUM_ORDER_TYPE order_type = (signal == "BUY") ? ORDER_TYPE_BUY : ORDER_TYPE_SELL;
+   
+   // Calculate exact monetary loss for 1.0 standard lot
+   double loss_for_one_lot = 0;
+   if(!OrderCalcProfit(order_type, symbol, 1.0, entry, sl, loss_for_one_lot))
+   {
+      Print("[Error] Native MT5 OrderCalcProfit failed for ", symbol, ". Error: ", GetLastError());
+      return 0;
+   }
+   
+   // The profit will be negative because it's a Stop Loss. Make it positive.
+   loss_for_one_lot = MathAbs(loss_for_one_lot);
+   if(loss_for_one_lot <= 0) return 0;
+   
+   double lot = risk_money / loss_for_one_lot;
 
    double lot_step = SymbolInfoDouble(symbol, SYMBOL_VOLUME_STEP);
    double lot_min  = SymbolInfoDouble(symbol, SYMBOL_VOLUME_MIN);
@@ -368,7 +378,7 @@ double CalcLot(string symbol, double entry, double sl)
    lot = MathMin(lot, lot_max);
 
    // --- STRICT RISK RULE: Reject if the forced lot size exceeds max risk ---
-   double actual_risk = lot * sl_ticks * tick_val;
+   double actual_risk = lot * loss_for_one_lot;
    if(actual_risk > risk_money)
    {
       Print("[Error] Trade Rejected! Min lot ", lot, " risks $", DoubleToString(actual_risk, 2), 
