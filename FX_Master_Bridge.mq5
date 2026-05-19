@@ -242,13 +242,21 @@ void TryExecuteTrade(string obj)
        return;
    }
 
-   //--- GUARD 4: Cross-chart execution lock (if EA runs on multiple charts)
+   //--- GUARD 4: Cross-chart execution lock (Atomic Mutex)
    string lock_name = "FX_Lock_" + id;
-   if(GlobalVariableCheck(lock_name))
+   
+   // Initialize lock if it doesn't exist
+   if(!GlobalVariableCheck(lock_name))
    {
-      return; // This exact trade was already executed by an EA on this terminal
+      GlobalVariableSet(lock_name, 0.0);
    }
-   GlobalVariableSet(lock_name, TimeCurrent());
+   
+   // Atomically try to acquire lock (change 0.0 to 1.0)
+   if(!GlobalVariableSetOnCondition(lock_name, 1.0, 0.0))
+   {
+      // If it fails, another chart grabbed it microseconds ago
+      return;
+   }
 
    Print("[Signal] ", symbol, " ", signal,
          " | Entry:", entry, " SL:", sl, " TP:", tp,
