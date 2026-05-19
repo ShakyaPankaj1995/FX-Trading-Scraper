@@ -1,15 +1,1 @@
-[
-  {
-    "id": "S&P500_5M_Trendline_7418.25_7430.55_7391.50",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7418.25",
-    "sl": "7430.55",
-    "tp": "7391.50",
-    "status": "Active",
-    "trade_time": "19 May 01:51 pm",
-    "time_identified": "2026-05-19 08:21:38"
-  }
-]
+[]
