@@ -1,15 +1,1 @@
-[
-  {
-    "id": "GBPUSD_15M_CRTAMD_1.34043_1.34097_1.33962",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "1.34043",
-    "sl": "1.34097",
-    "tp": "1.33962",
-    "status": "Active",
-    "trade_time": "19 May 04:47 pm",
-    "time_identified": "2026-05-19 11:17:25"
-  }
-]
+[]
