@@ -1,28 +1,28 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_28921.00_28832.58_29126.50",
+    "id": "NASDAQ_5M_Trendline_28925.50_28838.45_29126.50",
     "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "28921.00",
-    "sl": "28832.58",
+    "entry": "28925.50",
+    "sl": "28838.45",
     "tp": "29126.50",
     "status": "Active",
-    "trade_time": "20 May 03:43 am",
-    "time_identified": "2026-05-19 22:13:35"
+    "trade_time": "20 May 03:45 am",
+    "time_identified": "2026-05-19 22:15:26"
   },
   {
-    "id": "S&P500_5M_Trendline_7374.25_7358.33_7415.25",
+    "id": "S&P500_5M_Trendline_7375.50_7359.72_7415.25",
     "symbol": "S&P500",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7374.25",
-    "sl": "7358.33",
+    "entry": "7375.50",
+    "sl": "7359.72",
     "tp": "7415.25",
     "status": "Active",
-    "trade_time": "20 May 03:43 am",
-    "time_identified": "2026-05-19 22:13:35"
+    "trade_time": "20 May 03:45 am",
+    "time_identified": "2026-05-19 22:15:26"
   }
 ]
