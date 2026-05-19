@@ -101,15 +101,15 @@ async def run_scraper():
         except:
             pass
 
-        # STEP 3: Get all active rows
-        active_rows = await page.locator("tr.log-row-active").all()
-        print(f"Found {len(active_rows)} active trade row(s).")
+        # STEP 3: Get all rows (Active, Success, Failed)
+        all_rows = await page.locator("tr[class*='log-row-']").all()
+        print(f"Found {len(all_rows)} total trade row(s).")
 
         now = datetime.now()
-        trades = []
-        seen_symbols = set()  # DEDUP: only 1 trade per symbol per run in trades.json
+        active_trades = []
+        parsed_all_trades = {}
 
-        for row in active_rows:
+        for row in all_rows:
             try:
                 cells = await row.locator("td").all()
                 cell_texts = [(await c.inner_text()).strip() for c in cells]
@@ -135,21 +135,15 @@ async def run_scraper():
 
                 dedup_key = make_dedup_key(symbol_val, tf_val, entry_val, sl_val)
 
-                print(f"  Row: {symbol_val} {signal_val} {tf_val} | {time_str} | Entry:{entry_val}")
-
-                # STEP 4: Freshness filter (timezone-safe)
-                age_mins = parse_trade_time(time_str, now)
-
-                if age_mins is not None and age_mins > FRESHNESS_MINUTES:
-                    print(f"    -> SKIPPED ({age_mins:.0f} min old - over {FRESHNESS_MINUTES}min limit)")
-                    continue
-                elif age_mins is not None:
-                    print(f"    -> MATCH ({age_mins:.1f} min ago)")
-                else:
-                    print(f"    -> INCLUDED (time unparseable - accepting by default)")
-
-                # removed 1-trade-per-symbol dedup per user request
-
+                trade_time_str = f"{date_str} {time_str}"
+                
+                # Determine status from class
+                row_class = await row.get_attribute("class") or ""
+                status_val = "Active"
+                if "success" in row_class.lower():
+                    status_val = "Success"
+                elif "fail" in row_class.lower():
+                    status_val = "Failed"
 
                 trade_data = {
                     "id": dedup_key,
@@ -160,21 +154,34 @@ async def run_scraper():
                     "entry": entry_val,
                     "sl": sl_val,
                     "tp": tp_val,
-                    "status": "Active",
+                    "status": status_val,
                     "trade_time": trade_time_str,
                     "time_identified": now.strftime("%Y-%m-%d %H:%M:%S")
                 }
-                trades.append(trade_data)
-                send_telegram_alert(trade_data)
+                
+                parsed_all_trades[dedup_key] = trade_data
+
+                if status_val == "Active":
+                    # STEP 4: Freshness filter only applies to Active trades for the EA
+                    age_mins = parse_trade_time(time_str, now)
+                    if age_mins is not None and age_mins > FRESHNESS_MINUTES:
+                        print(f"    -> SKIPPED ({age_mins:.0f} min old - over {FRESHNESS_MINUTES}min limit)")
+                        continue
+                    elif age_mins is not None:
+                        print(f"    -> MATCH ({age_mins:.1f} min ago)")
+                    else:
+                        print(f"    -> INCLUDED (time unparseable - accepting by default)")
+                    
+                    active_trades.append(trade_data)
 
             except Exception as e:
                 print(f"  [Error] Failed to process row: {e}")
 
-        # STEP 6: Save trades.json (EA reads this - 1 trade per symbol)
+        # STEP 6: Save trades.json (Only Active trades for the EA)
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(trades, f, indent=2)
+            json.dump(active_trades, f, indent=2)
 
-        # STEP 7: Append to history.json with deduplication
+        # STEP 7: Append/Update history.json
         # Key = symbol+timeframe+trade_start_time (NOT entry price)
         history = []
         if os.path.exists(HISTORY_FILE):
@@ -184,19 +191,29 @@ async def run_scraper():
             except:
                 history = []
 
-        existing_keys = {t["id"] for t in history}
+        existing_history_map = {t["id"]: t for t in history}
         new_count = 0
-        for trade in trades:
-            if trade["id"] not in existing_keys:
-                history.append(trade)
-                existing_keys.add(trade["id"])
+        updated_count = 0
+        
+        for dedup_key, t_data in parsed_all_trades.items():
+            if dedup_key in existing_history_map:
+                # Update status if it changed
+                if existing_history_map[dedup_key]["status"] != t_data["status"]:
+                    existing_history_map[dedup_key]["status"] = t_data["status"]
+                    updated_count += 1
+            else:
+                history.append(t_data)
+                existing_history_map[dedup_key] = t_data
                 new_count += 1
+                # Only alert for completely new Active trades
+                if t_data["status"] == "Active":
+                    send_telegram_alert(t_data)
 
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, indent=2)
 
-        print(f"\n--- Done. {len(trades)} unique trade(s) sent to EA. "
-              f"{new_count} new unique trade(s) added to history (total: {len(history)}) ---")
+        print(f"\n--- Done. {len(active_trades)} active trade(s) sent to EA. "
+              f"{new_count} new added to history, {updated_count} statuses updated (total: {len(history)}) ---")
         await browser.close()
 
 if __name__ == "__main__":
