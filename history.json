@@ -12088,5 +12088,31 @@
     "status": "Active",
     "trade_time": "19 May 06:29 am",
     "time_identified": "2026-05-19 00:59:24"
+  },
+  {
+    "id": "NASDAQ_15M_19_May_0633_am",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "29112.25",
+    "sl": "29081.90",
+    "tp": "29160.25",
+    "status": "Active",
+    "trade_time": "19 May 06:33 am",
+    "time_identified": "2026-05-19 01:03:37"
+  },
+  {
+    "id": "NASDAQ_5M_19_May_0633_am",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "29112.25",
+    "sl": "29089.22",
+    "tp": "29148.25",
+    "status": "Active",
+    "trade_time": "19 May 06:33 am",
+    "time_identified": "2026-05-19 01:03:37"
   }
 ]
