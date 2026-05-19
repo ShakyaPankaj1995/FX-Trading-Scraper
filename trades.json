@@ -1,67 +1,54 @@
 [
   {
-    "id": "NASDAQ_5M_19_May_0733_am",
+    "id": "NASDAQ_5M_19_May_0735_am",
     "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29048.25",
-    "sl": "29031.86",
-    "tp": "29097.43",
+    "entry": "29038.50",
+    "sl": "29032.58",
+    "tp": "29056.26",
     "status": "Active",
-    "trade_time": "19 May 07:33 am",
-    "time_identified": "2026-05-19 02:03:23"
+    "trade_time": "19 May 07:35 am",
+    "time_identified": "2026-05-19 02:05:42"
   },
   {
-    "id": "S&P500_5M_19_May_0733_am",
+    "id": "S&P500_5M_19_May_0735_am",
     "symbol": "S&P500",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7422.00",
-    "sl": "7415.27",
-    "tp": "7440.75",
+    "entry": "7421.50",
+    "sl": "7415.48",
+    "tp": "7439.55",
     "status": "Active",
-    "trade_time": "19 May 07:33 am",
-    "time_identified": "2026-05-19 02:03:23"
+    "trade_time": "19 May 07:35 am",
+    "time_identified": "2026-05-19 02:05:42"
   },
   {
-    "id": "XAUUSD_1H_19_May_0733_am",
+    "id": "XAUUSD_1H_19_May_0735_am",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4568.50",
+    "entry": "4569.70",
     "sl": "4621.48",
     "tp": "4483.50",
     "status": "Active",
-    "trade_time": "19 May 07:33 am",
-    "time_identified": "2026-05-19 02:03:23"
+    "trade_time": "19 May 07:35 am",
+    "time_identified": "2026-05-19 02:05:42"
   },
   {
-    "id": "USDJPY_5M_19_May_0733_am",
+    "id": "USDJPY_5M_19_May_0735_am",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.97600",
+    "entry": "158.99400",
     "sl": "159.08950",
     "tp": "158.73000",
     "status": "Active",
-    "trade_time": "19 May 07:33 am",
-    "time_identified": "2026-05-19 02:03:23"
-  },
-  {
-    "id": "GBPUSD_5M_19_May_0733_am",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "1.34156",
-    "sl": "1.34138",
-    "tp": "1.34185",
-    "status": "Active",
-    "trade_time": "19 May 07:33 am",
-    "time_identified": "2026-05-19 02:03:23"
+    "trade_time": "19 May 07:35 am",
+    "time_identified": "2026-05-19 02:05:42"
   }
 ]
