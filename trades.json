@@ -9,8 +9,8 @@
     "sl": "28829.34",
     "tp": "29108.98",
     "status": "Active",
-    "trade_time": "20 May 02:41 am",
-    "time_identified": "2026-05-19 21:11:33"
+    "trade_time": "20 May 02:43 am",
+    "time_identified": "2026-05-19 21:13:23"
   },
   {
     "id": "S&P500_5M_Trendline_7371.75_7357.66_7414.02",
@@ -22,20 +22,20 @@
     "sl": "7357.66",
     "tp": "7414.02",
     "status": "Active",
-    "trade_time": "20 May 02:41 am",
-    "time_identified": "2026-05-19 21:11:33"
+    "trade_time": "20 May 02:43 am",
+    "time_identified": "2026-05-19 21:13:23"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.33969_1.34389_1.33039",
+    "id": "GBPUSD_1H_Trendline_1.33962_1.34389_1.33039",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33969",
+    "entry": "1.33962",
     "sl": "1.34389",
     "tp": "1.33039",
     "status": "Active",
-    "trade_time": "20 May 02:41 am",
-    "time_identified": "2026-05-19 21:11:33"
+    "trade_time": "20 May 02:43 am",
+    "time_identified": "2026-05-19 21:13:23"
   }
 ]
