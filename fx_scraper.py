@@ -58,12 +58,14 @@ def parse_trade_time(time_str, now):
             continue
     return None  # Could not parse
 
-def make_dedup_key(symbol, timeframe, trade_time):
+def make_dedup_key(symbol, timeframe, entry, sl):
     """
-    Deduplication key: symbol + timeframe + trade start time.
-    Does NOT include entry price — same signal at different entry = same trade.
+    Deduplication key: symbol + timeframe + entry + sl.
+    Creates a perfectly stable, unique ID for every trade setup.
     """
-    return f"{symbol}_{timeframe}_{trade_time.replace(' ', '_').replace(':', '')}"
+    safe_entry = str(entry).replace(' ', '').replace(':', '')
+    safe_sl = str(sl).replace(' ', '').replace(':', '')
+    return f"{symbol}_{timeframe}_{safe_entry}_{safe_sl}"
 
 async def run_scraper():
     async with async_playwright() as p:
@@ -131,7 +133,7 @@ async def run_scraper():
                     print(f"  [Skip] Unrecognized signal: '{signal_val}'")
                     continue
 
-                dedup_key = make_dedup_key(symbol_val, tf_val, entry_val)
+                dedup_key = make_dedup_key(symbol_val, tf_val, entry_val, sl_val)
 
                 print(f"  Row: {symbol_val} {signal_val} {tf_val} | {time_str} | Entry:{entry_val}")
 
