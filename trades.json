@@ -1,15 +1,15 @@
 [
   {
-    "id": "GBPUSD_1H_Trendline_1.34032_1.34392_1.33039",
+    "id": "GBPUSD_1H_Trendline_1.34028_1.34392_1.33039",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34032",
+    "entry": "1.34028",
     "sl": "1.34392",
     "tp": "1.33039",
     "status": "Active",
-    "trade_time": "20 May 02:11 am",
-    "time_identified": "2026-05-19 20:41:36"
+    "trade_time": "20 May 02:13 am",
+    "time_identified": "2026-05-19 20:43:27"
   }
 ]
