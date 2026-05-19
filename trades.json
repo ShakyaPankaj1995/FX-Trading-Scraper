@@ -9,7 +9,20 @@
     "sl": "159.04918",
     "tp": "158.70700",
     "status": "Active",
-    "trade_time": "19 May 09:37 am",
-    "time_identified": "2026-05-19 04:07:32"
+    "trade_time": "19 May 09:39 am",
+    "time_identified": "2026-05-19 04:09:27"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.16455_1.16516_1.16333",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16455",
+    "sl": "1.16516",
+    "tp": "1.16333",
+    "status": "Active",
+    "trade_time": "19 May 09:38 am",
+    "time_identified": "2026-05-19 04:09:27"
   }
 ]
