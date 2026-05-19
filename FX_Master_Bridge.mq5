@@ -143,6 +143,64 @@ void OnTimer()
 }
 
 //+------------------------------------------------------------------+
+//| Check if a slot is currently occupied by a live trade/order      |
+//+------------------------------------------------------------------+
+bool IsTradeActiveForSlot(string slot_id)
+{
+   string target_comment = "FX_" + slot_id;
+   for(int i = 0; i < PositionsTotal(); i++)
+   {
+      ulong ticket = PositionGetTicket(i);
+      if(PositionSelectByTicket(ticket))
+      {
+         string comment = PositionGetString(POSITION_COMMENT);
+         if(StringFind(comment, target_comment) != -1) return true;
+      }
+   }
+   for(int i = 0; i < OrdersTotal(); i++)
+   {
+      ulong ticket = OrderGetTicket(i);
+      if(OrderSelect(ticket))
+      {
+         string comment = OrderGetString(ORDER_COMMENT);
+         if(StringFind(comment, target_comment) != -1) return true;
+      }
+   }
+   return false;
+}
+
+//+------------------------------------------------------------------+
+//| Check if a slot was closed/cancelled within the last X minutes   |
+//+------------------------------------------------------------------+
+bool WasSlotClosedRecently(string slot_id, int minutes)
+{
+   datetime end_time = TimeCurrent();
+   datetime start_time = end_time - (minutes * 60);
+   HistorySelect(start_time, end_time);
+   
+   string target_comment = "FX_" + slot_id;
+   for(int i = 0; i < HistoryDealsTotal(); i++)
+   {
+      ulong ticket = HistoryDealGetTicket(i);
+      if(ticket > 0)
+      {
+         string comment = HistoryDealGetString(ticket, DEAL_COMMENT);
+         if(StringFind(comment, target_comment) != -1) return true;
+      }
+   }
+   for(int i = 0; i < HistoryOrdersTotal(); i++)
+   {
+      ulong ticket = HistoryOrderGetTicket(i);
+      if(ticket > 0)
+      {
+         string comment = HistoryOrderGetString(ticket, ORDER_COMMENT);
+         if(StringFind(comment, target_comment) != -1) return true;
+      }
+   }
+   return false;
+}
+
+//+------------------------------------------------------------------+
 void TryExecuteTrade(string obj)
 {
    string status = JsonGet(obj, "status");
@@ -159,14 +217,32 @@ void TryExecuteTrade(string obj)
 
    string symbol = ResolveSymbol(raw_symbol);
 
-   //--- GUARD 1: Already processed this ID in current session?
+   string tf         = JsonGet(obj, "timeframe");
+   string strategy   = JsonGet(obj, "strategy");
+   string slot_id    = symbol + "_" + tf + "_" + strategy;
+
+   //--- GUARD 1: Already processed this EXACT signal ID in current session?
    if(id != "" && StringFind(g_processed_ids, id + "|") != -1)
    {
       if(InpDebugMode) Print("[Skip] ID already processed: ", id);
       return;
    }
+   
+   //--- GUARD 2: Slot Lock (Is there already an active trade for this slot?)
+   if (IsTradeActiveForSlot(slot_id))
+   {
+       // Slot is occupied, ignore new signals for this slot
+       return;
+   }
 
-   //--- GUARD 2: Cross-chart execution lock (if EA runs on multiple charts)
+   //--- GUARD 3: Slot Cooldown (Was this slot recently closed?)
+   if (WasSlotClosedRecently(slot_id, 20))
+   {
+       if(InpDebugMode) Print("[Skip] Slot in 20-min cooldown: ", slot_id);
+       return;
+   }
+
+   //--- GUARD 4: Cross-chart execution lock (if EA runs on multiple charts)
    string lock_name = "FX_Lock_" + id;
    if(GlobalVariableCheck(lock_name))
    {
@@ -198,20 +274,20 @@ void TryExecuteTrade(string obj)
    if(signal == "BUY")
    {
       if(MathAbs(ask - entry) <= tolerance)
-         ok = g_trade.Buy(lot, symbol, 0, sl, tp, "FX_" + id);
+         ok = g_trade.Buy(lot, symbol, 0, sl, tp, "FX_" + slot_id);
       else if(ask > entry)
-         ok = g_trade.BuyLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+         ok = g_trade.BuyLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + slot_id);
       else
-         ok = g_trade.BuyStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+         ok = g_trade.BuyStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + slot_id);
    }
    else if(signal == "SELL")
    {
       if(MathAbs(bid - entry) <= tolerance)
-         ok = g_trade.Sell(lot, symbol, 0, sl, tp, "FX_" + id);
+         ok = g_trade.Sell(lot, symbol, 0, sl, tp, "FX_" + slot_id);
       else if(bid < entry)
-         ok = g_trade.SellLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+         ok = g_trade.SellLimit(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + slot_id);
       else
-         ok = g_trade.SellStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + id);
+         ok = g_trade.SellStop(lot, entry, symbol, sl, tp, ORDER_TIME_GTC, 0, "FX_" + slot_id);
    }
 
    if(ok)
