@@ -12179,5 +12179,18 @@
     "status": "Active",
     "trade_time": "19 May 06:37 am",
     "time_identified": "2026-05-19 01:07:24"
+  },
+  {
+    "id": "NASDAQ_5M_19_May_0639_am",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29088.75",
+    "sl": "29030.01",
+    "tp": "29185.00",
+    "status": "Active",
+    "trade_time": "19 May 06:39 am",
+    "time_identified": "2026-05-19 01:09:20"
   }
 ]
