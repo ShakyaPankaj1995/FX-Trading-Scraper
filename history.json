@@ -13531,5 +13531,31 @@
     "status": "Active",
     "trade_time": "19 May 08:51 am",
     "time_identified": "2026-05-19 03:21:32"
+  },
+  {
+    "id": "NASDAQ_5M_CRTAMD_28997.25_29017.97_28964.25",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "28997.25",
+    "sl": "29017.97",
+    "tp": "28964.25",
+    "status": "Active",
+    "trade_time": "19 May 08:53 am",
+    "time_identified": "2026-05-19 03:23:32"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_158.94000_159.05507_158.70700",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "158.94000",
+    "sl": "159.05507",
+    "tp": "158.70700",
+    "status": "Active",
+    "trade_time": "19 May 08:53 am",
+    "time_identified": "2026-05-19 03:23:32"
   }
 ]
