@@ -1,15 +1,28 @@
 [
   {
-    "id": "USDJPY_5M_Trendline_158.93100_159.05228_158.70700",
+    "id": "USDJPY_5M_Trendline_158.93800_159.05325_158.70700",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.93100",
-    "sl": "159.05228",
+    "entry": "158.93800",
+    "sl": "159.05325",
     "tp": "158.70700",
     "status": "Active",
-    "trade_time": "19 May 08:57 am",
-    "time_identified": "2026-05-19 03:27:24"
+    "trade_time": "19 May 08:59 am",
+    "time_identified": "2026-05-19 03:29:23"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.16496_1.16586_1.16333",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16496",
+    "sl": "1.16586",
+    "tp": "1.16333",
+    "status": "Active",
+    "trade_time": "19 May 08:58 am",
+    "time_identified": "2026-05-19 03:29:23"
   }
 ]
