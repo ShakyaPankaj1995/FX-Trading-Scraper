@@ -1,15 +1,1 @@
-[
-  {
-    "id": "EURUSD_5M_19_May_0804_am",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.16496",
-    "sl": "1.16600",
-    "tp": "1.16333",
-    "status": "Active",
-    "trade_time": "19 May 08:04 am",
-    "time_identified": "2026-05-19 02:35:19"
-  }
-]
+[]
