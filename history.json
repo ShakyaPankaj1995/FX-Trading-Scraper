@@ -12400,5 +12400,44 @@
     "status": "Active",
     "trade_time": "19 May 06:53 am",
     "time_identified": "2026-05-19 01:23:23"
+  },
+  {
+    "id": "NASDAQ_5M_19_May_0655_am",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29070.00",
+    "sl": "29034.38",
+    "tp": "29176.88",
+    "status": "Active",
+    "trade_time": "19 May 06:55 am",
+    "time_identified": "2026-05-19 01:25:27"
+  },
+  {
+    "id": "S&P500_5M_19_May_0655_am",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7423.00",
+    "sl": "7415.13",
+    "tp": "7440.75",
+    "status": "Active",
+    "trade_time": "19 May 06:55 am",
+    "time_identified": "2026-05-19 01:25:27"
+  },
+  {
+    "id": "XAUUSD_1H_19_May_0655_am",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4570.10",
+    "sl": "4620.84",
+    "tp": "4483.50",
+    "status": "Active",
+    "trade_time": "19 May 06:55 am",
+    "time_identified": "2026-05-19 01:25:27"
   }
 ]
