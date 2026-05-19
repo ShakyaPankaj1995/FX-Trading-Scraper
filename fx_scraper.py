@@ -131,8 +131,7 @@ async def run_scraper():
                     print(f"  [Skip] Unrecognized signal: '{signal_val}'")
                     continue
 
-                trade_time_str = f"{date_str} {time_str}"
-                dedup_key = make_dedup_key(symbol_val, tf_val, trade_time_str)
+                dedup_key = make_dedup_key(symbol_val, tf_val, entry_val)
 
                 print(f"  Row: {symbol_val} {signal_val} {tf_val} | {time_str} | Entry:{entry_val}")
 
