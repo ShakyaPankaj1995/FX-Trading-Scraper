@@ -1,16 +1,16 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7440.25_7445.84_7423.48",
+    "id": "S&P500_1H_Trendline_7439.75_7445.84_7421.48",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7440.25",
+    "entry": "7439.75",
     "sl": "7445.84",
-    "tp": "7423.48",
+    "tp": "7421.48",
     "status": "Active",
-    "trade_time": "20 May 11:43 pm",
-    "time_identified": "2026-05-20 18:13:28"
+    "trade_time": "20 May 11:45 pm",
+    "time_identified": "2026-05-20 18:15:31"
   },
   {
     "id": "USDJPY_5M_Trendline_158.89600_159.00285_158.57899",
@@ -22,20 +22,46 @@
     "sl": "159.00285",
     "tp": "158.57899",
     "status": "Active",
-    "trade_time": "20 May 11:43 pm",
-    "time_identified": "2026-05-20 18:13:28"
+    "trade_time": "20 May 11:45 pm",
+    "time_identified": "2026-05-20 18:15:31"
   },
   {
-    "id": "GBPUSD_5M_Trendline_1.34383_1.34314_1.34592",
+    "id": "GBPUSD_5M_Trendline_1.34389_1.34312_1.34618",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34383",
-    "sl": "1.34314",
-    "tp": "1.34592",
+    "entry": "1.34389",
+    "sl": "1.34312",
+    "tp": "1.34618",
     "status": "Active",
-    "trade_time": "20 May 11:43 pm",
-    "time_identified": "2026-05-20 18:13:28"
+    "trade_time": "20 May 11:45 pm",
+    "time_identified": "2026-05-20 18:15:31"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34389_1.34453_1.34195",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34389",
+    "sl": "1.34453",
+    "tp": "1.34195",
+    "status": "Active",
+    "trade_time": "20 May 11:45 pm",
+    "time_identified": "2026-05-20 18:15:31"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.16266_1.16184_1.16469",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16266",
+    "sl": "1.16184",
+    "tp": "1.16469",
+    "status": "Active",
+    "trade_time": "20 May 11:45 pm",
+    "time_identified": "2026-05-20 18:15:31"
   }
 ]
