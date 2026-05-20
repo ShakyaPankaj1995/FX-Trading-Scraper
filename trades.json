@@ -1,15 +1,1 @@
-[
-  {
-    "id": "S&P500_1H_CRTAMD_7365.25_7353.43_7387.00",
-    "symbol": "S&P500",
-    "timeframe": "1H",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "7365.25",
-    "sl": "7353.43",
-    "tp": "7387.00",
-    "status": "Active",
-    "trade_time": "20 May 10:29 am",
-    "time_identified": "2026-05-20 04:59:27"
-  }
-]
+[]
