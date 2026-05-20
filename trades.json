@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29183.50_29318.02_28779.95",
+    "id": "NASDAQ_1H_Trendline_29186.75_29318.02_28792.95",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29183.50",
+    "entry": "29186.75",
     "sl": "29318.02",
-    "tp": "28779.95",
+    "tp": "28792.95",
     "status": "Active",
-    "trade_time": "21 May 05:11 am",
-    "time_identified": "2026-05-20 23:41:30"
+    "trade_time": "21 May 05:13 am",
+    "time_identified": "2026-05-20 23:43:25"
   },
   {
-    "id": "S&P500_1H_Trendline_7418.00_7450.53_7354.25",
+    "id": "S&P500_1H_Trendline_7418.50_7450.53_7354.25",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7418.00",
+    "entry": "7418.50",
     "sl": "7450.53",
     "tp": "7354.25",
     "status": "Active",
-    "trade_time": "21 May 05:11 am",
-    "time_identified": "2026-05-20 23:41:30"
+    "trade_time": "21 May 05:13 am",
+    "time_identified": "2026-05-20 23:43:25"
   },
   {
-    "id": "XAUUSD_15M_Trendline_4540.20_4561.31_4476.87",
+    "id": "XAUUSD_15M_Trendline_4541.80_4561.49_4482.72",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4540.20",
-    "sl": "4561.31",
-    "tp": "4476.87",
+    "entry": "4541.80",
+    "sl": "4561.49",
+    "tp": "4482.72",
     "status": "Active",
-    "trade_time": "21 May 05:11 am",
-    "time_identified": "2026-05-20 23:41:30"
+    "trade_time": "21 May 05:13 am",
+    "time_identified": "2026-05-20 23:43:25"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.34335_1.34468_1.33933",
+    "id": "GBPUSD_1H_Trendline_1.34329_1.34469_1.33910",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34335",
-    "sl": "1.34468",
-    "tp": "1.33933",
+    "entry": "1.34329",
+    "sl": "1.34469",
+    "tp": "1.33910",
     "status": "Active",
-    "trade_time": "21 May 05:11 am",
-    "time_identified": "2026-05-20 23:41:30"
+    "trade_time": "21 May 05:13 am",
+    "time_identified": "2026-05-20 23:43:25"
   }
 ]
