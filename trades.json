@@ -1,54 +1,54 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7440.75_7446.13_7424.60",
+    "id": "S&P500_1H_Trendline_7439.50_7446.13_7419.60",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7440.75",
+    "entry": "7439.50",
     "sl": "7446.13",
-    "tp": "7424.60",
+    "tp": "7419.60",
     "status": "Active",
-    "trade_time": "20 May 11:57 pm",
-    "time_identified": "2026-05-20 18:27:27"
+    "trade_time": "20 May 11:59 pm",
+    "time_identified": "2026-05-20 18:29:32"
   },
   {
-    "id": "USDJPY_5M_Trendline_158.87601_158.99738_158.57899",
+    "id": "USDJPY_5M_Trendline_158.85100_158.99921_158.57899",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.87601",
-    "sl": "158.99738",
+    "entry": "158.85100",
+    "sl": "158.99921",
     "tp": "158.57899",
     "status": "Active",
-    "trade_time": "20 May 11:57 pm",
-    "time_identified": "2026-05-20 18:27:27"
+    "trade_time": "20 May 11:59 pm",
+    "time_identified": "2026-05-20 18:29:32"
   },
   {
-    "id": "GBPUSD_5M_Trendline_1.34416_1.34317_1.34622",
+    "id": "GBPUSD_5M_Trendline_1.34392_1.34315_1.34622",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34416",
-    "sl": "1.34317",
+    "entry": "1.34392",
+    "sl": "1.34315",
     "tp": "1.34622",
     "status": "Active",
-    "trade_time": "20 May 11:57 pm",
-    "time_identified": "2026-05-20 18:27:27"
+    "trade_time": "20 May 11:59 pm",
+    "time_identified": "2026-05-20 18:29:32"
   },
   {
-    "id": "EURUSD_5M_Trendline_1.16293_1.16190_1.16469",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
+    "id": "GBPUSD_1H_Trendline_1.34392_1.34457_1.34197",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16293",
-    "sl": "1.16190",
-    "tp": "1.16469",
+    "signal": "SELL",
+    "entry": "1.34392",
+    "sl": "1.34457",
+    "tp": "1.34197",
     "status": "Active",
-    "trade_time": "20 May 11:56 pm",
-    "time_identified": "2026-05-20 18:27:27"
+    "trade_time": "20 May 11:59 pm",
+    "time_identified": "2026-05-20 18:29:32"
   }
 ]
