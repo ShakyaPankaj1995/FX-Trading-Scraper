@@ -34994,5 +34994,18 @@
     "status": "Active",
     "trade_time": "21 May 03:47 am",
     "time_identified": "2026-05-20 22:17:26"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29143.25_29322.87_28663.00",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29143.25",
+    "sl": "29322.87",
+    "tp": "28663.00",
+    "status": "Active",
+    "trade_time": "21 May 03:49 am",
+    "time_identified": "2026-05-20 22:19:20"
   }
 ]
