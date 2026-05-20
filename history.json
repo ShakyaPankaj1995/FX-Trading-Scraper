@@ -24178,5 +24178,18 @@
     "status": "Active",
     "trade_time": "20 May 09:45 am",
     "time_identified": "2026-05-20 04:15:28"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34034_1.34124_1.33788",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34034",
+    "sl": "1.34124",
+    "tp": "1.33788",
+    "status": "Active",
+    "trade_time": "20 May 09:46 am",
+    "time_identified": "2026-05-20 04:17:19"
   }
 ]
