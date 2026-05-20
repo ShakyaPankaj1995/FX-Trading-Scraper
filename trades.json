@@ -1,67 +1,41 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7439.25_7445.76_7419.72",
+    "id": "S&P500_1H_Trendline_7440.25_7445.84_7423.48",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7439.25",
-    "sl": "7445.76",
-    "tp": "7419.72",
+    "entry": "7440.25",
+    "sl": "7445.84",
+    "tp": "7423.48",
     "status": "Active",
-    "trade_time": "20 May 11:41 pm",
-    "time_identified": "2026-05-20 18:11:42"
+    "trade_time": "20 May 11:43 pm",
+    "time_identified": "2026-05-20 18:13:28"
   },
   {
-    "id": "USDJPY_5M_Trendline_158.89500_159.00285_158.57899",
+    "id": "USDJPY_5M_Trendline_158.89600_159.00285_158.57899",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.89500",
+    "entry": "158.89600",
     "sl": "159.00285",
     "tp": "158.57899",
     "status": "Active",
-    "trade_time": "20 May 11:41 pm",
-    "time_identified": "2026-05-20 18:11:42"
+    "trade_time": "20 May 11:43 pm",
+    "time_identified": "2026-05-20 18:13:28"
   },
   {
-    "id": "GBPUSD_5M_Trendline_1.34378_1.34314_1.34569",
+    "id": "GBPUSD_5M_Trendline_1.34383_1.34314_1.34592",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34378",
+    "entry": "1.34383",
     "sl": "1.34314",
-    "tp": "1.34569",
+    "tp": "1.34592",
     "status": "Active",
-    "trade_time": "20 May 11:41 pm",
-    "time_identified": "2026-05-20 18:11:42"
-  },
-  {
-    "id": "GBPUSD_1H_Trendline_1.34378_1.34452_1.34155",
-    "symbol": "GBPUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.34378",
-    "sl": "1.34452",
-    "tp": "1.34155",
-    "status": "Active",
-    "trade_time": "20 May 11:41 pm",
-    "time_identified": "2026-05-20 18:11:42"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.16239_1.16186_1.16396",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16239",
-    "sl": "1.16186",
-    "tp": "1.16396",
-    "status": "Active",
-    "trade_time": "20 May 11:41 pm",
-    "time_identified": "2026-05-20 18:11:42"
+    "trade_time": "20 May 11:43 pm",
+    "time_identified": "2026-05-20 18:13:28"
   }
 ]
