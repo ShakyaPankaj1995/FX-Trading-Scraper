@@ -35514,5 +35514,31 @@
     "status": "Active",
     "trade_time": "21 May 04:15 am",
     "time_identified": "2026-05-20 22:45:26"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29169.25_29323.56_28706.31",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29169.25",
+    "sl": "29323.56",
+    "tp": "28706.31",
+    "status": "Active",
+    "trade_time": "21 May 04:17 am",
+    "time_identified": "2026-05-20 22:47:18"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4541.90_4561.71_4482.48",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4541.90",
+    "sl": "4561.71",
+    "tp": "4482.48",
+    "status": "Active",
+    "trade_time": "21 May 04:17 am",
+    "time_identified": "2026-05-20 22:47:18"
   }
 ]
