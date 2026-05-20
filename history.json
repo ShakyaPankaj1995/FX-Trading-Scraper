@@ -34383,5 +34383,31 @@
     "status": "Active",
     "trade_time": "21 May 02:41 am",
     "time_identified": "2026-05-20 21:11:38"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_158.85100_158.58596_159.25101",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.85100",
+    "sl": "158.58596",
+    "tp": "159.25101",
+    "status": "Active",
+    "trade_time": "21 May 02:43 am",
+    "time_identified": "2026-05-20 21:13:26"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34376_1.34442_1.34179",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34376",
+    "sl": "1.34442",
+    "tp": "1.34179",
+    "status": "Active",
+    "trade_time": "21 May 02:43 am",
+    "time_identified": "2026-05-20 21:13:26"
   }
 ]
