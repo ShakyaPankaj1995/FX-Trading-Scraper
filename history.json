@@ -30028,5 +30028,83 @@
     "status": "Active",
     "trade_time": "20 May 10:19 pm",
     "time_identified": "2026-05-20 16:49:38"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29268.00_29291.53_29197.42",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29268.00",
+    "sl": "29291.53",
+    "tp": "29197.42",
+    "status": "Active",
+    "trade_time": "20 May 10:22 pm",
+    "time_identified": "2026-05-20 16:52:18"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7433.00_7445.46_7395.61",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7433.00",
+    "sl": "7445.46",
+    "tp": "7395.61",
+    "status": "Active",
+    "trade_time": "20 May 10:22 pm",
+    "time_identified": "2026-05-20 16:52:18"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4533.30_4536.13_4524.81",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4533.30",
+    "sl": "4536.13",
+    "tp": "4524.81",
+    "status": "Active",
+    "trade_time": "20 May 10:22 pm",
+    "time_identified": "2026-05-20 16:52:18"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_158.79500_158.74461_158.94617",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.79500",
+    "sl": "158.74461",
+    "tp": "158.94617",
+    "status": "Active",
+    "trade_time": "20 May 10:22 pm",
+    "time_identified": "2026-05-20 16:52:18"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_158.79500_158.58178_159.25101",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.79500",
+    "sl": "158.58178",
+    "tp": "159.25101",
+    "status": "Active",
+    "trade_time": "20 May 10:22 pm",
+    "time_identified": "2026-05-20 16:52:18"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34461_1.34469_1.34439",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34461",
+    "sl": "1.34469",
+    "tp": "1.34439",
+    "status": "Active",
+    "trade_time": "20 May 10:21 pm",
+    "time_identified": "2026-05-20 16:52:18"
   }
 ]
