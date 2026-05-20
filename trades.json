@@ -1,15 +1,15 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7365.75_7349.29_7393.75",
+    "id": "S&P500_5M_Trendline_7366.50_7349.29_7393.75",
     "symbol": "S&P500",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7365.75",
+    "entry": "7366.50",
     "sl": "7349.29",
     "tp": "7393.75",
     "status": "Active",
-    "trade_time": "20 May 08:17 am",
-    "time_identified": "2026-05-20 02:47:28"
+    "trade_time": "20 May 08:19 am",
+    "time_identified": "2026-05-20 02:49:19"
   }
 ]
