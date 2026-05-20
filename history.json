@@ -28078,5 +28078,70 @@
     "status": "Active",
     "trade_time": "20 May 07:55 pm",
     "time_identified": "2026-05-20 14:25:31"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29156.50_29286.57_28766.29",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29156.50",
+    "sl": "29286.57",
+    "tp": "28766.29",
+    "status": "Active",
+    "trade_time": "20 May 07:58 pm",
+    "time_identified": "2026-05-20 14:28:41"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7409.00_7444.21_7354.25",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7409.00",
+    "sl": "7444.21",
+    "tp": "7354.25",
+    "status": "Active",
+    "trade_time": "20 May 07:58 pm",
+    "time_identified": "2026-05-20 14:28:41"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_158.93500_158.86768_159.10300",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.93500",
+    "sl": "158.86768",
+    "tp": "159.10300",
+    "status": "Active",
+    "trade_time": "20 May 07:58 pm",
+    "time_identified": "2026-05-20 14:28:41"
+  },
+  {
+    "id": "GBPUSD_5M_CRTAMD_1.34171_1.34305_1.33930",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "1.34171",
+    "sl": "1.34305",
+    "tp": "1.33930",
+    "status": "Active",
+    "trade_time": "20 May 07:58 pm",
+    "time_identified": "2026-05-20 14:28:41"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16131_1.16166_1.16024",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16131",
+    "sl": "1.16166",
+    "tp": "1.16024",
+    "status": "Active",
+    "trade_time": "20 May 07:58 pm",
+    "time_identified": "2026-05-20 14:28:41"
   }
 ]
