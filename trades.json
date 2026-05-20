@@ -1,55 +1,42 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_29173.25_29113.38_29352.85",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "29173.25",
-    "sl": "29113.38",
-    "tp": "29352.85",
-    "status": "Active",
-    "trade_time": "21 May 04:13 am",
-    "time_identified": "2026-05-20 22:43:24"
-  },
-  {
-    "id": "NASDAQ_1H_Trendline_29173.25_29323.56_28722.31",
+    "id": "NASDAQ_1H_Trendline_29176.25_29323.56_28734.31",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29173.25",
+    "entry": "29176.25",
     "sl": "29323.56",
-    "tp": "28722.31",
+    "tp": "28734.31",
     "status": "Active",
-    "trade_time": "21 May 04:13 am",
-    "time_identified": "2026-05-20 22:43:24"
+    "trade_time": "21 May 04:15 am",
+    "time_identified": "2026-05-20 22:45:26"
   },
   {
-    "id": "S&P500_1H_Trendline_7417.25_7451.49_7354.25",
+    "id": "S&P500_1H_Trendline_7417.50_7451.49_7354.25",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7417.25",
+    "entry": "7417.50",
     "sl": "7451.49",
     "tp": "7354.25",
     "status": "Active",
-    "trade_time": "21 May 04:13 am",
-    "time_identified": "2026-05-20 22:43:24"
+    "trade_time": "21 May 04:15 am",
+    "time_identified": "2026-05-20 22:45:26"
   },
   {
-    "id": "XAUUSD_15M_Trendline_4541.40_4561.55_4480.96",
+    "id": "XAUUSD_15M_Trendline_4541.80_4561.71_4482.08",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4541.40",
-    "sl": "4561.55",
-    "tp": "4480.96",
+    "entry": "4541.80",
+    "sl": "4561.71",
+    "tp": "4482.08",
     "status": "Active",
-    "trade_time": "21 May 04:13 am",
-    "time_identified": "2026-05-20 22:43:24"
+    "trade_time": "21 May 04:15 am",
+    "time_identified": "2026-05-20 22:45:26"
   },
   {
     "id": "GBPUSD_1H_Trendline_1.34371_1.34429_1.34197",
@@ -61,7 +48,7 @@
     "sl": "1.34429",
     "tp": "1.34197",
     "status": "Active",
-    "trade_time": "21 May 04:13 am",
-    "time_identified": "2026-05-20 22:43:24"
+    "trade_time": "21 May 04:15 am",
+    "time_identified": "2026-05-20 22:45:26"
   }
 ]
