@@ -33798,5 +33798,31 @@
     "status": "Active",
     "trade_time": "21 May 02:09 am",
     "time_identified": "2026-05-20 20:39:25"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_158.88600_159.06250_158.57899",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "158.88600",
+    "sl": "159.06250",
+    "tp": "158.57899",
+    "status": "Active",
+    "trade_time": "21 May 02:11 am",
+    "time_identified": "2026-05-20 20:41:41"
+  },
+  {
+    "id": "GBPUSD_5M_CRTAMD_1.34383_1.34373_1.34407",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "1.34383",
+    "sl": "1.34373",
+    "tp": "1.34407",
+    "status": "Active",
+    "trade_time": "21 May 02:11 am",
+    "time_identified": "2026-05-20 20:41:41"
   }
 ]
