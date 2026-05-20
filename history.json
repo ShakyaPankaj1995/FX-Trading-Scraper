@@ -37100,5 +37100,44 @@
     "status": "Active",
     "trade_time": "21 May 05:22 am",
     "time_identified": "2026-05-20 23:53:17"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29196.00_29318.02_28829.95",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29196.00",
+    "sl": "29318.02",
+    "tp": "28829.95",
+    "status": "Active",
+    "trade_time": "21 May 05:26 am",
+    "time_identified": "2026-05-20 23:56:09"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4546.10_4562.01_4498.38",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4546.10",
+    "sl": "4562.01",
+    "tp": "4498.38",
+    "status": "Active",
+    "trade_time": "21 May 05:25 am",
+    "time_identified": "2026-05-20 23:56:09"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34351_1.34469_1.33995",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34351",
+    "sl": "1.34469",
+    "tp": "1.33995",
+    "status": "Active",
+    "trade_time": "21 May 05:25 am",
+    "time_identified": "2026-05-20 23:56:09"
   }
 ]
