@@ -1,54 +1,41 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29257.75_29290.05_29160.84",
+    "id": "NASDAQ_1H_Trendline_29261.25_29291.47_29170.58",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29257.75",
-    "sl": "29290.05",
-    "tp": "29160.84",
+    "entry": "29261.25",
+    "sl": "29291.47",
+    "tp": "29170.58",
     "status": "Active",
-    "trade_time": "20 May 08:35 pm",
-    "time_identified": "2026-05-20 15:05:24"
+    "trade_time": "20 May 08:39 pm",
+    "time_identified": "2026-05-20 15:09:39"
   },
   {
-    "id": "S&P500_1H_Trendline_7429.75_7444.98_7384.05",
+    "id": "S&P500_1H_Trendline_7430.75_7445.28_7387.17",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7429.75",
-    "sl": "7444.98",
-    "tp": "7384.05",
+    "entry": "7430.75",
+    "sl": "7445.28",
+    "tp": "7387.17",
     "status": "Active",
-    "trade_time": "20 May 08:35 pm",
-    "time_identified": "2026-05-20 15:05:24"
+    "trade_time": "20 May 08:39 pm",
+    "time_identified": "2026-05-20 15:09:39"
   },
   {
-    "id": "USDJPY_5M_Trendline_158.84500_158.83093_158.88723",
+    "id": "USDJPY_5M_Trendline_158.89500_158.82739_159.09784",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.84500",
-    "sl": "158.83093",
-    "tp": "158.88723",
+    "entry": "158.89500",
+    "sl": "158.82739",
+    "tp": "159.09784",
     "status": "Active",
-    "trade_time": "20 May 08:35 pm",
-    "time_identified": "2026-05-20 15:05:24"
-  },
-  {
-    "id": "USDJPY_1H_Trendline_158.84500_158.60171_159.25101",
-    "symbol": "USDJPY",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "158.84500",
-    "sl": "158.60171",
-    "tp": "159.25101",
-    "status": "Active",
-    "trade_time": "20 May 08:35 pm",
-    "time_identified": "2026-05-20 15:05:24"
+    "trade_time": "20 May 08:39 pm",
+    "time_identified": "2026-05-20 15:09:39"
   }
 ]
