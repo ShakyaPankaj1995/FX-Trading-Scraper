@@ -1,41 +1,54 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7437.25_7444.13_7416.63",
+    "id": "NASDAQ_1H_Trendline_29271.75_29285.47_29230.58",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29271.75",
+    "sl": "29285.47",
+    "tp": "29230.58",
+    "status": "Active",
+    "trade_time": "20 May 09:58 pm",
+    "time_identified": "2026-05-20 16:28:42"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7437.50_7444.18_7417.46",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7437.25",
-    "sl": "7444.13",
-    "tp": "7416.63",
+    "entry": "7437.50",
+    "sl": "7444.18",
+    "tp": "7417.46",
     "status": "Active",
-    "trade_time": "20 May 09:55 pm",
-    "time_identified": "2026-05-20 16:25:22"
+    "trade_time": "20 May 09:58 pm",
+    "time_identified": "2026-05-20 16:28:42"
   },
   {
-    "id": "USDJPY_15M_Trendline_158.87199_158.75275_159.16901",
+    "id": "USDJPY_15M_Trendline_158.86800_158.75093_159.16901",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.87199",
-    "sl": "158.75275",
+    "entry": "158.86800",
+    "sl": "158.75093",
     "tp": "159.16901",
     "status": "Active",
-    "trade_time": "20 May 09:55 pm",
-    "time_identified": "2026-05-20 16:25:22"
+    "trade_time": "20 May 09:58 pm",
+    "time_identified": "2026-05-20 16:28:42"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.34401_1.34465_1.34210",
+    "id": "GBPUSD_1H_Trendline_1.34412_1.34467_1.34249",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34401",
-    "sl": "1.34465",
-    "tp": "1.34210",
+    "entry": "1.34412",
+    "sl": "1.34467",
+    "tp": "1.34249",
     "status": "Active",
-    "trade_time": "20 May 09:55 pm",
-    "time_identified": "2026-05-20 16:25:22"
+    "trade_time": "20 May 09:58 pm",
+    "time_identified": "2026-05-20 16:28:42"
   }
 ]
