@@ -1,67 +1,41 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29138.50_29272.00_28738.00",
+    "id": "NASDAQ_1H_Trendline_29130.00_29272.00_28704.00",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29138.50",
+    "entry": "29130.00",
     "sl": "29272.00",
-    "tp": "28738.00",
+    "tp": "28704.00",
     "status": "Active",
-    "trade_time": "20 May 04:01 pm",
-    "time_identified": "2026-05-20 10:31:50"
+    "trade_time": "20 May 04:05 pm",
+    "time_identified": "2026-05-20 10:35:11"
   },
   {
-    "id": "S&P500_1H_Trendline_7406.75_7439.20_7354.25",
+    "id": "S&P500_1H_Trendline_7406.00_7439.20_7354.25",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7406.75",
+    "entry": "7406.00",
     "sl": "7439.20",
     "tp": "7354.25",
     "status": "Active",
-    "trade_time": "20 May 04:01 pm",
-    "time_identified": "2026-05-20 10:31:50"
+    "trade_time": "20 May 04:04 pm",
+    "time_identified": "2026-05-20 10:35:11"
   },
   {
-    "id": "USDJPY_15M_Trendline_159.03600_159.18143_158.81000",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "159.03600",
-    "sl": "159.18143",
-    "tp": "158.81000",
-    "status": "Active",
-    "trade_time": "20 May 04:01 pm",
-    "time_identified": "2026-05-20 10:31:50"
-  },
-  {
-    "id": "GBPUSD_5M_Trendline_1.33897_1.33964_1.33758",
+    "id": "GBPUSD_5M_Trendline_1.33901_1.33965_1.33758",
     "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33897",
-    "sl": "1.33964",
+    "entry": "1.33901",
+    "sl": "1.33965",
     "tp": "1.33758",
     "status": "Active",
-    "trade_time": "20 May 04:01 pm",
-    "time_identified": "2026-05-20 10:31:50"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.15982_1.16007_1.15909",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.15982",
-    "sl": "1.16007",
-    "tp": "1.15909",
-    "status": "Active",
-    "trade_time": "20 May 04:01 pm",
-    "time_identified": "2026-05-20 10:31:50"
+    "trade_time": "20 May 04:04 pm",
+    "time_identified": "2026-05-20 10:35:11"
   }
 ]
