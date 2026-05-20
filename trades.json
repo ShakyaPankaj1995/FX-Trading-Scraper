@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_29159.00_29102.16_29329.52",
+    "id": "NASDAQ_1H_Trendline_29155.00_29323.56_28663.00",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29155.00",
+    "sl": "29323.56",
+    "tp": "28663.00",
+    "status": "Active",
+    "trade_time": "21 May 03:55 am",
+    "time_identified": "2026-05-20 22:25:28"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_29155.00_29102.94_29311.19",
     "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29159.00",
-    "sl": "29102.16",
-    "tp": "29329.52",
+    "entry": "29155.00",
+    "sl": "29102.94",
+    "tp": "29311.19",
     "status": "Active",
-    "trade_time": "21 May 03:53 am",
-    "time_identified": "2026-05-20 22:23:26"
+    "trade_time": "21 May 03:55 am",
+    "time_identified": "2026-05-20 22:25:28"
   },
   {
-    "id": "NASDAQ_1H_Trendline_29159.00_29323.56_28665.31",
-    "symbol": "NASDAQ",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29159.00",
-    "sl": "29323.56",
-    "tp": "28665.31",
-    "status": "Active",
-    "trade_time": "21 May 03:53 am",
-    "time_identified": "2026-05-20 22:23:26"
-  },
-  {
-    "id": "S&P500_1H_Trendline_7416.25_7451.49_7354.25",
+    "id": "S&P500_1H_Trendline_7415.75_7451.49_7354.25",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7416.25",
+    "entry": "7415.75",
     "sl": "7451.49",
     "tp": "7354.25",
     "status": "Active",
-    "trade_time": "21 May 03:53 am",
-    "time_identified": "2026-05-20 22:23:26"
+    "trade_time": "21 May 03:55 am",
+    "time_identified": "2026-05-20 22:25:28"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.34374_1.34429_1.34211",
+    "id": "GBPUSD_1H_Trendline_1.34365_1.34429_1.34175",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34374",
+    "entry": "1.34365",
     "sl": "1.34429",
-    "tp": "1.34211",
+    "tp": "1.34175",
     "status": "Active",
-    "trade_time": "21 May 03:53 am",
-    "time_identified": "2026-05-20 22:23:26"
+    "trade_time": "21 May 03:55 am",
+    "time_identified": "2026-05-20 22:25:28"
   }
 ]
