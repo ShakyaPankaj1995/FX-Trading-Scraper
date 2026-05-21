@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29419.50_29456.79_29307.64",
+    "id": "NASDAQ_15M_Trendline_29429.25_29457.32_29345.04",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29419.50",
-    "sl": "29456.79",
-    "tp": "29307.64",
+    "entry": "29429.25",
+    "sl": "29457.32",
+    "tp": "29345.04",
     "status": "Active",
-    "trade_time": "22 May 12:57 am",
-    "time_identified": "2026-05-21 19:27:23"
+    "trade_time": "22 May 12:59 am",
+    "time_identified": "2026-05-21 19:29:24"
   },
   {
-    "id": "S&P500_15M_Trendline_7464.75_7466.49_7459.53",
+    "id": "S&P500_15M_Trendline_7465.25_7466.52_7461.45",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7464.75",
-    "sl": "7466.49",
-    "tp": "7459.53",
+    "entry": "7465.25",
+    "sl": "7466.52",
+    "tp": "7461.45",
     "status": "Active",
-    "trade_time": "22 May 12:57 am",
-    "time_identified": "2026-05-21 19:27:23"
+    "trade_time": "22 May 12:59 am",
+    "time_identified": "2026-05-21 19:29:24"
   },
   {
-    "id": "USDJPY_15M_Trendline_158.97900_158.73622_159.35001",
+    "id": "USDJPY_15M_Trendline_158.96400_158.73579_159.35001",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.97900",
-    "sl": "158.73622",
+    "entry": "158.96400",
+    "sl": "158.73579",
     "tp": "159.35001",
     "status": "Active",
-    "trade_time": "22 May 12:57 am",
-    "time_identified": "2026-05-21 19:27:23"
+    "trade_time": "22 May 12:59 am",
+    "time_identified": "2026-05-21 19:29:24"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.16225_1.16492_1.15821",
+    "id": "EURUSD_15M_Trendline_1.16239_1.16492_1.15821",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.16225",
+    "entry": "1.16239",
     "sl": "1.16492",
     "tp": "1.15821",
     "status": "Active",
-    "trade_time": "22 May 12:56 am",
-    "time_identified": "2026-05-21 19:27:23"
+    "trade_time": "22 May 12:58 am",
+    "time_identified": "2026-05-21 19:29:24"
   }
 ]
