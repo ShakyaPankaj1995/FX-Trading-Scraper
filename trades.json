@@ -1,28 +1,15 @@
 [
   {
-    "id": "XAUUSD_15M_Trendline_4531.10_4524.09_4552.12",
+    "id": "XAUUSD_15M_Trendline_4530.10_4523.99_4548.44",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4531.10",
-    "sl": "4524.09",
-    "tp": "4552.12",
+    "entry": "4530.10",
+    "sl": "4523.99",
+    "tp": "4548.44",
     "status": "Active",
-    "trade_time": "21 May 11:57 am",
-    "time_identified": "2026-05-21 06:27:22"
-  },
-  {
-    "id": "USDJPY_1H_Trendline_159.03900_159.32843_158.57899",
-    "symbol": "USDJPY",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "159.03900",
-    "sl": "159.32843",
-    "tp": "158.57899",
-    "status": "Active",
-    "trade_time": "21 May 11:57 am",
-    "time_identified": "2026-05-21 06:27:22"
+    "trade_time": "21 May 11:59 am",
+    "time_identified": "2026-05-21 06:29:19"
   }
 ]
