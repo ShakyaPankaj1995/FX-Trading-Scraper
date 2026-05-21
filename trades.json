@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29236.25_29117.74_29464.50",
+    "id": "NASDAQ_15M_Trendline_29229.25_29117.50_29464.50",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29236.25",
-    "sl": "29117.74",
+    "entry": "29229.25",
+    "sl": "29117.50",
     "tp": "29464.50",
     "status": "Active",
-    "trade_time": "21 May 06:05 pm",
-    "time_identified": "2026-05-21 12:35:26"
+    "trade_time": "21 May 06:07 pm",
+    "time_identified": "2026-05-21 12:37:29"
   },
   {
-    "id": "NASDAQ_1H_Trendline_29236.25_29271.20_29131.41",
+    "id": "NASDAQ_1H_Trendline_29229.25_29271.44_29102.69",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29236.25",
-    "sl": "29271.20",
-    "tp": "29131.41",
+    "entry": "29229.25",
+    "sl": "29271.44",
+    "tp": "29102.69",
     "status": "Active",
-    "trade_time": "21 May 06:05 pm",
-    "time_identified": "2026-05-21 12:35:26"
+    "trade_time": "21 May 06:07 pm",
+    "time_identified": "2026-05-21 12:37:29"
   },
   {
-    "id": "S&P500_15M_Trendline_7425.25_7410.99_7468.03",
+    "id": "S&P500_15M_Trendline_7424.00_7410.96_7463.11",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7425.25",
-    "sl": "7410.99",
-    "tp": "7468.03",
+    "entry": "7424.00",
+    "sl": "7410.96",
+    "tp": "7463.11",
     "status": "Active",
-    "trade_time": "21 May 06:05 pm",
-    "time_identified": "2026-05-21 12:35:26"
+    "trade_time": "21 May 06:07 pm",
+    "time_identified": "2026-05-21 12:37:29"
   },
   {
-    "id": "USDJPY_1H_Trendline_159.12601_159.32490_158.57899",
+    "id": "USDJPY_1H_Trendline_159.12700_159.32608_158.57899",
     "symbol": "USDJPY",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.12601",
-    "sl": "159.32490",
+    "entry": "159.12700",
+    "sl": "159.32608",
     "tp": "158.57899",
     "status": "Active",
-    "trade_time": "21 May 06:05 pm",
-    "time_identified": "2026-05-21 12:35:26"
+    "trade_time": "21 May 06:07 pm",
+    "time_identified": "2026-05-21 12:37:29"
   }
 ]
