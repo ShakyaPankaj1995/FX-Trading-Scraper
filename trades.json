@@ -1,15 +1,15 @@
 [
   {
-    "id": "USDJPY_1H_Trendline_159.17500_159.35051_158.64849",
-    "symbol": "USDJPY",
+    "id": "NASDAQ_1H_Trendline_29239.75_29303.77_29047.70",
+    "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.17500",
-    "sl": "159.35051",
-    "tp": "158.64849",
+    "entry": "29239.75",
+    "sl": "29303.77",
+    "tp": "29047.70",
     "status": "Active",
-    "trade_time": "21 May 08:53 pm",
-    "time_identified": "2026-05-21 15:23:30"
+    "trade_time": "21 May 08:55 pm",
+    "time_identified": "2026-05-21 15:25:37"
   }
 ]
