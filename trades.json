@@ -1,41 +1,54 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29166.75_29084.42_29413.74",
+    "id": "NASDAQ_15M_Trendline_29174.75_29084.10_29446.71",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29166.75",
-    "sl": "29084.42",
-    "tp": "29413.74",
+    "entry": "29174.75",
+    "sl": "29084.10",
+    "tp": "29446.71",
     "status": "Active",
-    "trade_time": "21 May 08:49 pm",
-    "time_identified": "2026-05-21 15:19:32"
+    "trade_time": "21 May 08:51 pm",
+    "time_identified": "2026-05-21 15:21:36"
   },
   {
-    "id": "NASDAQ_1H_Trendline_29166.75_29302.96_28758.11",
+    "id": "NASDAQ_1H_Trendline_29174.75_29303.29_28789.14",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29166.75",
-    "sl": "29302.96",
-    "tp": "28758.11",
+    "entry": "29174.75",
+    "sl": "29303.29",
+    "tp": "28789.14",
     "status": "Active",
-    "trade_time": "21 May 08:49 pm",
-    "time_identified": "2026-05-21 15:19:32"
+    "trade_time": "21 May 08:51 pm",
+    "time_identified": "2026-05-21 15:21:36"
   },
   {
-    "id": "USDJPY_5M_Trendline_159.15601_159.03268_159.35001",
+    "id": "USDJPY_5M_Trendline_159.15601_159.03461_159.35001",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "159.15601",
-    "sl": "159.03268",
+    "sl": "159.03461",
     "tp": "159.35001",
     "status": "Active",
-    "trade_time": "21 May 08:49 pm",
-    "time_identified": "2026-05-21 15:19:32"
+    "trade_time": "21 May 08:51 pm",
+    "time_identified": "2026-05-21 15:21:36"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_159.15601_159.35051_158.57899",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "159.15601",
+    "sl": "159.35051",
+    "tp": "158.57899",
+    "status": "Active",
+    "trade_time": "21 May 08:51 pm",
+    "time_identified": "2026-05-21 15:21:36"
   }
 ]
