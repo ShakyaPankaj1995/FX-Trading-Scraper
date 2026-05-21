@@ -1,29 +1,42 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29430.75_29456.46_29353.61",
+    "id": "NASDAQ_15M_Trendline_29417.00_29457.24_29296.28",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29430.75",
-    "sl": "29456.46",
-    "tp": "29353.61",
+    "entry": "29417.00",
+    "sl": "29457.24",
+    "tp": "29296.28",
     "status": "Active",
-    "trade_time": "22 May 01:19 am",
-    "time_identified": "2026-05-21 19:49:23"
+    "trade_time": "22 May 01:21 am",
+    "time_identified": "2026-05-21 19:51:41"
   },
   {
-    "id": "S&P500_15M_Trendline_7464.75_7466.44_7459.69",
+    "id": "S&P500_15M_Trendline_7462.25_7466.57_7449.29",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7464.75",
-    "sl": "7466.44",
-    "tp": "7459.69",
+    "entry": "7462.25",
+    "sl": "7466.57",
+    "tp": "7449.29",
     "status": "Active",
-    "trade_time": "22 May 01:19 am",
-    "time_identified": "2026-05-21 19:49:23"
+    "trade_time": "22 May 01:21 am",
+    "time_identified": "2026-05-21 19:51:41"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34378_1.34640_1.33941",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34378",
+    "sl": "1.34640",
+    "tp": "1.33941",
+    "status": "Active",
+    "trade_time": "22 May 01:21 am",
+    "time_identified": "2026-05-21 19:51:41"
   },
   {
     "id": "EURUSD_15M_Trendline_1.16225_1.16487_1.15821",
@@ -35,7 +48,7 @@
     "sl": "1.16487",
     "tp": "1.15821",
     "status": "Active",
-    "trade_time": "22 May 01:18 am",
-    "time_identified": "2026-05-21 19:49:23"
+    "trade_time": "22 May 01:21 am",
+    "time_identified": "2026-05-21 19:51:41"
   }
 ]
