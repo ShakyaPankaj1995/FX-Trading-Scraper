@@ -1,28 +1,15 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_4538.40_4545.36_4517.53",
+    "id": "XAUUSD_5M_Trendline_4539.20_4545.72_4519.64",
     "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4538.40",
-    "sl": "4545.36",
-    "tp": "4517.53",
+    "entry": "4539.20",
+    "sl": "4545.72",
+    "tp": "4519.64",
     "status": "Active",
-    "trade_time": "21 May 03:09 pm",
-    "time_identified": "2026-05-21 09:39:35"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.34439_1.34582_1.34169",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.34439",
-    "sl": "1.34582",
-    "tp": "1.34169",
-    "status": "Active",
-    "trade_time": "21 May 03:09 pm",
-    "time_identified": "2026-05-21 09:39:35"
+    "trade_time": "21 May 03:11 pm",
+    "time_identified": "2026-05-21 09:41:35"
   }
 ]
