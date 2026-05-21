@@ -1,28 +1,41 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_4534.20_4544.88_4513.20",
+    "id": "S&P500_5M_Trendline_7453.75_7443.99_7469.75",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7453.75",
+    "sl": "7443.99",
+    "tp": "7469.75",
+    "status": "Active",
+    "trade_time": "21 May 03:45 pm",
+    "time_identified": "2026-05-21 10:15:26"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4533.10_4544.84_4513.20",
     "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4534.20",
-    "sl": "4544.88",
+    "entry": "4533.10",
+    "sl": "4544.84",
     "tp": "4513.20",
     "status": "Active",
-    "trade_time": "21 May 03:43 pm",
-    "time_identified": "2026-05-21 10:13:23"
+    "trade_time": "21 May 03:45 pm",
+    "time_identified": "2026-05-21 10:15:26"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.34425_1.34579_1.34169",
+    "id": "GBPUSD_15M_Trendline_1.34427_1.34579_1.34169",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34425",
+    "entry": "1.34427",
     "sl": "1.34579",
     "tp": "1.34169",
     "status": "Active",
-    "trade_time": "21 May 03:43 pm",
-    "time_identified": "2026-05-21 10:13:23"
+    "trade_time": "21 May 03:45 pm",
+    "time_identified": "2026-05-21 10:15:26"
   }
 ]
