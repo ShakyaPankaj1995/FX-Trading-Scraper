@@ -1,54 +1,41 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29202.75_29091.14_29464.50",
+    "id": "NASDAQ_1H_Trendline_29208.00_29302.54_28924.39",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29208.00",
+    "sl": "29302.54",
+    "tp": "28924.39",
+    "status": "Active",
+    "trade_time": "21 May 08:33 pm",
+    "time_identified": "2026-05-21 15:03:30"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_29208.00_29091.14_29464.50",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29202.75",
+    "entry": "29208.00",
     "sl": "29091.14",
     "tp": "29464.50",
     "status": "Active",
-    "trade_time": "21 May 08:31 pm",
-    "time_identified": "2026-05-21 15:02:05"
+    "trade_time": "21 May 08:33 pm",
+    "time_identified": "2026-05-21 15:03:30"
   },
   {
-    "id": "NASDAQ_1H_Trendline_29202.75_29302.54_28903.39",
-    "symbol": "NASDAQ",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29202.75",
-    "sl": "29302.54",
-    "tp": "28903.39",
-    "status": "Active",
-    "trade_time": "21 May 08:31 pm",
-    "time_identified": "2026-05-21 15:02:05"
-  },
-  {
-    "id": "USDJPY_1H_Trendline_159.19600_159.34397_158.75208",
+    "id": "USDJPY_1H_Trendline_159.20399_159.34408_158.78374",
     "symbol": "USDJPY",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.19600",
-    "sl": "159.34397",
-    "tp": "158.75208",
+    "entry": "159.20399",
+    "sl": "159.34408",
+    "tp": "158.78374",
     "status": "Active",
-    "trade_time": "21 May 08:31 pm",
-    "time_identified": "2026-05-21 15:02:05"
-  },
-  {
-    "id": "GBPUSD_5M_Trendline_1.34124_1.34211_1.33941",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.34124",
-    "sl": "1.34211",
-    "tp": "1.33941",
-    "status": "Active",
-    "trade_time": "21 May 08:31 pm",
-    "time_identified": "2026-05-21 15:02:05"
+    "trade_time": "21 May 08:33 pm",
+    "time_identified": "2026-05-21 15:03:30"
   }
 ]
