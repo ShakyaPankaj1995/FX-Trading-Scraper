@@ -1,28 +1,28 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7450.75_7458.64_7427.07",
+    "id": "S&P500_1H_Trendline_7451.00_7458.64_7428.07",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7450.75",
+    "entry": "7451.00",
     "sl": "7458.64",
-    "tp": "7427.07",
+    "tp": "7428.07",
     "status": "Active",
-    "trade_time": "21 May 10:31 am",
-    "time_identified": "2026-05-21 05:01:55"
+    "trade_time": "21 May 10:33 am",
+    "time_identified": "2026-05-21 05:03:31"
   },
   {
-    "id": "USDJPY_5M_Trendline_158.98199_159.02179_158.86261",
+    "id": "USDJPY_5M_Trendline_158.98000_159.02297_158.85108",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.98199",
-    "sl": "159.02179",
-    "tp": "158.86261",
+    "entry": "158.98000",
+    "sl": "159.02297",
+    "tp": "158.85108",
     "status": "Active",
-    "trade_time": "21 May 10:31 am",
-    "time_identified": "2026-05-21 05:01:55"
+    "trade_time": "21 May 10:33 am",
+    "time_identified": "2026-05-21 05:03:31"
   }
 ]
