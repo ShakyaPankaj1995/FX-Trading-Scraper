@@ -38504,5 +38504,83 @@
     "status": "Active",
     "trade_time": "21 May 06:31 am",
     "time_identified": "2026-05-21 01:01:54"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_29230.25_29260.57_29139.29",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29230.25",
+    "sl": "29260.57",
+    "tp": "29139.29",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29230.25_29315.71_28973.86",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29230.25",
+    "sl": "29315.71",
+    "tp": "28973.86",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7424.25_7431.86_7407.50",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7424.25",
+    "sl": "7431.86",
+    "tp": "7407.50",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4549.40_4586.35_4455.00",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4549.40",
+    "sl": "4586.35",
+    "tp": "4455.00",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4549.40_4557.74_4535.60",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4549.40",
+    "sl": "4557.74",
+    "tp": "4535.60",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4549.40_4563.94_4505.79",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4549.40",
+    "sl": "4563.94",
+    "tp": "4505.79",
+    "status": "Active",
+    "trade_time": "21 May 06:33 am",
+    "time_identified": "2026-05-21 01:03:25"
   }
 ]
