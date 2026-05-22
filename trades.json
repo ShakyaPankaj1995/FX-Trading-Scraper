@@ -1,15 +1,1 @@
-[
-  {
-    "id": "USDJPY_5M_Trendline_159.06100_159.02068_159.18198",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "159.06100",
-    "sl": "159.02068",
-    "tp": "159.18198",
-    "status": "Active",
-    "trade_time": "22 May 11:01 pm",
-    "time_identified": "2026-05-22 17:31:45"
-  }
-]
+[]
