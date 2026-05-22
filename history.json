@@ -58771,5 +58771,31 @@
     "status": "Active",
     "trade_time": "22 May 06:18 pm",
     "time_identified": "2026-05-22 12:49:20"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_29554.50_29591.62_29443.15",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29554.50",
+    "sl": "29591.62",
+    "tp": "29443.15",
+    "status": "Active",
+    "trade_time": "22 May 06:21 pm",
+    "time_identified": "2026-05-22 12:51:36"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.34322_1.34378_1.34169",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34322",
+    "sl": "1.34378",
+    "tp": "1.34169",
+    "status": "Active",
+    "trade_time": "22 May 06:21 pm",
+    "time_identified": "2026-05-22 12:51:36"
   }
 ]
