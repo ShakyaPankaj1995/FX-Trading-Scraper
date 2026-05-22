@@ -57809,5 +57809,31 @@
     "status": "Active",
     "trade_time": "22 May 04:21 pm",
     "time_identified": "2026-05-22 10:51:30"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_29448.75_29421.97_29529.08",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29448.75",
+    "sl": "29421.97",
+    "tp": "29529.08",
+    "status": "Active",
+    "trade_time": "22 May 04:23 pm",
+    "time_identified": "2026-05-22 10:53:34"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7471.75_7463.38_7496.88",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7471.75",
+    "sl": "7463.38",
+    "tp": "7496.88",
+    "status": "Active",
+    "trade_time": "22 May 04:23 pm",
+    "time_identified": "2026-05-22 10:53:34"
   }
 ]
