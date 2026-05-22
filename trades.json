@@ -1,18 +1,5 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7477.25_7472.02_7488.50",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "7477.25",
-    "sl": "7472.02",
-    "tp": "7488.50",
-    "status": "Active",
-    "trade_time": "22 May 07:19 am",
-    "time_identified": "2026-05-22 01:49:19"
-  },
-  {
     "id": "EURUSD_15M_Trendline_1.16184_1.16403_1.15821",
     "symbol": "EURUSD",
     "timeframe": "15M",
@@ -22,7 +9,7 @@
     "sl": "1.16403",
     "tp": "1.15821",
     "status": "Active",
-    "trade_time": "22 May 07:18 am",
-    "time_identified": "2026-05-22 01:49:19"
+    "trade_time": "22 May 07:21 am",
+    "time_identified": "2026-05-22 01:51:29"
   }
 ]
