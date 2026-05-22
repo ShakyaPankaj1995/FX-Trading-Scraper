@@ -1,15 +1,1 @@
-[
-  {
-    "id": "NASDAQ_5M_Trendline_29608.50_29633.38_29533.88",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29608.50",
-    "sl": "29633.38",
-    "tp": "29533.88",
-    "status": "Active",
-    "trade_time": "22 May 02:33 pm",
-    "time_identified": "2026-05-22 09:03:30"
-  }
-]
+[]
