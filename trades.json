@@ -1,28 +1,15 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7477.00_7475.75_7480.75",
+    "id": "S&P500_5M_Trendline_7478.75_7475.59_7488.23",
     "symbol": "S&P500",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7477.00",
-    "sl": "7475.75",
-    "tp": "7480.75",
+    "entry": "7478.75",
+    "sl": "7475.59",
+    "tp": "7488.23",
     "status": "Active",
-    "trade_time": "22 May 02:57 pm",
-    "time_identified": "2026-05-22 09:27:25"
-  },
-  {
-    "id": "XAUUSD_5M_Trendline_4517.30_4509.50_4531.90",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4517.30",
-    "sl": "4509.50",
-    "tp": "4531.90",
-    "status": "Active",
-    "trade_time": "22 May 02:57 pm",
-    "time_identified": "2026-05-22 09:27:25"
+    "trade_time": "22 May 02:59 pm",
+    "time_identified": "2026-05-22 09:29:27"
   }
 ]
