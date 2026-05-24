@@ -9,20 +9,20 @@
     "sl": "4539.66",
     "tp": "4488.00",
     "status": "Active",
-    "trade_time": "25 May 04:37 am",
-    "time_identified": "2026-05-24 23:07:25"
+    "trade_time": "25 May 04:39 am",
+    "time_identified": "2026-05-24 23:09:30"
   },
   {
-    "id": "USDJPY_1H_Trendline_158.85201_158.63971_159.35001",
+    "id": "USDJPY_1H_Trendline_158.84200_158.63971_159.35001",
     "symbol": "USDJPY",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.85201",
+    "entry": "158.84200",
     "sl": "158.63971",
     "tp": "159.35001",
     "status": "Active",
-    "trade_time": "25 May 04:37 am",
-    "time_identified": "2026-05-24 23:07:25"
+    "trade_time": "25 May 04:39 am",
+    "time_identified": "2026-05-24 23:09:30"
   }
 ]
