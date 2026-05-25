@@ -9,8 +9,8 @@
     "sl": "29414.71",
     "tp": "29749.00",
     "status": "Active",
-    "trade_time": "25 May 02:47 pm",
-    "time_identified": "2026-05-25 09:17:24"
+    "trade_time": "25 May 02:49 pm",
+    "time_identified": "2026-05-25 09:19:17"
   },
   {
     "id": "S&P500_15M_Trendline_7485.50_7464.42_7524.00",
@@ -22,20 +22,20 @@
     "sl": "7464.42",
     "tp": "7524.00",
     "status": "Active",
-    "trade_time": "25 May 02:47 pm",
-    "time_identified": "2026-05-25 09:17:24"
+    "trade_time": "25 May 02:49 pm",
+    "time_identified": "2026-05-25 09:19:17"
   },
   {
-    "id": "GBPUSD_15M_CRTAMD_1.34931_1.34967_1.34874",
+    "id": "GBPUSD_15M_CRTAMD_1.34935_1.34967_1.34874",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "CRT (AMD)",
     "signal": "SELL",
-    "entry": "1.34931",
+    "entry": "1.34935",
     "sl": "1.34967",
     "tp": "1.34874",
     "status": "Active",
-    "trade_time": "25 May 02:47 pm",
-    "time_identified": "2026-05-25 09:17:24"
+    "trade_time": "25 May 02:48 pm",
+    "time_identified": "2026-05-25 09:19:17"
   }
 ]
