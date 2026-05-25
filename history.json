@@ -62606,5 +62606,18 @@
     "status": "Active",
     "trade_time": "25 May 05:06 pm",
     "time_identified": "2026-05-25 11:37:26"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16496_1.16520_1.16423",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16496",
+    "sl": "1.16520",
+    "tp": "1.16423",
+    "status": "Active",
+    "trade_time": "25 May 05:08 pm",
+    "time_identified": "2026-05-25 11:39:22"
   }
 ]
