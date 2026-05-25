@@ -9,8 +9,8 @@
     "sl": "29414.71",
     "tp": "29749.00",
     "status": "Active",
-    "trade_time": "25 May 07:37 pm",
-    "time_identified": "2026-05-25 14:07:21"
+    "trade_time": "25 May 07:39 pm",
+    "time_identified": "2026-05-25 14:09:22"
   },
   {
     "id": "S&P500_15M_Trendline_7485.50_7464.42_7524.00",
@@ -22,8 +22,8 @@
     "sl": "7464.42",
     "tp": "7524.00",
     "status": "Active",
-    "trade_time": "25 May 07:37 pm",
-    "time_identified": "2026-05-25 14:07:21"
+    "trade_time": "25 May 07:39 pm",
+    "time_identified": "2026-05-25 14:09:22"
   },
   {
     "id": "EURUSD_5M_Trendline_1.16442_1.16417_1.16516",
@@ -35,7 +35,7 @@
     "sl": "1.16417",
     "tp": "1.16516",
     "status": "Active",
-    "trade_time": "25 May 07:36 pm",
-    "time_identified": "2026-05-25 14:07:21"
+    "trade_time": "25 May 07:38 pm",
+    "time_identified": "2026-05-25 14:09:22"
   }
 ]
