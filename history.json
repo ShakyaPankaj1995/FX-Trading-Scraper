@@ -62060,5 +62060,18 @@
     "status": "Active",
     "trade_time": "25 May 09:07 am",
     "time_identified": "2026-05-25 03:37:22"
+  },
+  {
+    "id": "GBPUSD_5M_CRTAMD_1.34745_1.34722_1.34815",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "1.34745",
+    "sl": "1.34722",
+    "tp": "1.34815",
+    "status": "Active",
+    "trade_time": "25 May 12:57 pm",
+    "time_identified": "2026-05-25 07:27:29"
   }
 ]
