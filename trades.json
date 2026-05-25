@@ -9,8 +9,8 @@
     "sl": "29414.71",
     "tp": "29749.00",
     "status": "Active",
-    "trade_time": "25 May 04:57 pm",
-    "time_identified": "2026-05-25 11:27:33"
+    "trade_time": "25 May 04:59 pm",
+    "time_identified": "2026-05-25 11:29:31"
   },
   {
     "id": "S&P500_15M_Trendline_7485.50_7464.42_7524.00",
@@ -22,20 +22,20 @@
     "sl": "7464.42",
     "tp": "7524.00",
     "status": "Active",
-    "trade_time": "25 May 04:57 pm",
-    "time_identified": "2026-05-25 11:27:33"
+    "trade_time": "25 May 04:59 pm",
+    "time_identified": "2026-05-25 11:29:31"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.16482_1.16524_1.16356",
+    "id": "EURUSD_15M_Trendline_1.16469_1.16524_1.16347",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.16482",
+    "entry": "1.16469",
     "sl": "1.16524",
-    "tp": "1.16356",
+    "tp": "1.16347",
     "status": "Active",
-    "trade_time": "25 May 04:57 pm",
-    "time_identified": "2026-05-25 11:27:33"
+    "trade_time": "25 May 04:59 pm",
+    "time_identified": "2026-05-25 11:29:31"
   }
 ]
