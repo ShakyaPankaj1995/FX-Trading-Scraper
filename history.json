@@ -65102,5 +65102,18 @@
     "status": "Active",
     "trade_time": "26 May 08:01 am",
     "time_identified": "2026-05-26 02:31:41"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_158.93900_159.01068_158.81900",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "158.93900",
+    "sl": "159.01068",
+    "tp": "158.81900",
+    "status": "Active",
+    "trade_time": "26 May 08:03 am",
+    "time_identified": "2026-05-26 02:33:24"
   }
 ]
