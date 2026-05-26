@@ -1,28 +1,28 @@
 [
   {
-    "id": "USDJPY_5M_Trendline_158.95100_158.98739_158.85001",
+    "id": "USDJPY_5M_Trendline_158.95200_158.98846_158.85001",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.95100",
-    "sl": "158.98739",
+    "entry": "158.95200",
+    "sl": "158.98846",
     "tp": "158.85001",
     "status": "Active",
-    "trade_time": "26 May 06:11 am",
-    "time_identified": "2026-05-26 00:41:29"
+    "trade_time": "26 May 06:13 am",
+    "time_identified": "2026-05-26 00:43:27"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.34925_1.34888_1.35038",
+    "id": "GBPUSD_15M_Trendline_1.34927_1.34887_1.35049",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34925",
-    "sl": "1.34888",
-    "tp": "1.35038",
+    "entry": "1.34927",
+    "sl": "1.34887",
+    "tp": "1.35049",
     "status": "Active",
-    "trade_time": "26 May 06:11 am",
-    "time_identified": "2026-05-26 00:41:29"
+    "trade_time": "26 May 06:13 am",
+    "time_identified": "2026-05-26 00:43:27"
   }
 ]
