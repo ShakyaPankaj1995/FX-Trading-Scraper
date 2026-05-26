@@ -1,15 +1,15 @@
 [
   {
-    "id": "EURUSD_1H_Trendline_1.16252_1.16238_1.16294",
+    "id": "EURUSD_1H_Trendline_1.16320_1.16229_1.16550",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.16252",
-    "sl": "1.16238",
-    "tp": "1.16294",
+    "entry": "1.16320",
+    "sl": "1.16229",
+    "tp": "1.16550",
     "status": "Active",
-    "trade_time": "26 May 09:37 pm",
-    "time_identified": "2026-05-26 16:07:40"
+    "trade_time": "27 May 12:05 am",
+    "time_identified": "2026-05-26 18:35:57"
   }
 ]
