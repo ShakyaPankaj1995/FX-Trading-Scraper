@@ -1,15 +1,15 @@
 [
   {
-    "id": "GBPUSD_1H_Trendline_1.34773_1.34638_1.35095",
-    "symbol": "GBPUSD",
+    "id": "XAUUSD_1H_Trendline_4533.90_4564.24_4488.00",
+    "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.34773",
-    "sl": "1.34638",
-    "tp": "1.35095",
+    "signal": "SELL",
+    "entry": "4533.90",
+    "sl": "4564.24",
+    "tp": "4488.00",
     "status": "Active",
-    "trade_time": "26 May 12:35 pm",
-    "time_identified": "2026-05-26 07:05:28"
+    "trade_time": "26 May 12:37 pm",
+    "time_identified": "2026-05-26 07:07:27"
   }
 ]
