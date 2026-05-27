@@ -68430,5 +68430,18 @@
     "status": "Active",
     "trade_time": "27 May 11:24 am",
     "time_identified": "2026-05-27 05:54:52"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7539.00_7546.04_7517.87",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7539.00",
+    "sl": "7546.04",
+    "tp": "7517.87",
+    "status": "Active",
+    "trade_time": "28 May 12:04 am",
+    "time_identified": "2026-05-27 18:34:46"
   }
 ]
