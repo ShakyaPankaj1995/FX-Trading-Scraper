@@ -1,67 +1,41 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_4532.00_4525.75_4547.10",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4532.00",
-    "sl": "4525.75",
-    "tp": "4547.10",
-    "status": "Active",
-    "trade_time": "29 May 12:51 am",
-    "time_identified": "2026-05-28 19:21:36"
-  },
-  {
-    "id": "XAUUSD_1H_Trendline_4532.00_4535.73_4520.81",
+    "id": "XAUUSD_1H_Trendline_4527.30_4534.83_4504.71",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4532.00",
-    "sl": "4535.73",
-    "tp": "4520.81",
+    "entry": "4527.30",
+    "sl": "4534.83",
+    "tp": "4504.71",
     "status": "Active",
-    "trade_time": "29 May 12:51 am",
-    "time_identified": "2026-05-28 19:21:36"
+    "trade_time": "29 May 02:56 am",
+    "time_identified": "2026-05-28 21:26:29"
   },
   {
-    "id": "GBPUSD_5M_Trendline_1.34405_1.34388_1.34455",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
+    "id": "USDJPY_1H_Trendline_159.18900_158.97790_159.65300",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34405",
-    "sl": "1.34388",
-    "tp": "1.34455",
+    "entry": "159.18900",
+    "sl": "158.97790",
+    "tp": "159.65300",
     "status": "Active",
-    "trade_time": "29 May 12:51 am",
-    "time_identified": "2026-05-28 19:21:36"
+    "trade_time": "29 May 02:56 am",
+    "time_identified": "2026-05-28 21:26:29"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.34405_1.34799_1.33688",
+    "id": "GBPUSD_1H_Trendline_1.34457_1.34788_1.33688",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34405",
-    "sl": "1.34799",
+    "entry": "1.34457",
+    "sl": "1.34788",
     "tp": "1.33688",
     "status": "Active",
-    "trade_time": "29 May 12:51 am",
-    "time_identified": "2026-05-28 19:21:36"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.16509_1.16471_1.16591",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16509",
-    "sl": "1.16471",
-    "tp": "1.16591",
-    "status": "Active",
-    "trade_time": "29 May 12:51 am",
-    "time_identified": "2026-05-28 19:21:36"
+    "trade_time": "29 May 02:56 am",
+    "time_identified": "2026-05-28 21:26:29"
   }
 ]
