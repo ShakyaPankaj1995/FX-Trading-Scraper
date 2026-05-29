@@ -68911,5 +68911,70 @@
     "status": "Active",
     "trade_time": "29 May 04:23 pm",
     "time_identified": "2026-05-29 10:54:10"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4565.80_4578.57_4543.40",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4565.80",
+    "sl": "4578.57",
+    "tp": "4543.40",
+    "status": "Active",
+    "trade_time": "29 May 07:21 pm",
+    "time_identified": "2026-05-29 13:51:57"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34457_1.34527_1.34247",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34457",
+    "sl": "1.34527",
+    "tp": "1.34247",
+    "status": "Active",
+    "trade_time": "29 May 07:21 pm",
+    "time_identified": "2026-05-29 13:51:57"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34457_1.34665_1.33836",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34457",
+    "sl": "1.34665",
+    "tp": "1.33836",
+    "status": "Active",
+    "trade_time": "29 May 07:21 pm",
+    "time_identified": "2026-05-29 13:51:57"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16523_1.16633_1.16293",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16523",
+    "sl": "1.16633",
+    "tp": "1.16293",
+    "status": "Active",
+    "trade_time": "29 May 07:21 pm",
+    "time_identified": "2026-05-29 13:51:57"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.16523_1.16774_1.15902",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16523",
+    "sl": "1.16774",
+    "tp": "1.15902",
+    "status": "Active",
+    "trade_time": "29 May 07:21 pm",
+    "time_identified": "2026-05-29 13:51:57"
   }
 ]
