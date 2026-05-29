@@ -1,67 +1,28 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_4528.20_4517.12_4551.20",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
+    "id": "NASDAQ_1H_Trendline_30348.25_30442.14_30066.57",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4528.20",
-    "sl": "4517.12",
-    "tp": "4551.20",
+    "signal": "SELL",
+    "entry": "30348.25",
+    "sl": "30442.14",
+    "tp": "30066.57",
     "status": "Active",
-    "trade_time": "29 May 09:00 am",
-    "time_identified": "2026-05-29 03:30:25"
+    "trade_time": "29 May 12:39 pm",
+    "time_identified": "2026-05-29 07:09:36"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.34351_1.34736_1.33688",
+    "id": "GBPUSD_1H_Trendline_1.34389_1.34696_1.33688",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.34351",
-    "sl": "1.34736",
+    "entry": "1.34389",
+    "sl": "1.34696",
     "tp": "1.33688",
     "status": "Active",
-    "trade_time": "29 May 09:00 am",
-    "time_identified": "2026-05-29 03:30:25"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.34351_1.34316_1.34456",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.34351",
-    "sl": "1.34316",
-    "tp": "1.34456",
-    "status": "Active",
-    "trade_time": "29 May 09:00 am",
-    "time_identified": "2026-05-29 03:30:25"
-  },
-  {
-    "id": "EURUSD_1H_Trendline_1.16442_1.16758_1.15902",
-    "symbol": "EURUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.16442",
-    "sl": "1.16758",
-    "tp": "1.15902",
-    "status": "Active",
-    "trade_time": "29 May 08:59 am",
-    "time_identified": "2026-05-29 03:30:25"
-  },
-  {
-    "id": "EURUSD_15M_Trendline_1.16442_1.16428_1.16481",
-    "symbol": "EURUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16442",
-    "sl": "1.16428",
-    "tp": "1.16481",
-    "status": "Active",
-    "trade_time": "29 May 08:59 am",
-    "time_identified": "2026-05-29 03:30:25"
+    "trade_time": "29 May 12:39 pm",
+    "time_identified": "2026-05-29 07:09:36"
   }
 ]
