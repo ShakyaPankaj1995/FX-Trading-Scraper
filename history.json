@@ -69028,5 +69028,31 @@
     "status": "Active",
     "trade_time": "30 May 01:14 am",
     "time_identified": "2026-05-29 19:44:42"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4569.90_4533.91_4627.10",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4569.90",
+    "sl": "4533.91",
+    "tp": "4627.10",
+    "status": "Active",
+    "trade_time": "30 May 02:58 am",
+    "time_identified": "2026-05-29 21:28:27"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34570_1.34509_1.34750",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.34570",
+    "sl": "1.34509",
+    "tp": "1.34750",
+    "status": "Active",
+    "trade_time": "30 May 02:58 am",
+    "time_identified": "2026-05-29 21:28:27"
   }
 ]
