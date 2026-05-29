@@ -1,28 +1,28 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7598.25_7611.79_7577.50",
-    "symbol": "S&P500",
+    "id": "NASDAQ_5M_Trendline_30402.75_30442.99_30291.00",
+    "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7598.25",
-    "sl": "7611.79",
-    "tp": "7577.50",
+    "entry": "30402.75",
+    "sl": "30442.99",
+    "tp": "30291.00",
     "status": "Active",
-    "trade_time": "29 May 10:53 pm",
-    "time_identified": "2026-05-29 17:23:57"
+    "trade_time": "30 May 01:14 am",
+    "time_identified": "2026-05-29 19:44:42"
   },
   {
-    "id": "XAUUSD_5M_Trendline_4595.80_4579.61_4627.10",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4595.80",
-    "sl": "4579.61",
-    "tp": "4627.10",
+    "id": "GBPUSD_1H_CRTAMD_1.34678_1.34898_1.34306",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "1.34678",
+    "sl": "1.34898",
+    "tp": "1.34306",
     "status": "Active",
-    "trade_time": "29 May 10:53 pm",
-    "time_identified": "2026-05-29 17:23:57"
+    "trade_time": "30 May 01:14 am",
+    "time_identified": "2026-05-29 19:44:42"
   }
 ]

@@ -69002,5 +69002,31 @@
     "status": "Active",
     "trade_time": "29 May 10:53 pm",
     "time_identified": "2026-05-29 17:23:57"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_30402.75_30442.99_30291.00",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "30402.75",
+    "sl": "30442.99",
+    "tp": "30291.00",
+    "status": "Active",
+    "trade_time": "30 May 01:14 am",
+    "time_identified": "2026-05-29 19:44:42"
+  },
+  {
+    "id": "GBPUSD_1H_CRTAMD_1.34678_1.34898_1.34306",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "1.34678",
+    "sl": "1.34898",
+    "tp": "1.34306",
+    "status": "Active",
+    "trade_time": "30 May 01:14 am",
+    "time_identified": "2026-05-29 19:44:42"
   }
 ]
