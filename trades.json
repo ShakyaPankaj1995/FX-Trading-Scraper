@@ -1,41 +1,15 @@
 [
   {
-    "id": "USDJPY_1H_Trendline_159.44299_159.49543_159.28568",
+    "id": "USDJPY_1H_Trendline_159.46100_159.47497_159.41909",
     "symbol": "USDJPY",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.44299",
-    "sl": "159.49543",
-    "tp": "159.28568",
+    "entry": "159.46100",
+    "sl": "159.47497",
+    "tp": "159.41909",
     "status": "Active",
-    "trade_time": "01 Jun 10:48 am",
-    "time_identified": "2026-06-01 05:18:39"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.16550_1.16441_1.16877",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16550",
-    "sl": "1.16441",
-    "tp": "1.16877",
-    "status": "Active",
-    "trade_time": "01 Jun 10:48 am",
-    "time_identified": "2026-06-01 05:18:39"
-  },
-  {
-    "id": "EURUSD_15M_Trendline_1.16550_1.16407_1.16877",
-    "symbol": "EURUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16550",
-    "sl": "1.16407",
-    "tp": "1.16877",
-    "status": "Active",
-    "trade_time": "01 Jun 10:48 am",
-    "time_identified": "2026-06-01 05:18:39"
+    "trade_time": "01 Jun 04:03 pm",
+    "time_identified": "2026-06-01 10:34:03"
   }
 ]
