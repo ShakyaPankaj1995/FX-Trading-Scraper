@@ -1,15 +1,1 @@
-[
-  {
-    "id": "EURUSD_1H_Trendline_1.16550_1.16783_1.16104",
-    "symbol": "EURUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.16550",
-    "sl": "1.16783",
-    "tp": "1.16104",
-    "status": "Active",
-    "trade_time": "02 Jun 06:09 pm",
-    "time_identified": "2026-06-02 12:40:09"
-  }
-]
+[]
