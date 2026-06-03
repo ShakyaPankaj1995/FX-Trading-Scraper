@@ -69379,5 +69379,57 @@
     "status": "Active",
     "trade_time": "03 Jun 05:41 am",
     "time_identified": "2026-06-03 00:11:50"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7621.00_7630.94_7602.00",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7621.00",
+    "sl": "7630.94",
+    "tp": "7602.00",
+    "status": "Active",
+    "trade_time": "03 Jun 10:45 am",
+    "time_identified": "2026-06-03 05:15:21"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7621.00_7628.20_7602.00",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7621.00",
+    "sl": "7628.20",
+    "tp": "7602.00",
+    "status": "Active",
+    "trade_time": "03 Jun 10:45 am",
+    "time_identified": "2026-06-03 05:15:21"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4499.00_4496.55_4506.36",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4499.00",
+    "sl": "4496.55",
+    "tp": "4506.36",
+    "status": "Active",
+    "trade_time": "03 Jun 10:45 am",
+    "time_identified": "2026-06-03 05:15:21"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_159.87300_159.82842_159.99800",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "159.87300",
+    "sl": "159.82842",
+    "tp": "159.99800",
+    "status": "Active",
+    "trade_time": "03 Jun 10:45 am",
+    "time_identified": "2026-06-03 05:15:21"
   }
 ]
