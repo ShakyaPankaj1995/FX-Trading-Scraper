@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "NASDAQ_5M_Trendline_30411.00_30318.91_30603.25",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "30411.00",
+    "sl": "30318.91",
+    "tp": "30603.25",
+    "status": "Active",
+    "trade_time": "05 Jun 02:06 am",
+    "time_identified": "2026-06-04 20:37:07"
+  }
+]
