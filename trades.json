@@ -1,15 +1,15 @@
 [
   {
-    "id": "XAUUSD_15M_Trendline_4350.70_4359.68_4323.77",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
+    "id": "EURUSD_5M_Trendline_1.15433_1.15351_1.15580",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4350.70",
-    "sl": "4359.68",
-    "tp": "4323.77",
+    "signal": "BUY",
+    "entry": "1.15433",
+    "sl": "1.15351",
+    "tp": "1.15580",
     "status": "Active",
-    "trade_time": "08 Jun 05:00 pm",
-    "time_identified": "2026-06-08 11:30:24"
+    "trade_time": "08 Jun 08:27 pm",
+    "time_identified": "2026-06-08 14:57:41"
   }
 ]
