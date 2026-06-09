@@ -1,41 +1,67 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29046.50_28903.75_29474.75",
+    "id": "NASDAQ_15M_Trendline_28987.25_29332.96_28227.75",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28987.25",
+    "sl": "29332.96",
+    "tp": "28227.75",
+    "status": "Active",
+    "trade_time": "10 Jun 05:11 am",
+    "time_identified": "2026-06-09 23:41:23"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_28987.25_28899.04_29251.89",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29046.50",
-    "sl": "28903.75",
-    "tp": "29474.75",
+    "entry": "28987.25",
+    "sl": "28899.04",
+    "tp": "29251.89",
     "status": "Active",
-    "trade_time": "10 Jun 03:40 am",
-    "time_identified": "2026-06-09 22:10:24"
+    "trade_time": "10 Jun 05:11 am",
+    "time_identified": "2026-06-09 23:41:23"
   },
   {
-    "id": "S&P500_1H_Trendline_7377.00_7324.76_7491.00",
+    "id": "NASDAQ_5M_Trendline_28987.25_28919.54_29190.39",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "28987.25",
+    "sl": "28919.54",
+    "tp": "29190.39",
+    "status": "Active",
+    "trade_time": "10 Jun 05:11 am",
+    "time_identified": "2026-06-09 23:41:23"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7365.25_7420.51_7247.25",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7365.25",
+    "sl": "7420.51",
+    "tp": "7247.25",
+    "status": "Active",
+    "trade_time": "10 Jun 05:11 am",
+    "time_identified": "2026-06-09 23:41:23"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7365.25_7324.25_7488.25",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7377.00",
-    "sl": "7324.76",
-    "tp": "7491.00",
+    "entry": "7365.25",
+    "sl": "7324.25",
+    "tp": "7488.25",
     "status": "Active",
-    "trade_time": "10 Jun 03:40 am",
-    "time_identified": "2026-06-09 22:10:24"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.15420_1.15376_1.15513",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.15420",
-    "sl": "1.15376",
-    "tp": "1.15513",
-    "status": "Active",
-    "trade_time": "10 Jun 03:39 am",
-    "time_identified": "2026-06-09 22:10:24"
+    "trade_time": "10 Jun 05:11 am",
+    "time_identified": "2026-06-09 23:41:23"
   }
 ]
