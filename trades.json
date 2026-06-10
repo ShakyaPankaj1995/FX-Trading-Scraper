@@ -1,15 +1,28 @@
 [
   {
-    "id": "EURUSD_15M_Trendline_1.15580_1.15670_1.15327",
-    "symbol": "EURUSD",
+    "id": "NASDAQ_15M_Trendline_28964.00_29188.88_28610.00",
+    "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.15580",
-    "sl": "1.15670",
-    "tp": "1.15327",
+    "entry": "28964.00",
+    "sl": "29188.88",
+    "tp": "28610.00",
     "status": "Active",
-    "trade_time": "10 Jun 03:51 pm",
-    "time_identified": "2026-06-10 10:21:36"
+    "trade_time": "10 Jun 07:22 pm",
+    "time_identified": "2026-06-10 13:52:54"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7368.25_7406.70_7305.50",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7368.25",
+    "sl": "7406.70",
+    "tp": "7305.50",
+    "status": "Active",
+    "trade_time": "10 Jun 07:22 pm",
+    "time_identified": "2026-06-10 13:52:54"
   }
 ]
