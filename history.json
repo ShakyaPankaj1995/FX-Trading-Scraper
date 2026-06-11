@@ -70419,5 +70419,44 @@
     "status": "Active",
     "trade_time": "12 Jun 01:46 am",
     "time_identified": "2026-06-11 20:16:46"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7406.75_7461.32_7243.04",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7406.75",
+    "sl": "7461.32",
+    "tp": "7243.04",
+    "status": "Active",
+    "trade_time": "12 Jun 03:48 am",
+    "time_identified": "2026-06-11 22:18:12"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.15794_1.15919_1.15421",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.15794",
+    "sl": "1.15919",
+    "tp": "1.15421",
+    "status": "Active",
+    "trade_time": "12 Jun 03:47 am",
+    "time_identified": "2026-06-11 22:18:12"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.15794_1.16000_1.15300",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.15794",
+    "sl": "1.16000",
+    "tp": "1.15300",
+    "status": "Active",
+    "trade_time": "12 Jun 03:47 am",
+    "time_identified": "2026-06-11 22:18:12"
   }
 ]
