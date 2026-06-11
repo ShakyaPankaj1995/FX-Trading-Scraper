@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "NASDAQ_15M_Trendline_28736.25_28848.36_28399.93",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28736.25",
+    "sl": "28848.36",
+    "tp": "28399.93",
+    "status": "Active",
+    "trade_time": "11 Jun 11:53 am",
+    "time_identified": "2026-06-11 06:23:52"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7304.50_7319.42_7259.74",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7304.50",
+    "sl": "7319.42",
+    "tp": "7259.74",
+    "status": "Active",
+    "trade_time": "11 Jun 11:53 am",
+    "time_identified": "2026-06-11 06:23:52"
+  }
+]
