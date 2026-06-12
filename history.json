@@ -70536,5 +70536,31 @@
     "status": "Active",
     "trade_time": "12 Jun 08:16 am",
     "time_identified": "2026-06-12 02:47:01"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_160.34200_160.38351_160.21746",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "160.34200",
+    "sl": "160.38351",
+    "tp": "160.21746",
+    "status": "Active",
+    "trade_time": "12 Jun 12:38 pm",
+    "time_identified": "2026-06-12 07:09:11"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.15714_1.15922_1.15090",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.15714",
+    "sl": "1.15922",
+    "tp": "1.15090",
+    "status": "Active",
+    "trade_time": "12 Jun 12:38 pm",
+    "time_identified": "2026-06-12 07:09:11"
   }
 ]
