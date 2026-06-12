@@ -1,41 +1,41 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7415.50_7462.58_7274.26",
-    "symbol": "S&P500",
-    "timeframe": "1H",
+    "id": "USDJPY_15M_Trendline_160.28400_160.64253_159.51601",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7415.50",
-    "sl": "7462.58",
-    "tp": "7274.26",
+    "entry": "160.28400",
+    "sl": "160.64253",
+    "tp": "159.51601",
     "status": "Active",
-    "trade_time": "12 Jun 05:26 am",
-    "time_identified": "2026-06-11 23:56:44"
+    "trade_time": "12 Jun 08:16 am",
+    "time_identified": "2026-06-12 02:47:01"
   },
   {
-    "id": "USDJPY_1H_Trendline_160.12000_160.03754_160.36737",
-    "symbol": "USDJPY",
-    "timeframe": "1H",
+    "id": "EURUSD_5M_Trendline_1.15701_1.15617_1.15888",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "160.12000",
-    "sl": "160.03754",
-    "tp": "160.36737",
+    "entry": "1.15701",
+    "sl": "1.15617",
+    "tp": "1.15888",
     "status": "Active",
-    "trade_time": "12 Jun 05:26 am",
-    "time_identified": "2026-06-11 23:56:44"
+    "trade_time": "12 Jun 08:16 am",
+    "time_identified": "2026-06-12 02:47:01"
   },
   {
-    "id": "EURUSD_1H_Trendline_1.15794_1.16010_1.15300",
+    "id": "EURUSD_1H_Trendline_1.15701_1.15991_1.15062",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.15794",
-    "sl": "1.16010",
-    "tp": "1.15300",
+    "entry": "1.15701",
+    "sl": "1.15991",
+    "tp": "1.15062",
     "status": "Active",
-    "trade_time": "12 Jun 05:26 am",
-    "time_identified": "2026-06-11 23:56:44"
+    "trade_time": "12 Jun 08:16 am",
+    "time_identified": "2026-06-12 02:47:01"
   }
 ]
