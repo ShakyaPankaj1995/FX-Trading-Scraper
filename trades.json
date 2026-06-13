@@ -9,20 +9,20 @@
     "sl": "7447.04",
     "tp": "7418.75",
     "status": "Active",
-    "trade_time": "13 Jun 04:15 am",
-    "time_identified": "2026-06-12 22:45:20"
+    "trade_time": "13 Jun 05:37 am",
+    "time_identified": "2026-06-13 00:07:13"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.15727_1.15610_1.15929",
+    "id": "EURUSD_15M_Trendline_1.15727_1.15607_1.15929",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "1.15727",
-    "sl": "1.15610",
+    "sl": "1.15607",
     "tp": "1.15929",
     "status": "Active",
-    "trade_time": "13 Jun 04:14 am",
-    "time_identified": "2026-06-12 22:45:20"
+    "trade_time": "13 Jun 05:36 am",
+    "time_identified": "2026-06-13 00:07:13"
   }
 ]
