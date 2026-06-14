@@ -1,18 +1,5 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7436.50_7447.44_7418.75",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7436.50",
-    "sl": "7447.44",
-    "tp": "7418.75",
-    "status": "Active",
-    "trade_time": "14 Jun 07:28 am",
-    "time_identified": "2026-06-14 01:58:30"
-  },
-  {
     "id": "EURUSD_15M_Trendline_1.15727_1.15607_1.15929",
     "symbol": "EURUSD",
     "timeframe": "15M",
@@ -22,7 +9,7 @@
     "sl": "1.15607",
     "tp": "1.15929",
     "status": "Active",
-    "trade_time": "14 Jun 07:28 am",
-    "time_identified": "2026-06-14 01:58:30"
+    "trade_time": "14 Jun 12:08 pm",
+    "time_identified": "2026-06-14 06:38:55"
   }
 ]
