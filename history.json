@@ -70848,5 +70848,18 @@
     "status": "Active",
     "trade_time": "16 Jun 05:59 pm",
     "time_identified": "2026-06-16 12:29:21"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7603.75_7600.80_7612.59",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7603.75",
+    "sl": "7600.80",
+    "tp": "7612.59",
+    "status": "Active",
+    "trade_time": "16 Jun 11:02 pm",
+    "time_identified": "2026-06-16 17:32:13"
   }
 ]
