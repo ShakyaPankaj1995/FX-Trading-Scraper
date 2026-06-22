@@ -71030,5 +71030,44 @@
     "status": "Active",
     "trade_time": "22 Jun 07:15 am",
     "time_identified": "2026-06-22 01:45:44"
+  },
+  {
+    "id": "XAUUSD_15M_CRTAMD_4200.60_4213.78_4172.90",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "4200.60",
+    "sl": "4213.78",
+    "tp": "4172.90",
+    "status": "Active",
+    "trade_time": "22 Jun 11:11 pm",
+    "time_identified": "2026-06-22 17:42:13"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_161.54800_161.71093_161.05923",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "161.54800",
+    "sl": "161.71093",
+    "tp": "161.05923",
+    "status": "Active",
+    "trade_time": "22 Jun 11:11 pm",
+    "time_identified": "2026-06-22 17:42:13"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.32414_1.32773_1.31844",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.32414",
+    "sl": "1.32773",
+    "tp": "1.31844",
+    "status": "Active",
+    "trade_time": "22 Jun 11:11 pm",
+    "time_identified": "2026-06-22 17:42:13"
   }
 ]
