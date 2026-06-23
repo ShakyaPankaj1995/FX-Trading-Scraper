@@ -1,15 +1,1 @@
-[
-  {
-    "id": "USDJPY_15M_Trendline_161.55299_161.70829_161.26300",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "161.55299",
-    "sl": "161.70829",
-    "tp": "161.26300",
-    "status": "Active",
-    "trade_time": "23 Jun 10:08 pm",
-    "time_identified": "2026-06-23 16:38:51"
-  }
-]
+[]
