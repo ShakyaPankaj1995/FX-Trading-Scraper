@@ -71368,5 +71368,31 @@
     "status": "Active",
     "trade_time": "25 Jun 03:38 am",
     "time_identified": "2026-06-24 22:09:10"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7468.25_7480.60_7431.21",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7468.25",
+    "sl": "7480.60",
+    "tp": "7431.21",
+    "status": "Active",
+    "trade_time": "25 Jun 04:50 am",
+    "time_identified": "2026-06-24 23:20:36"
+  },
+  {
+    "id": "GBPUSD_15M_CRTAMD_1.31647_1.31620_1.31702",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "1.31647",
+    "sl": "1.31620",
+    "tp": "1.31702",
+    "status": "Active",
+    "trade_time": "25 Jun 04:50 am",
+    "time_identified": "2026-06-24 23:20:36"
   }
 ]
