@@ -1,28 +1,28 @@
 [
   {
-    "id": "S&P500_15M_Trendline_7479.25_7485.74_7459.78",
+    "id": "S&P500_15M_Trendline_7477.50_7486.12_7451.65",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7479.25",
-    "sl": "7485.74",
-    "tp": "7459.78",
+    "entry": "7477.50",
+    "sl": "7486.12",
+    "tp": "7451.65",
     "status": "Active",
-    "trade_time": "25 Jun 02:26 am",
-    "time_identified": "2026-06-24 20:56:27"
+    "trade_time": "25 Jun 03:38 am",
+    "time_identified": "2026-06-24 22:09:10"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.13623_1.13759_1.13417",
-    "symbol": "EURUSD",
-    "timeframe": "15M",
+    "id": "GBPUSD_5M_Trendline_1.31650_1.31557_1.31803",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.13623",
-    "sl": "1.13759",
-    "tp": "1.13417",
+    "signal": "BUY",
+    "entry": "1.31650",
+    "sl": "1.31557",
+    "tp": "1.31803",
     "status": "Active",
-    "trade_time": "25 Jun 02:25 am",
-    "time_identified": "2026-06-24 20:56:27"
+    "trade_time": "25 Jun 03:38 am",
+    "time_identified": "2026-06-24 22:09:10"
   }
 ]
