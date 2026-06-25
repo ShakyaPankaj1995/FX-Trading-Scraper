@@ -1,28 +1,15 @@
 [
   {
-    "id": "EURUSD_5M_Trendline_1.13753_1.13712_1.13875",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.13753",
-    "sl": "1.13712",
-    "tp": "1.13875",
-    "status": "Active",
-    "trade_time": "26 Jun 01:55 am",
-    "time_identified": "2026-06-25 20:25:32"
-  },
-  {
-    "id": "EURUSD_1H_Trendline_1.13753_1.13893_1.13366",
+    "id": "EURUSD_1H_Trendline_1.13766_1.13896_1.13374",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.13753",
-    "sl": "1.13893",
-    "tp": "1.13366",
+    "entry": "1.13766",
+    "sl": "1.13896",
+    "tp": "1.13374",
     "status": "Active",
-    "trade_time": "26 Jun 01:55 am",
-    "time_identified": "2026-06-25 20:25:32"
+    "trade_time": "26 Jun 03:27 am",
+    "time_identified": "2026-06-25 21:58:23"
   }
 ]
