@@ -71459,5 +71459,31 @@
     "status": "Active",
     "trade_time": "25 Jun 02:08 pm",
     "time_identified": "2026-06-25 08:39:00"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_30164.00_30291.66_29781.02",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "30164.00",
+    "sl": "30291.66",
+    "tp": "29781.02",
+    "status": "Active",
+    "trade_time": "25 Jun 04:49 pm",
+    "time_identified": "2026-06-25 11:19:54"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.31619_1.31603_1.31666",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.31619",
+    "sl": "1.31603",
+    "tp": "1.31666",
+    "status": "Active",
+    "trade_time": "25 Jun 04:49 pm",
+    "time_identified": "2026-06-25 11:19:54"
   }
 ]
