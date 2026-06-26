@@ -1,15 +1,15 @@
 [
   {
-    "id": "S&P500_15M_Trendline_7443.25_7447.39_7430.82",
-    "symbol": "S&P500",
+    "id": "GBPUSD_15M_Trendline_1.32015_1.31919_1.32301",
+    "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7443.25",
-    "sl": "7447.39",
-    "tp": "7430.82",
+    "signal": "BUY",
+    "entry": "1.32015",
+    "sl": "1.31919",
+    "tp": "1.32301",
     "status": "Active",
-    "trade_time": "26 Jun 10:53 pm",
-    "time_identified": "2026-06-26 17:23:35"
+    "trade_time": "27 Jun 12:42 am",
+    "time_identified": "2026-06-26 19:12:44"
   }
 ]
