@@ -71615,5 +71615,31 @@
     "status": "Active",
     "trade_time": "26 Jun 04:45 am",
     "time_identified": "2026-06-25 23:16:04"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7424.75_7389.10_7496.00",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7424.75",
+    "sl": "7389.10",
+    "tp": "7496.00",
+    "status": "Active",
+    "trade_time": "26 Jun 07:01 am",
+    "time_identified": "2026-06-26 01:31:49"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.13688_1.13694_1.13671",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.13688",
+    "sl": "1.13694",
+    "tp": "1.13671",
+    "status": "Active",
+    "trade_time": "26 Jun 07:01 am",
+    "time_identified": "2026-06-26 01:31:49"
   }
 ]
