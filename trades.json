@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "NASDAQ_5M_Trendline_29630.50_29653.45_29561.66",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29630.50",
+    "sl": "29653.45",
+    "tp": "29561.66",
+    "status": "Active",
+    "trade_time": "29 Jun 04:51 am",
+    "time_identified": "2026-06-28 23:21:12"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.31957_1.31938_1.32015",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.31957",
+    "sl": "1.31938",
+    "tp": "1.32015",
+    "status": "Active",
+    "trade_time": "29 Jun 04:50 am",
+    "time_identified": "2026-06-28 23:21:12"
+  }
+]
