@@ -71940,5 +71940,31 @@
     "status": "Active",
     "trade_time": "30 Jun 03:40 am",
     "time_identified": "2026-06-29 22:11:16"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4033.30_3987.80_4111.50",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4033.30",
+    "sl": "3987.80",
+    "tp": "4111.50",
+    "status": "Active",
+    "trade_time": "30 Jun 04:45 am",
+    "time_identified": "2026-06-29 23:15:36"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_161.92101_161.95169_161.82896",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "161.92101",
+    "sl": "161.95169",
+    "tp": "161.82896",
+    "status": "Active",
+    "trade_time": "30 Jun 04:45 am",
+    "time_identified": "2026-06-29 23:15:36"
   }
 ]
