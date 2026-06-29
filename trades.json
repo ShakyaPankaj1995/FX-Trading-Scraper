@@ -1,28 +1,15 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_4024.60_3972.39_4111.50",
+    "id": "XAUUSD_5M_Trendline_4030.40_4037.58_4019.20",
     "symbol": "XAUUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4024.60",
-    "sl": "3972.39",
-    "tp": "4111.50",
-    "status": "Active",
-    "trade_time": "30 Jun 12:52 am",
-    "time_identified": "2026-06-29 19:22:58"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.14273_1.14231_1.14338",
-    "symbol": "EURUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.14273",
-    "sl": "1.14231",
-    "tp": "1.14338",
+    "signal": "SELL",
+    "entry": "4030.40",
+    "sl": "4037.58",
+    "tp": "4019.20",
     "status": "Active",
-    "trade_time": "30 Jun 12:52 am",
-    "time_identified": "2026-06-29 19:22:58"
+    "trade_time": "30 Jun 02:30 am",
+    "time_identified": "2026-06-29 21:00:45"
   }
 ]
