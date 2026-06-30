@@ -72161,5 +72161,18 @@
     "status": "Active",
     "trade_time": "01 Jul 04:07 am",
     "time_identified": "2026-06-30 22:37:21"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.14181_1.14141_1.14301",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.14181",
+    "sl": "1.14141",
+    "tp": "1.14301",
+    "status": "Active",
+    "trade_time": "01 Jul 05:17 am",
+    "time_identified": "2026-06-30 23:47:42"
   }
 ]
