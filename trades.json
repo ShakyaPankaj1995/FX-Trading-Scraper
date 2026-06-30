@@ -1,54 +1,15 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_30048.75_30067.51_29992.47",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "30048.75",
-    "sl": "30067.51",
-    "tp": "29992.47",
-    "status": "Active",
-    "trade_time": "30 Jun 05:50 am",
-    "time_identified": "2026-06-30 00:20:59"
-  },
-  {
-    "id": "XAUUSD_5M_Trendline_4021.10_4017.84_4030.87",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4021.10",
-    "sl": "4017.84",
-    "tp": "4030.87",
-    "status": "Active",
-    "trade_time": "30 Jun 05:50 am",
-    "time_identified": "2026-06-30 00:20:59"
-  },
-  {
-    "id": "XAUUSD_1H_Trendline_4021.10_3989.38_4111.50",
+    "id": "XAUUSD_1H_Trendline_3993.40_3983.46_4023.23",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4021.10",
-    "sl": "3989.38",
-    "tp": "4111.50",
+    "entry": "3993.40",
+    "sl": "3983.46",
+    "tp": "4023.23",
     "status": "Active",
-    "trade_time": "30 Jun 05:50 am",
-    "time_identified": "2026-06-30 00:20:59"
-  },
-  {
-    "id": "USDJPY_1H_Trendline_161.93800_161.94879_161.90563",
-    "symbol": "USDJPY",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "161.93800",
-    "sl": "161.94879",
-    "tp": "161.90563",
-    "status": "Active",
-    "trade_time": "30 Jun 05:50 am",
-    "time_identified": "2026-06-30 00:20:59"
+    "trade_time": "30 Jun 10:08 am",
+    "time_identified": "2026-06-30 04:38:55"
   }
 ]
