@@ -72330,5 +72330,31 @@
     "status": "Active",
     "trade_time": "02 Jul 02:33 am",
     "time_identified": "2026-07-01 21:04:27"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_30082.50_29826.46_30599.75",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "30082.50",
+    "sl": "29826.46",
+    "tp": "30599.75",
+    "status": "Active",
+    "trade_time": "02 Jul 03:47 am",
+    "time_identified": "2026-07-01 22:17:30"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.13804_1.13461_1.14377",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.13804",
+    "sl": "1.13461",
+    "tp": "1.14377",
+    "status": "Active",
+    "trade_time": "02 Jul 03:47 am",
+    "time_identified": "2026-07-01 22:17:30"
   }
 ]
