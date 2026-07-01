@@ -1,15 +1,41 @@
 [
   {
-    "id": "EURUSD_5M_Trendline_1.14181_1.14141_1.14301",
-    "symbol": "EURUSD",
+    "id": "NASDAQ_5M_Trendline_30471.25_30466.80_30484.59",
+    "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.14181",
-    "sl": "1.14141",
-    "tp": "1.14301",
+    "entry": "30471.25",
+    "sl": "30466.80",
+    "tp": "30484.59",
     "status": "Active",
-    "trade_time": "01 Jul 05:17 am",
-    "time_identified": "2026-06-30 23:47:42"
+    "trade_time": "01 Jul 07:28 am",
+    "time_identified": "2026-07-01 01:58:11"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_30471.25_30440.50_30563.50",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "30471.25",
+    "sl": "30440.50",
+    "tp": "30563.50",
+    "status": "Active",
+    "trade_time": "01 Jul 07:28 am",
+    "time_identified": "2026-07-01 01:58:11"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7535.00_7531.51_7545.47",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7535.00",
+    "sl": "7531.51",
+    "tp": "7545.47",
+    "status": "Active",
+    "trade_time": "01 Jul 07:27 am",
+    "time_identified": "2026-07-01 01:58:11"
   }
 ]
