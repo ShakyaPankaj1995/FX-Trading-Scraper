@@ -1,15 +1,1 @@
-[
-  {
-    "id": "NASDAQ_5M_Trendline_30073.25_30009.55_30239.50",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "30073.25",
-    "sl": "30009.55",
-    "tp": "30239.50",
-    "status": "Active",
-    "trade_time": "02 Jul 11:15 am",
-    "time_identified": "2026-07-02 05:45:33"
-  }
-]
+[]
