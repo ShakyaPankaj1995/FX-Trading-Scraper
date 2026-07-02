@@ -1,15 +1,28 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7510.50_7481.71_7579.00",
-    "symbol": "S&P500",
-    "timeframe": "1H",
+    "id": "NASDAQ_5M_Trendline_29539.50_29614.14_29328.50",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29539.50",
+    "sl": "29614.14",
+    "tp": "29328.50",
+    "status": "Active",
+    "trade_time": "03 Jul 01:39 am",
+    "time_identified": "2026-07-02 20:09:41"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.33477_1.33318_1.33854",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7510.50",
-    "sl": "7481.71",
-    "tp": "7579.00",
+    "entry": "1.33477",
+    "sl": "1.33318",
+    "tp": "1.33854",
     "status": "Active",
-    "trade_time": "03 Jul 12:17 am",
-    "time_identified": "2026-07-02 18:47:38"
+    "trade_time": "03 Jul 01:39 am",
+    "time_identified": "2026-07-02 20:09:41"
   }
 ]
