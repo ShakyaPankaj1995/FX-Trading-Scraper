@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_30061.75_30193.26_29667.22",
+    "id": "NASDAQ_5M_Trendline_29955.00_29886.63_30094.00",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29955.00",
+    "sl": "29886.63",
+    "tp": "30094.00",
+    "status": "Active",
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29955.00_30168.03_29328.50",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "30061.75",
-    "sl": "30193.26",
-    "tp": "29667.22",
+    "entry": "29955.00",
+    "sl": "30168.03",
+    "tp": "29328.50",
     "status": "Active",
-    "trade_time": "06 Jul 09:32 pm",
-    "time_identified": "2026-07-06 16:02:41"
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
   },
   {
-    "id": "S&P500_1H_Trendline_7585.75_7593.75_7561.75",
+    "id": "S&P500_1H_Trendline_7588.50_7592.44_7576.69",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7585.75",
-    "sl": "7593.75",
-    "tp": "7561.75",
+    "entry": "7588.50",
+    "sl": "7592.44",
+    "tp": "7576.69",
     "status": "Active",
-    "trade_time": "06 Jul 09:32 pm",
-    "time_identified": "2026-07-06 16:02:41"
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.14286_1.14327_1.14163",
-    "symbol": "EURUSD",
-    "timeframe": "15M",
+    "id": "GBPUSD_1H_Trendline_1.33828_1.33979_1.33372",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.14286",
-    "sl": "1.14327",
-    "tp": "1.14163",
+    "entry": "1.33828",
+    "sl": "1.33979",
+    "tp": "1.33372",
     "status": "Active",
-    "trade_time": "06 Jul 09:32 pm",
-    "time_identified": "2026-07-06 16:02:41"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.14286_1.14338_1.14128",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.14286",
-    "sl": "1.14338",
-    "tp": "1.14128",
-    "status": "Active",
-    "trade_time": "06 Jul 09:32 pm",
-    "time_identified": "2026-07-06 16:02:41"
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
   }
 ]

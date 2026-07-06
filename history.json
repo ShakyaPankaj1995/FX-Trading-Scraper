@@ -72876,5 +72876,57 @@
     "status": "Active",
     "trade_time": "06 Jul 09:32 pm",
     "time_identified": "2026-07-06 16:02:41"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_29955.00_29886.63_30094.00",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29955.00",
+    "sl": "29886.63",
+    "tp": "30094.00",
+    "status": "Active",
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29955.00_30168.03_29328.50",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29955.00",
+    "sl": "30168.03",
+    "tp": "29328.50",
+    "status": "Active",
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7588.50_7592.44_7576.69",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7588.50",
+    "sl": "7592.44",
+    "tp": "7576.69",
+    "status": "Active",
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.33828_1.33979_1.33372",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33828",
+    "sl": "1.33979",
+    "tp": "1.33372",
+    "status": "Active",
+    "trade_time": "06 Jul 11:47 pm",
+    "time_identified": "2026-07-06 18:17:38"
   }
 ]
