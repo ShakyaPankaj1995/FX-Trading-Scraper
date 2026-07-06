@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29957.50_30169.90_29328.50",
+    "id": "NASDAQ_5M_Trendline_29947.75_29900.70_30088.91",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29947.75",
+    "sl": "29900.70",
+    "tp": "30088.91",
+    "status": "Active",
+    "trade_time": "07 Jul 03:18 am",
+    "time_identified": "2026-07-06 21:49:04"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29947.75_30170.95_29328.50",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29957.50",
-    "sl": "30169.90",
+    "entry": "29947.75",
+    "sl": "30170.95",
     "tp": "29328.50",
     "status": "Active",
-    "trade_time": "07 Jul 01:46 am",
-    "time_identified": "2026-07-06 20:16:13"
+    "trade_time": "07 Jul 03:18 am",
+    "time_identified": "2026-07-06 21:49:04"
   },
   {
-    "id": "XAUUSD_15M_CRTAMD_4173.90_4165.13_4187.30",
-    "symbol": "XAUUSD",
+    "id": "USDJPY_15M_Trendline_162.06000_161.90503_162.42700",
+    "symbol": "USDJPY",
     "timeframe": "15M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "4173.90",
-    "sl": "4165.13",
-    "tp": "4187.30",
-    "status": "Active",
-    "trade_time": "07 Jul 01:45 am",
-    "time_identified": "2026-07-06 20:16:13"
-  },
-  {
-    "id": "XAUUSD_5M_Trendline_4174.00_4158.98_4215.50",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4174.00",
-    "sl": "4158.98",
-    "tp": "4215.50",
+    "entry": "162.06000",
+    "sl": "161.90503",
+    "tp": "162.42700",
     "status": "Active",
-    "trade_time": "07 Jul 01:45 am",
-    "time_identified": "2026-07-06 20:16:13"
+    "trade_time": "07 Jul 03:18 am",
+    "time_identified": "2026-07-06 21:49:04"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.33910_1.33985_1.33686",
+    "id": "GBPUSD_1H_Trendline_1.33894_1.33975_1.33652",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33910",
-    "sl": "1.33985",
-    "tp": "1.33686",
+    "entry": "1.33894",
+    "sl": "1.33975",
+    "tp": "1.33652",
     "status": "Active",
-    "trade_time": "07 Jul 01:45 am",
-    "time_identified": "2026-07-06 20:16:13"
+    "trade_time": "07 Jul 03:18 am",
+    "time_identified": "2026-07-06 21:49:04"
   }
 ]
