@@ -72824,5 +72824,57 @@
     "status": "Active",
     "trade_time": "06 Jul 06:01 pm",
     "time_identified": "2026-07-06 12:31:58"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_30061.75_30193.26_29667.22",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "30061.75",
+    "sl": "30193.26",
+    "tp": "29667.22",
+    "status": "Active",
+    "trade_time": "06 Jul 09:32 pm",
+    "time_identified": "2026-07-06 16:02:41"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7585.75_7593.75_7561.75",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7585.75",
+    "sl": "7593.75",
+    "tp": "7561.75",
+    "status": "Active",
+    "trade_time": "06 Jul 09:32 pm",
+    "time_identified": "2026-07-06 16:02:41"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.14286_1.14327_1.14163",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.14286",
+    "sl": "1.14327",
+    "tp": "1.14163",
+    "status": "Active",
+    "trade_time": "06 Jul 09:32 pm",
+    "time_identified": "2026-07-06 16:02:41"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.14286_1.14338_1.14128",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.14286",
+    "sl": "1.14338",
+    "tp": "1.14128",
+    "status": "Active",
+    "trade_time": "06 Jul 09:32 pm",
+    "time_identified": "2026-07-06 16:02:41"
   }
 ]
