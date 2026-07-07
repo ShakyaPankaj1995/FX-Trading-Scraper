@@ -1,28 +1,28 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7584.75_7593.96_7557.11",
-    "symbol": "S&P500",
-    "timeframe": "1H",
+    "id": "GBPUSD_15M_Trendline_1.33847_1.33837_1.33878",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7584.75",
-    "sl": "7593.96",
-    "tp": "7557.11",
+    "signal": "BUY",
+    "entry": "1.33847",
+    "sl": "1.33837",
+    "tp": "1.33878",
     "status": "Active",
-    "trade_time": "07 Jul 06:59 am",
-    "time_identified": "2026-07-07 01:29:31"
+    "trade_time": "07 Jul 11:07 am",
+    "time_identified": "2026-07-07 05:37:52"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.33906_1.33951_1.33774",
+    "id": "GBPUSD_1H_Trendline_1.33847_1.33929_1.33601",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.33906",
-    "sl": "1.33951",
-    "tp": "1.33774",
+    "entry": "1.33847",
+    "sl": "1.33929",
+    "tp": "1.33601",
     "status": "Active",
-    "trade_time": "07 Jul 06:59 am",
-    "time_identified": "2026-07-07 01:29:31"
+    "trade_time": "07 Jul 11:07 am",
+    "time_identified": "2026-07-07 05:37:52"
   }
 ]
