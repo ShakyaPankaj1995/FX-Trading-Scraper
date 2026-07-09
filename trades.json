@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "S&P500_1H_Trendline_7562.25_7609.20_7468.50",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7562.25",
+    "sl": "7609.20",
+    "tp": "7468.50",
+    "status": "Active",
+    "trade_time": "09 Jul 07:40 pm",
+    "time_identified": "2026-07-09 14:10:57"
+  }
+]
