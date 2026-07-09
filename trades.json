@@ -1,28 +1,15 @@
 [
   {
-    "id": "GBPUSD_5M_Trendline_1.33933_1.33867_1.34037",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.33933",
-    "sl": "1.33867",
-    "tp": "1.34037",
-    "status": "Active",
-    "trade_time": "09 Jul 06:52 am",
-    "time_identified": "2026-07-09 01:22:57"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.14273_1.14298_1.14197",
-    "symbol": "EURUSD",
+    "id": "NASDAQ_5M_Trendline_29532.50_29612.27_29396.50",
+    "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.14273",
-    "sl": "1.14298",
-    "tp": "1.14197",
+    "entry": "29532.50",
+    "sl": "29612.27",
+    "tp": "29396.50",
     "status": "Active",
-    "trade_time": "09 Jul 06:52 am",
-    "time_identified": "2026-07-09 01:22:57"
+    "trade_time": "09 Jul 10:44 am",
+    "time_identified": "2026-07-09 05:14:14"
   }
 ]
