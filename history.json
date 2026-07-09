@@ -73487,5 +73487,31 @@
     "status": "Active",
     "trade_time": "09 Jul 10:09 pm",
     "time_identified": "2026-07-09 16:39:22"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7592.50_7611.88_7534.38",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7592.50",
+    "sl": "7611.88",
+    "tp": "7534.38",
+    "status": "Active",
+    "trade_time": "09 Jul 11:54 pm",
+    "time_identified": "2026-07-09 18:24:19"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_162.35100_162.37072_162.29184",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "162.35100",
+    "sl": "162.37072",
+    "tp": "162.29184",
+    "status": "Active",
+    "trade_time": "09 Jul 11:54 pm",
+    "time_identified": "2026-07-09 18:24:19"
   }
 ]
