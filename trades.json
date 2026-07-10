@@ -1,54 +1,41 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_30044.00_30155.63_29709.10",
+    "id": "NASDAQ_1H_Trendline_30068.50_30152.29_29817.14",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "30044.00",
-    "sl": "30155.63",
-    "tp": "29709.10",
+    "entry": "30068.50",
+    "sl": "30152.29",
+    "tp": "29817.14",
     "status": "Active",
-    "trade_time": "11 Jul 01:36 am",
-    "time_identified": "2026-07-10 20:06:47"
+    "trade_time": "11 Jul 03:02 am",
+    "time_identified": "2026-07-10 21:32:46"
   },
   {
-    "id": "XAUUSD_15M_Trendline_4115.60_4131.26_4081.70",
+    "id": "XAUUSD_15M_Trendline_4128.90_4131.54_4120.98",
     "symbol": "XAUUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4115.60",
-    "sl": "4131.26",
-    "tp": "4081.70",
+    "entry": "4128.90",
+    "sl": "4131.54",
+    "tp": "4120.98",
     "status": "Active",
-    "trade_time": "11 Jul 01:36 am",
-    "time_identified": "2026-07-10 20:06:47"
+    "trade_time": "11 Jul 03:02 am",
+    "time_identified": "2026-07-10 21:32:46"
   },
   {
-    "id": "USDJPY_15M_Trendline_161.71800_161.96918_161.27600",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "161.71800",
-    "sl": "161.96918",
-    "tp": "161.27600",
-    "status": "Active",
-    "trade_time": "11 Jul 01:36 am",
-    "time_identified": "2026-07-10 20:06:47"
-  },
-  {
-    "id": "USDJPY_5M_Trendline_161.71800_161.91968_161.27600",
+    "id": "USDJPY_5M_Trendline_161.67200_161.92879_161.27600",
     "symbol": "USDJPY",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "161.71800",
-    "sl": "161.91968",
+    "entry": "161.67200",
+    "sl": "161.92879",
     "tp": "161.27600",
     "status": "Active",
-    "trade_time": "11 Jul 01:36 am",
-    "time_identified": "2026-07-10 20:06:47"
+    "trade_time": "11 Jul 03:02 am",
+    "time_identified": "2026-07-10 21:32:46"
   }
 ]
