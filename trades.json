@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "NASDAQ_1H_Trendline_29854.50_30142.64_28990.07",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29854.50",
+    "sl": "30142.64",
+    "tp": "28990.07",
+    "status": "Active",
+    "trade_time": "10 Jul 08:48 pm",
+    "time_identified": "2026-07-10 15:18:15"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_161.62700_161.53800_161.89400",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "161.62700",
+    "sl": "161.53800",
+    "tp": "161.89400",
+    "status": "Active",
+    "trade_time": "10 Jul 08:47 pm",
+    "time_identified": "2026-07-10 15:18:15"
+  }
+]
