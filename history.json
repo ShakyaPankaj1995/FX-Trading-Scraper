@@ -73877,5 +73877,18 @@
     "status": "Active",
     "trade_time": "11 Jul 04:45 am",
     "time_identified": "2026-07-10 23:16:01"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_30037.25_30156.52_29679.45",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "30037.25",
+    "sl": "30156.52",
+    "tp": "29679.45",
+    "status": "Active",
+    "trade_time": "11 Jul 11:30 am",
+    "time_identified": "2026-07-11 06:00:35"
   }
 ]

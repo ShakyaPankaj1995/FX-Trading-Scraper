@@ -1,42 +1,16 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_30068.50_30152.29_29817.14",
+    "id": "NASDAQ_1H_Trendline_30037.25_30156.52_29679.45",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "30068.50",
-    "sl": "30152.29",
-    "tp": "29817.14",
+    "entry": "30037.25",
+    "sl": "30156.52",
+    "tp": "29679.45",
     "status": "Active",
-    "trade_time": "11 Jul 09:09 am",
-    "time_identified": "2026-07-11 03:39:16"
-  },
-  {
-    "id": "XAUUSD_15M_Trendline_4128.90_4131.54_4120.98",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4128.90",
-    "sl": "4131.54",
-    "tp": "4120.98",
-    "status": "Active",
-    "trade_time": "11 Jul 09:09 am",
-    "time_identified": "2026-07-11 03:39:16"
-  },
-  {
-    "id": "USDJPY_15M_Trendline_161.72200_161.96318_161.27600",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "161.72200",
-    "sl": "161.96318",
-    "tp": "161.27600",
-    "status": "Active",
-    "trade_time": "11 Jul 09:08 am",
-    "time_identified": "2026-07-11 03:39:16"
+    "trade_time": "11 Jul 11:30 am",
+    "time_identified": "2026-07-11 06:00:35"
   },
   {
     "id": "USDJPY_5M_Trendline_161.71700_161.92225_161.27600",
@@ -48,7 +22,20 @@
     "sl": "161.92225",
     "tp": "161.27600",
     "status": "Active",
-    "trade_time": "11 Jul 09:08 am",
-    "time_identified": "2026-07-11 03:39:16"
+    "trade_time": "11 Jul 11:30 am",
+    "time_identified": "2026-07-11 06:00:35"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_161.72200_161.96318_161.27600",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "161.72200",
+    "sl": "161.96318",
+    "tp": "161.27600",
+    "status": "Active",
+    "trade_time": "11 Jul 11:30 am",
+    "time_identified": "2026-07-11 06:00:35"
   }
 ]
