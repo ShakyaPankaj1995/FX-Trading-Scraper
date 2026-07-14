@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "NASDAQ_15M_Trendline_29604.50_29700.03_29317.92",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29604.50",
+    "sl": "29700.03",
+    "tp": "29317.92",
+    "status": "Active",
+    "trade_time": "14 Jul 04:38 pm",
+    "time_identified": "2026-07-14 11:08:17"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.13947_1.14004_1.13817",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.13947",
+    "sl": "1.14004",
+    "tp": "1.13817",
+    "status": "Active",
+    "trade_time": "14 Jul 04:37 pm",
+    "time_identified": "2026-07-14 11:08:17"
+  }
+]
