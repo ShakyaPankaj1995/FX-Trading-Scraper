@@ -75073,5 +75073,83 @@
     "status": "Active",
     "trade_time": "17 Jul 07:49 pm",
     "time_identified": "2026-07-17 14:19:18"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_28778.50_28995.91_28408.25",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28778.50",
+    "sl": "28995.91",
+    "tp": "28408.25",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4018.80_4027.40_3992.99",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4018.80",
+    "sl": "4027.40",
+    "tp": "3992.99",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4018.80_4039.99_3973.40",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4018.80",
+    "sl": "4039.99",
+    "tp": "3973.40",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_162.40700_162.53636_162.11099",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "162.40700",
+    "sl": "162.53636",
+    "tp": "162.11099",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34459_1.34416_1.34587",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.34459",
+    "sl": "1.34416",
+    "tp": "1.34587",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34459_1.34571_1.34271",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34459",
+    "sl": "1.34571",
+    "tp": "1.34271",
+    "status": "Active",
+    "trade_time": "17 Jul 09:16 pm",
+    "time_identified": "2026-07-17 15:46:54"
   }
 ]
