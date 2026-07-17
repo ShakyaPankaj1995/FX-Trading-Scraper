@@ -75008,5 +75008,31 @@
     "status": "Active",
     "trade_time": "17 Jul 03:44 pm",
     "time_identified": "2026-07-17 10:14:46"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7515.75_7524.52_7491.25",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7515.75",
+    "sl": "7524.52",
+    "tp": "7491.25",
+    "status": "Active",
+    "trade_time": "17 Jul 05:11 pm",
+    "time_identified": "2026-07-17 11:41:39"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.34470_1.34440_1.34560",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.34470",
+    "sl": "1.34440",
+    "tp": "1.34560",
+    "status": "Active",
+    "trade_time": "17 Jul 05:11 pm",
+    "time_identified": "2026-07-17 11:41:39"
   }
 ]
