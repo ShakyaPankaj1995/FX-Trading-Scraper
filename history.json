@@ -75047,5 +75047,31 @@
     "status": "Active",
     "trade_time": "17 Jul 06:17 pm",
     "time_identified": "2026-07-17 12:47:35"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_28810.00_28957.93_28550.00",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28810.00",
+    "sl": "28957.93",
+    "tp": "28550.00",
+    "status": "Active",
+    "trade_time": "17 Jul 07:49 pm",
+    "time_identified": "2026-07-17 14:19:18"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7529.00_7541.34_7491.98",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7529.00",
+    "sl": "7541.34",
+    "tp": "7491.98",
+    "status": "Active",
+    "trade_time": "17 Jul 07:49 pm",
+    "time_identified": "2026-07-17 14:19:18"
   }
 ]
