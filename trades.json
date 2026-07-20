@@ -1,15 +1,15 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_4018.80_4036.11_3973.40",
-    "symbol": "XAUUSD",
-    "timeframe": "1H",
+    "id": "USDJPY_5M_Trendline_162.35800_162.28375_162.54800",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4018.80",
-    "sl": "4036.11",
-    "tp": "3973.40",
+    "signal": "BUY",
+    "entry": "162.35800",
+    "sl": "162.28375",
+    "tp": "162.54800",
     "status": "Active",
-    "trade_time": "20 Jul 03:43 am",
-    "time_identified": "2026-07-19 22:13:35"
+    "trade_time": "20 Jul 08:27 am",
+    "time_identified": "2026-07-20 02:58:05"
   }
 ]
