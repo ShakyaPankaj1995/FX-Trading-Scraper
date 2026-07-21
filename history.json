@@ -75645,5 +75645,18 @@
     "status": "Active",
     "trade_time": "21 Jul 05:38 am",
     "time_identified": "2026-07-21 00:09:00"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_29118.00_29184.14_28919.57",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29118.00",
+    "sl": "29184.14",
+    "tp": "28919.57",
+    "status": "Active",
+    "trade_time": "21 Jul 11:45 am",
+    "time_identified": "2026-07-21 06:15:45"
   }
 ]
