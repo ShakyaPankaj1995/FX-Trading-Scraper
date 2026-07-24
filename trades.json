@@ -9,20 +9,20 @@
     "sl": "4039.92",
     "tp": "4085.20",
     "status": "Active",
-    "trade_time": "25 Jul 03:49 am",
-    "time_identified": "2026-07-24 22:19:26"
+    "trade_time": "25 Jul 04:57 am",
+    "time_identified": "2026-07-24 23:28:00"
   },
   {
-    "id": "USDJPY_5M_Trendline_163.79100_163.76849_163.85600",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
+    "id": "GBPUSD_15M_Trendline_1.33186_1.33175_1.33220",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "163.79100",
-    "sl": "163.76849",
-    "tp": "163.85600",
+    "entry": "1.33186",
+    "sl": "1.33175",
+    "tp": "1.33220",
     "status": "Active",
-    "trade_time": "25 Jul 03:49 am",
-    "time_identified": "2026-07-24 22:19:26"
+    "trade_time": "25 Jul 04:57 am",
+    "time_identified": "2026-07-24 23:28:00"
   }
 ]
