@@ -1,15 +1,15 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_28622.25_28752.01_28232.97",
+    "id": "NASDAQ_15M_Trendline_28614.25_28731.92_28261.24",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "28622.25",
-    "sl": "28752.01",
-    "tp": "28232.97",
+    "entry": "28614.25",
+    "sl": "28731.92",
+    "tp": "28261.24",
     "status": "Active",
-    "trade_time": "27 Jul 04:05 am",
-    "time_identified": "2026-07-26 22:36:00"
+    "trade_time": "27 Jul 05:04 am",
+    "time_identified": "2026-07-26 23:34:55"
   }
 ]
