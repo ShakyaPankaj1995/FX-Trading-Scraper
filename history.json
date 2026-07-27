@@ -76425,5 +76425,18 @@
     "status": "Active",
     "trade_time": "28 Jul 02:14 am",
     "time_identified": "2026-07-27 20:44:35"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.13727_1.13546_1.14207",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.13727",
+    "sl": "1.13546",
+    "tp": "1.14207",
+    "status": "Active",
+    "trade_time": "28 Jul 03:17 am",
+    "time_identified": "2026-07-27 21:48:24"
   }
 ]
