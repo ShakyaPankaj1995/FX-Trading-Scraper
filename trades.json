@@ -1,54 +1,15 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_4049.80_4055.23_4034.60",
-    "symbol": "XAUUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4049.80",
-    "sl": "4055.23",
-    "tp": "4034.60",
-    "status": "Active",
-    "trade_time": "28 Jul 12:15 pm",
-    "time_identified": "2026-07-28 06:45:55"
-  },
-  {
-    "id": "USDJPY_15M_Trendline_163.68900_163.60996_163.84300",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "163.68900",
-    "sl": "163.60996",
-    "tp": "163.84300",
-    "status": "Active",
-    "trade_time": "28 Jul 12:15 pm",
-    "time_identified": "2026-07-28 06:45:55"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.13740_1.13716_1.13810",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.13740",
-    "sl": "1.13716",
-    "tp": "1.13810",
-    "status": "Active",
-    "trade_time": "28 Jul 12:15 pm",
-    "time_identified": "2026-07-28 06:45:55"
-  },
-  {
-    "id": "EURUSD_1H_Trendline_1.13740_1.13580_1.14207",
+    "id": "EURUSD_1H_Trendline_1.13701_1.13580_1.14064",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.13740",
+    "entry": "1.13701",
     "sl": "1.13580",
-    "tp": "1.14207",
+    "tp": "1.14064",
     "status": "Active",
-    "trade_time": "28 Jul 12:15 pm",
-    "time_identified": "2026-07-28 06:45:55"
+    "trade_time": "28 Jul 02:57 pm",
+    "time_identified": "2026-07-28 09:27:44"
   }
 ]
