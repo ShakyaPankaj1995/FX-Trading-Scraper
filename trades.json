@@ -1,41 +1,28 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_28276.00_28233.76_28402.72",
-    "symbol": "NASDAQ",
+    "id": "S&P500_15M_Trendline_7509.50_7538.00_7427.50",
+    "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "28276.00",
-    "sl": "28233.76",
-    "tp": "28402.72",
+    "signal": "SELL",
+    "entry": "7509.50",
+    "sl": "7538.00",
+    "tp": "7427.50",
     "status": "Active",
-    "trade_time": "31 Jul 09:48 pm",
-    "time_identified": "2026-07-31 16:18:24"
+    "trade_time": "31 Jul 11:25 pm",
+    "time_identified": "2026-07-31 17:55:53"
   },
   {
-    "id": "XAUUSD_1H_Trendline_4099.30_4064.03_4180.20",
+    "id": "XAUUSD_1H_Trendline_4107.10_4063.08_4180.20",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4099.30",
-    "sl": "4064.03",
+    "entry": "4107.10",
+    "sl": "4063.08",
     "tp": "4180.20",
     "status": "Active",
-    "trade_time": "31 Jul 09:48 pm",
-    "time_identified": "2026-07-31 16:18:24"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.34662_1.34858_1.34074",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.34662",
-    "sl": "1.34858",
-    "tp": "1.34074",
-    "status": "Active",
-    "trade_time": "31 Jul 09:48 pm",
-    "time_identified": "2026-07-31 16:18:24"
+    "trade_time": "31 Jul 11:25 pm",
+    "time_identified": "2026-07-31 17:55:53"
   }
 ]
