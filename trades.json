@@ -9,8 +9,8 @@
     "sl": "28603.71",
     "tp": "28079.75",
     "status": "Active",
-    "trade_time": "02 Aug 02:11 pm",
-    "time_identified": "2026-08-02 08:41:39"
+    "trade_time": "02 Aug 03:50 pm",
+    "time_identified": "2026-08-02 10:20:15"
   },
   {
     "id": "S&P500_15M_Trendline_7519.25_7531.89_7481.32",
@@ -22,8 +22,8 @@
     "sl": "7531.89",
     "tp": "7481.32",
     "status": "Active",
-    "trade_time": "02 Aug 02:11 pm",
-    "time_identified": "2026-08-02 08:41:39"
+    "trade_time": "02 Aug 03:50 pm",
+    "time_identified": "2026-08-02 10:20:15"
   },
   {
     "id": "XAUUSD_15M_Trendline_4107.00_4125.69_4076.40",
@@ -35,8 +35,8 @@
     "sl": "4125.69",
     "tp": "4076.40",
     "status": "Active",
-    "trade_time": "02 Aug 02:11 pm",
-    "time_identified": "2026-08-02 08:41:39"
+    "trade_time": "02 Aug 03:50 pm",
+    "time_identified": "2026-08-02 10:20:15"
   },
   {
     "id": "XAUUSD_1H_Trendline_4107.00_4063.39_4180.20",
@@ -48,7 +48,7 @@
     "sl": "4063.39",
     "tp": "4180.20",
     "status": "Active",
-    "trade_time": "02 Aug 02:11 pm",
-    "time_identified": "2026-08-02 08:41:39"
+    "trade_time": "02 Aug 03:50 pm",
+    "time_identified": "2026-08-02 10:20:15"
   }
 ]
