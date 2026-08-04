@@ -77673,5 +77673,18 @@
     "status": "Active",
     "trade_time": "05 Aug 12:24 am",
     "time_identified": "2026-08-04 18:54:52"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_157.72000_157.74540_157.64380",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "157.72000",
+    "sl": "157.74540",
+    "tp": "157.64380",
+    "status": "Active",
+    "trade_time": "05 Aug 01:46 am",
+    "time_identified": "2026-08-04 20:16:31"
   }
 ]
