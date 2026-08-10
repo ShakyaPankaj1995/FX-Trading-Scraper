@@ -78518,5 +78518,31 @@
     "status": "Active",
     "trade_time": "11 Aug 01:36 am",
     "time_identified": "2026-08-10 20:07:17"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.35073_1.35020_1.35232",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35073",
+    "sl": "1.35020",
+    "tp": "1.35232",
+    "status": "Active",
+    "trade_time": "11 Aug 02:26 am",
+    "time_identified": "2026-08-10 20:57:20"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.15460_1.15442_1.15514",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.15460",
+    "sl": "1.15442",
+    "tp": "1.15514",
+    "status": "Active",
+    "trade_time": "11 Aug 02:26 am",
+    "time_identified": "2026-08-10 20:57:20"
   }
 ]
