@@ -78297,5 +78297,18 @@
     "status": "Active",
     "trade_time": "10 Aug 01:56 pm",
     "time_identified": "2026-08-10 08:26:49"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7789.25_7786.40_7796.25",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7789.25",
+    "sl": "7786.40",
+    "tp": "7796.25",
+    "status": "Active",
+    "trade_time": "10 Aug 03:25 pm",
+    "time_identified": "2026-08-10 09:55:53"
   }
 ]
