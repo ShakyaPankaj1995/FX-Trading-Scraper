@@ -1,15 +1,15 @@
 [
   {
-    "id": "GBPUSD_15M_Trendline_1.34911_1.34884_1.34991",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
+    "id": "NASDAQ_5M_Trendline_29889.50_29917.74_29804.78",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.34911",
-    "sl": "1.34884",
-    "tp": "1.34991",
+    "signal": "SELL",
+    "entry": "29889.50",
+    "sl": "29917.74",
+    "tp": "29804.78",
     "status": "Active",
-    "trade_time": "10 Aug 06:06 am",
-    "time_identified": "2026-08-10 00:37:06"
+    "trade_time": "10 Aug 08:25 am",
+    "time_identified": "2026-08-10 02:55:30"
   }
 ]
