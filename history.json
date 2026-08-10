@@ -78453,5 +78453,18 @@
     "status": "Active",
     "trade_time": "10 Aug 10:04 pm",
     "time_identified": "2026-08-10 16:34:30"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.15473_1.15412_1.15658",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.15473",
+    "sl": "1.15412",
+    "tp": "1.15658",
+    "status": "Active",
+    "trade_time": "10 Aug 11:00 pm",
+    "time_identified": "2026-08-10 17:30:32"
   }
 ]
