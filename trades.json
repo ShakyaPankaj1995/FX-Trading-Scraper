@@ -1,28 +1,41 @@
 [
   {
-    "id": "GBPUSD_15M_Trendline_1.35077_1.35017_1.35257",
+    "id": "NASDAQ_1H_Trendline_29725.25_29600.68_29984.00",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29725.25",
+    "sl": "29600.68",
+    "tp": "29984.00",
+    "status": "Active",
+    "trade_time": "11 Aug 04:24 am",
+    "time_identified": "2026-08-10 22:54:41"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.35089_1.35024_1.35287",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.35077",
-    "sl": "1.35017",
-    "tp": "1.35257",
+    "entry": "1.35089",
+    "sl": "1.35024",
+    "tp": "1.35287",
     "status": "Active",
-    "trade_time": "11 Aug 03:40 am",
-    "time_identified": "2026-08-10 22:10:26"
+    "trade_time": "11 Aug 04:24 am",
+    "time_identified": "2026-08-10 22:54:41"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.15460_1.15439_1.15523",
+    "id": "EURUSD_15M_Trendline_1.15473_1.15445_1.15559",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.15460",
-    "sl": "1.15439",
-    "tp": "1.15523",
+    "entry": "1.15473",
+    "sl": "1.15445",
+    "tp": "1.15559",
     "status": "Active",
-    "trade_time": "11 Aug 03:39 am",
-    "time_identified": "2026-08-10 22:10:26"
+    "trade_time": "11 Aug 04:24 am",
+    "time_identified": "2026-08-10 22:54:41"
   }
 ]
