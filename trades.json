@@ -1,28 +1,15 @@
 [
   {
-    "id": "S&P500_5M_CRTAMD_7786.25_7784.40_7789.25",
+    "id": "S&P500_5M_Trendline_7786.75_7785.30_7791.09",
     "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "BUY",
-    "entry": "7786.25",
-    "sl": "7784.40",
-    "tp": "7789.25",
-    "status": "Active",
-    "trade_time": "10 Aug 04:27 pm",
-    "time_identified": "2026-08-10 10:57:25"
-  },
-  {
-    "id": "XAUUSD_5M_Trendline_4397.10_4387.62_4421.50",
-    "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4397.10",
-    "sl": "4387.62",
-    "tp": "4421.50",
+    "entry": "7786.75",
+    "sl": "7785.30",
+    "tp": "7791.09",
     "status": "Active",
-    "trade_time": "10 Aug 04:27 pm",
-    "time_identified": "2026-08-10 10:57:25"
+    "trade_time": "10 Aug 05:13 pm",
+    "time_identified": "2026-08-10 11:43:22"
   }
 ]
