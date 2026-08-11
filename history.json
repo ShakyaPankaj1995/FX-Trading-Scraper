@@ -78960,5 +78960,31 @@
     "status": "Active",
     "trade_time": "11 Aug 10:40 pm",
     "time_identified": "2026-08-11 17:10:33"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7758.00_7747.04_7790.89",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7758.00",
+    "sl": "7747.04",
+    "tp": "7790.89",
+    "status": "Active",
+    "trade_time": "11 Aug 11:34 pm",
+    "time_identified": "2026-08-11 18:05:05"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.35015_1.35003_1.35049",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35015",
+    "sl": "1.35003",
+    "tp": "1.35049",
+    "status": "Active",
+    "trade_time": "11 Aug 11:34 pm",
+    "time_identified": "2026-08-11 18:05:05"
   }
 ]
