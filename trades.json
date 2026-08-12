@@ -1,15 +1,15 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_4426.70_4394.88_4495.00",
-    "symbol": "XAUUSD",
-    "timeframe": "1H",
+    "id": "NASDAQ_15M_Trendline_29658.75_29714.51_29533.50",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4426.70",
-    "sl": "4394.88",
-    "tp": "4495.00",
+    "signal": "SELL",
+    "entry": "29658.75",
+    "sl": "29714.51",
+    "tp": "29533.50",
     "status": "Active",
-    "trade_time": "12 Aug 05:24 am",
-    "time_identified": "2026-08-11 23:55:00"
+    "trade_time": "12 Aug 06:21 am",
+    "time_identified": "2026-08-12 00:51:47"
   }
 ]
