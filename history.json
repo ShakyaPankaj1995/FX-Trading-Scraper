@@ -79220,5 +79220,44 @@
     "status": "Active",
     "trade_time": "12 Aug 10:33 am",
     "time_identified": "2026-08-12 05:03:45"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29797.75_29961.43_29533.50",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29797.75",
+    "sl": "29961.43",
+    "tp": "29533.50",
+    "status": "Active",
+    "trade_time": "12 Aug 02:35 pm",
+    "time_identified": "2026-08-12 09:05:23"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_159.30299_159.22736_159.46100",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "159.30299",
+    "sl": "159.22736",
+    "tp": "159.46100",
+    "status": "Active",
+    "trade_time": "12 Aug 02:35 pm",
+    "time_identified": "2026-08-12 09:05:23"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.35113_1.35154_1.35024",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.35113",
+    "sl": "1.35154",
+    "tp": "1.35024",
+    "status": "Active",
+    "trade_time": "12 Aug 02:35 pm",
+    "time_identified": "2026-08-12 09:05:23"
   }
 ]
