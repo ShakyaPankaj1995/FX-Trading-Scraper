@@ -1,41 +1,41 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7803.75_7810.71_7782.86",
-    "symbol": "S&P500",
+    "id": "XAUUSD_1H_Trendline_4424.80_4411.07_4465.99",
+    "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7803.75",
-    "sl": "7810.71",
-    "tp": "7782.86",
+    "signal": "BUY",
+    "entry": "4424.80",
+    "sl": "4411.07",
+    "tp": "4465.99",
     "status": "Active",
-    "trade_time": "13 Aug 10:00 pm",
-    "time_identified": "2026-08-13 16:30:20"
+    "trade_time": "13 Aug 10:59 pm",
+    "time_identified": "2026-08-13 17:30:06"
   },
   {
-    "id": "USDJPY_15M_Trendline_159.46800_159.57060_159.16020",
+    "id": "USDJPY_15M_Trendline_159.51300_159.55742_159.37974",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.46800",
-    "sl": "159.57060",
-    "tp": "159.16020",
+    "entry": "159.51300",
+    "sl": "159.55742",
+    "tp": "159.37974",
     "status": "Active",
-    "trade_time": "13 Aug 10:00 pm",
-    "time_identified": "2026-08-13 16:30:20"
+    "trade_time": "13 Aug 10:59 pm",
+    "time_identified": "2026-08-13 17:30:06"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.34854_1.34762_1.35122",
+    "id": "GBPUSD_15M_Trendline_1.34822_1.34769_1.34979",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.34854",
-    "sl": "1.34762",
-    "tp": "1.35122",
+    "entry": "1.34822",
+    "sl": "1.34769",
+    "tp": "1.34979",
     "status": "Active",
-    "trade_time": "13 Aug 10:00 pm",
-    "time_identified": "2026-08-13 16:30:20"
+    "trade_time": "13 Aug 10:59 pm",
+    "time_identified": "2026-08-13 17:30:06"
   }
 ]
