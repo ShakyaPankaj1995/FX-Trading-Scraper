@@ -79857,5 +79857,44 @@
     "status": "Active",
     "trade_time": "13 Aug 07:08 pm",
     "time_identified": "2026-08-13 13:38:26"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4428.70_4411.53_4480.20",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4428.70",
+    "sl": "4411.53",
+    "tp": "4480.20",
+    "status": "Active",
+    "trade_time": "13 Aug 09:06 pm",
+    "time_identified": "2026-08-13 15:36:56"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_159.32899_159.42551_159.03946",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "159.32899",
+    "sl": "159.42551",
+    "tp": "159.03946",
+    "status": "Active",
+    "trade_time": "13 Aug 09:06 pm",
+    "time_identified": "2026-08-13 15:36:56"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.34975_1.34929_1.35111",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.34975",
+    "sl": "1.34929",
+    "tp": "1.35111",
+    "status": "Active",
+    "trade_time": "13 Aug 09:06 pm",
+    "time_identified": "2026-08-13 15:36:56"
   }
 ]
