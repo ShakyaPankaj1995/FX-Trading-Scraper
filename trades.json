@@ -9,8 +9,8 @@
     "sl": "7844.66",
     "tp": "7738.00",
     "status": "Active",
-    "trade_time": "15 Aug 04:07 am",
-    "time_identified": "2026-08-14 22:37:17"
+    "trade_time": "15 Aug 04:25 am",
+    "time_identified": "2026-08-14 22:56:09"
   },
   {
     "id": "USDJPY_5M_Trendline_159.30499_159.29090_159.34728",
@@ -22,8 +22,8 @@
     "sl": "159.29090",
     "tp": "159.34728",
     "status": "Active",
-    "trade_time": "15 Aug 04:06 am",
-    "time_identified": "2026-08-14 22:37:17"
+    "trade_time": "15 Aug 04:25 am",
+    "time_identified": "2026-08-14 22:56:09"
   },
   {
     "id": "USDJPY_15M_Trendline_159.30499_159.46014_158.83955",
@@ -35,7 +35,7 @@
     "sl": "159.46014",
     "tp": "158.83955",
     "status": "Active",
-    "trade_time": "15 Aug 04:06 am",
-    "time_identified": "2026-08-14 22:37:17"
+    "trade_time": "15 Aug 04:25 am",
+    "time_identified": "2026-08-14 22:56:09"
   }
 ]
