@@ -1,15 +1,15 @@
 [
   {
-    "id": "GBPUSD_1H_Trendline_1.35104_1.35213_1.34778",
-    "symbol": "GBPUSD",
-    "timeframe": "1H",
+    "id": "S&P500_5M_Trendline_7826.75_7828.60_7821.21",
+    "symbol": "S&P500",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.35104",
-    "sl": "1.35213",
-    "tp": "1.34778",
+    "entry": "7826.75",
+    "sl": "7828.60",
+    "tp": "7821.21",
     "status": "Active",
-    "trade_time": "14 Aug 01:24 pm",
-    "time_identified": "2026-08-14 07:54:56"
+    "trade_time": "14 Aug 02:24 pm",
+    "time_identified": "2026-08-14 08:54:51"
   }
 ]
