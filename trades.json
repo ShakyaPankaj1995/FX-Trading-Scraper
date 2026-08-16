@@ -9,20 +9,7 @@
     "sl": "159.46357",
     "tp": "158.74930",
     "status": "Active",
-    "trade_time": "17 Aug 02:28 am",
-    "time_identified": "2026-08-16 20:59:05"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.35358_1.35240_1.35615",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.35358",
-    "sl": "1.35240",
-    "tp": "1.35615",
-    "status": "Active",
-    "trade_time": "17 Aug 02:28 am",
-    "time_identified": "2026-08-16 20:59:05"
+    "trade_time": "17 Aug 02:48 am",
+    "time_identified": "2026-08-16 21:18:29"
   }
 ]
