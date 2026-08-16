@@ -1,29 +1,42 @@
 [
   {
-    "id": "S&P500_15M_Trendline_7810.25_7813.77_7799.70",
+    "id": "S&P500_5M_Trendline_7809.25_7810.18_7806.46",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7809.25",
+    "sl": "7810.18",
+    "tp": "7806.46",
+    "status": "Active",
+    "trade_time": "17 Aug 04:13 am",
+    "time_identified": "2026-08-16 22:43:55"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7809.25_7813.42_7796.74",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7810.25",
-    "sl": "7813.77",
-    "tp": "7799.70",
+    "entry": "7809.25",
+    "sl": "7813.42",
+    "tp": "7796.74",
     "status": "Active",
-    "trade_time": "17 Aug 03:55 am",
-    "time_identified": "2026-08-16 22:25:51"
+    "trade_time": "17 Aug 04:13 am",
+    "time_identified": "2026-08-16 22:43:55"
   },
   {
-    "id": "XAUUSD_1H_Trendline_4432.30_4474.82_4365.50",
+    "id": "XAUUSD_1H_Trendline_4433.50_4475.03_4365.50",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4432.30",
-    "sl": "4474.82",
+    "entry": "4433.50",
+    "sl": "4475.03",
     "tp": "4365.50",
     "status": "Active",
-    "trade_time": "17 Aug 03:55 am",
-    "time_identified": "2026-08-16 22:25:51"
+    "trade_time": "17 Aug 04:13 am",
+    "time_identified": "2026-08-16 22:43:55"
   },
   {
     "id": "USDJPY_15M_Trendline_159.28500_159.46357_158.74930",
@@ -35,20 +48,7 @@
     "sl": "159.46357",
     "tp": "158.74930",
     "status": "Active",
-    "trade_time": "17 Aug 03:55 am",
-    "time_identified": "2026-08-16 22:25:51"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.35358_1.35240_1.35615",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.35358",
-    "sl": "1.35240",
-    "tp": "1.35615",
-    "status": "Active",
-    "trade_time": "17 Aug 03:55 am",
-    "time_identified": "2026-08-16 22:25:51"
+    "trade_time": "17 Aug 04:13 am",
+    "time_identified": "2026-08-16 22:43:55"
   }
 ]
