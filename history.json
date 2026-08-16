@@ -80403,5 +80403,44 @@
     "status": "Active",
     "trade_time": "17 Aug 04:13 am",
     "time_identified": "2026-08-16 22:43:55"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7809.75_7813.07_7799.79",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7809.75",
+    "sl": "7813.07",
+    "tp": "7799.79",
+    "status": "Active",
+    "trade_time": "17 Aug 04:27 am",
+    "time_identified": "2026-08-16 22:57:55"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7809.75_7810.04_7808.87",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7809.75",
+    "sl": "7810.04",
+    "tp": "7808.87",
+    "status": "Active",
+    "trade_time": "17 Aug 04:27 am",
+    "time_identified": "2026-08-16 22:57:55"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4435.30_4475.03_4365.50",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4435.30",
+    "sl": "4475.03",
+    "tp": "4365.50",
+    "status": "Active",
+    "trade_time": "17 Aug 04:27 am",
+    "time_identified": "2026-08-16 22:57:55"
   }
 ]
