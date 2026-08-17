@@ -80780,5 +80780,57 @@
     "status": "Active",
     "trade_time": "17 Aug 04:07 pm",
     "time_identified": "2026-08-17 10:37:58"
+  },
+  {
+    "id": "S&P500_5M_CRTAMD_7817.00_7813.85_7824.50",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "CRT (AMD)",
+    "signal": "BUY",
+    "entry": "7817.00",
+    "sl": "7813.85",
+    "tp": "7824.50",
+    "status": "Active",
+    "trade_time": "17 Aug 04:30 pm",
+    "time_identified": "2026-08-17 11:00:35"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_159.18300_159.27257_158.91428",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "159.18300",
+    "sl": "159.27257",
+    "tp": "158.91428",
+    "status": "Active",
+    "trade_time": "17 Aug 04:30 pm",
+    "time_identified": "2026-08-17 11:00:35"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.35558_1.35527_1.35653",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35558",
+    "sl": "1.35527",
+    "tp": "1.35653",
+    "status": "Active",
+    "trade_time": "17 Aug 04:30 pm",
+    "time_identified": "2026-08-17 11:00:35"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.15929_1.15840_1.16158",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.15929",
+    "sl": "1.15840",
+    "tp": "1.16158",
+    "status": "Active",
+    "trade_time": "17 Aug 04:30 pm",
+    "time_identified": "2026-08-17 11:00:35"
   }
 ]
