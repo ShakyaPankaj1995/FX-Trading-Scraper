@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "NASDAQ_1H_Trendline_30077.25_29926.93_30343.00",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "30077.25",
+    "sl": "29926.93",
+    "tp": "30343.00",
+    "status": "Active",
+    "trade_time": "18 Aug 02:06 am",
+    "time_identified": "2026-08-17 20:36:23"
+  }
+]
