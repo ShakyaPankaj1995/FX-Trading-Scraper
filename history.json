@@ -80637,5 +80637,31 @@
     "status": "Active",
     "trade_time": "17 Aug 09:00 am",
     "time_identified": "2026-08-17 03:30:30"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4453.50_4468.07_4422.30",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4453.50",
+    "sl": "4468.07",
+    "tp": "4422.30",
+    "status": "Active",
+    "trade_time": "17 Aug 09:42 am",
+    "time_identified": "2026-08-17 04:12:34"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4453.50_4477.94_4380.19",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4453.50",
+    "sl": "4477.94",
+    "tp": "4380.19",
+    "status": "Active",
+    "trade_time": "17 Aug 09:42 am",
+    "time_identified": "2026-08-17 04:12:34"
   }
 ]
