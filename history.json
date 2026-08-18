@@ -81651,5 +81651,44 @@
     "status": "Active",
     "trade_time": "19 Aug 02:12 am",
     "time_identified": "2026-08-18 20:42:43"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.35327_1.35306_1.35390",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35327",
+    "sl": "1.35306",
+    "tp": "1.35390",
+    "status": "Active",
+    "trade_time": "19 Aug 02:29 am",
+    "time_identified": "2026-08-18 21:00:07"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.35327_1.35087_1.35715",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35327",
+    "sl": "1.35087",
+    "tp": "1.35715",
+    "status": "Active",
+    "trade_time": "19 Aug 02:29 am",
+    "time_identified": "2026-08-18 21:00:07"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.35327_1.35280_1.35469",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35327",
+    "sl": "1.35280",
+    "tp": "1.35469",
+    "status": "Active",
+    "trade_time": "19 Aug 02:29 am",
+    "time_identified": "2026-08-18 21:00:07"
   }
 ]
