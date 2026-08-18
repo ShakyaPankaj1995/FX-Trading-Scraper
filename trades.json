@@ -1,15 +1,15 @@
 [
   {
-    "id": "USDJPY_5M_Trendline_159.71400_159.78161_159.58099",
-    "symbol": "USDJPY",
+    "id": "GBPUSD_5M_Trendline_1.35287_1.35334_1.35210",
+    "symbol": "GBPUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.71400",
-    "sl": "159.78161",
-    "tp": "159.58099",
+    "entry": "1.35287",
+    "sl": "1.35334",
+    "tp": "1.35210",
     "status": "Active",
-    "trade_time": "18 Aug 05:24 pm",
-    "time_identified": "2026-08-18 11:54:47"
+    "trade_time": "18 Aug 05:48 pm",
+    "time_identified": "2026-08-18 12:18:21"
   }
 ]
