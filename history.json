@@ -81521,5 +81521,44 @@
     "status": "Active",
     "trade_time": "18 Aug 11:13 pm",
     "time_identified": "2026-08-18 17:44:00"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4414.00_4410.31_4425.07",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4414.00",
+    "sl": "4410.31",
+    "tp": "4425.07",
+    "status": "Active",
+    "trade_time": "18 Aug 11:35 pm",
+    "time_identified": "2026-08-18 18:05:51"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.35334_1.35082_1.35715",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.35334",
+    "sl": "1.35082",
+    "tp": "1.35715",
+    "status": "Active",
+    "trade_time": "18 Aug 11:35 pm",
+    "time_identified": "2026-08-18 18:05:51"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.15781_1.15746_1.15886",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.15781",
+    "sl": "1.15746",
+    "tp": "1.15886",
+    "status": "Active",
+    "trade_time": "18 Aug 11:35 pm",
+    "time_identified": "2026-08-18 18:05:51"
   }
 ]
