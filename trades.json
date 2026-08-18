@@ -1,15 +1,1 @@
-[
-  {
-    "id": "XAUUSD_1H_Trendline_4414.40_4410.11_4427.28",
-    "symbol": "XAUUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4414.40",
-    "sl": "4410.11",
-    "tp": "4427.28",
-    "status": "Active",
-    "trade_time": "19 Aug 12:14 am",
-    "time_identified": "2026-08-18 18:44:58"
-  }
-]
+[]
