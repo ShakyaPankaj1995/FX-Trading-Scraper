@@ -1,15 +1,15 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29938.00_29915.73_30004.80",
-    "symbol": "NASDAQ",
+    "id": "EURUSD_1H_Trendline_1.15781_1.15634_1.16171",
+    "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29938.00",
-    "sl": "29915.73",
-    "tp": "30004.80",
+    "entry": "1.15781",
+    "sl": "1.15634",
+    "tp": "1.16171",
     "status": "Active",
-    "trade_time": "18 Aug 08:17 am",
-    "time_identified": "2026-08-18 02:48:00"
+    "trade_time": "18 Aug 08:56 am",
+    "time_identified": "2026-08-18 03:26:51"
   }
 ]
