@@ -81950,5 +81950,31 @@
     "status": "Active",
     "trade_time": "20 Aug 01:15 am",
     "time_identified": "2026-08-19 19:45:24"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_29619.25_29728.96_29375.75",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "29619.25",
+    "sl": "29728.96",
+    "tp": "29375.75",
+    "status": "Active",
+    "trade_time": "20 Aug 03:57 am",
+    "time_identified": "2026-08-19 22:27:59"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7740.00_7747.73_7721.75",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7740.00",
+    "sl": "7747.73",
+    "tp": "7721.75",
+    "status": "Active",
+    "trade_time": "20 Aug 03:57 am",
+    "time_identified": "2026-08-19 22:27:59"
   }
 ]
