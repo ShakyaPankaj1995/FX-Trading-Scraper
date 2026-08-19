@@ -1,41 +1,15 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29634.75_29723.10_29375.75",
-    "symbol": "NASDAQ",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29634.75",
-    "sl": "29723.10",
-    "tp": "29375.75",
-    "status": "Active",
-    "trade_time": "20 Aug 04:20 am",
-    "time_identified": "2026-08-19 22:50:38"
-  },
-  {
-    "id": "S&P500_5M_Trendline_7741.00_7747.81_7721.75",
+    "id": "S&P500_5M_Trendline_7742.00_7747.67_7724.99",
     "symbol": "S&P500",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7741.00",
-    "sl": "7747.81",
-    "tp": "7721.75",
+    "entry": "7742.00",
+    "sl": "7747.67",
+    "tp": "7724.99",
     "status": "Active",
-    "trade_time": "20 Aug 04:20 am",
-    "time_identified": "2026-08-19 22:50:38"
-  },
-  {
-    "id": "USDJPY_5M_Trendline_158.14600_158.21197_158.01199",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "158.14600",
-    "sl": "158.21197",
-    "tp": "158.01199",
-    "status": "Active",
-    "trade_time": "20 Aug 04:20 am",
-    "time_identified": "2026-08-19 22:50:38"
+    "trade_time": "20 Aug 04:39 am",
+    "time_identified": "2026-08-19 23:09:45"
   }
 ]
