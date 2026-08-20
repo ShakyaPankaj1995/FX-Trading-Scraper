@@ -82405,5 +82405,57 @@
     "status": "Active",
     "trade_time": "20 Aug 10:22 pm",
     "time_identified": "2026-08-20 16:53:25"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7696.25_7683.38_7720.00",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7696.25",
+    "sl": "7683.38",
+    "tp": "7720.00",
+    "status": "Active",
+    "trade_time": "20 Aug 10:46 pm",
+    "time_identified": "2026-08-20 17:16:21"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4566.90_4556.01_4597.10",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4566.90",
+    "sl": "4556.01",
+    "tp": "4597.10",
+    "status": "Active",
+    "trade_time": "20 Aug 10:46 pm",
+    "time_identified": "2026-08-20 17:16:21"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4566.90_4572.18_4551.05",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4566.90",
+    "sl": "4572.18",
+    "tp": "4551.05",
+    "status": "Active",
+    "trade_time": "20 Aug 10:46 pm",
+    "time_identified": "2026-08-20 17:16:21"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16741_1.16653_1.17004",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16741",
+    "sl": "1.16653",
+    "tp": "1.17004",
+    "status": "Active",
+    "trade_time": "20 Aug 10:45 pm",
+    "time_identified": "2026-08-20 17:16:21"
   }
 ]
