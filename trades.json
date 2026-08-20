@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "EURUSD_5M_Trendline_1.16781_1.16771_1.16812",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16781",
+    "sl": "1.16771",
+    "tp": "1.16812",
+    "status": "Active",
+    "trade_time": "20 Aug 07:37 pm",
+    "time_identified": "2026-08-20 14:08:12"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16781_1.16648_1.17137",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16781",
+    "sl": "1.16648",
+    "tp": "1.17137",
+    "status": "Active",
+    "trade_time": "20 Aug 07:37 pm",
+    "time_identified": "2026-08-20 14:08:12"
+  }
+]
