@@ -82496,5 +82496,18 @@
     "status": "Active",
     "trade_time": "21 Aug 04:04 am",
     "time_identified": "2026-08-20 22:35:09"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4576.30_4596.44_4515.87",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4576.30",
+    "sl": "4596.44",
+    "tp": "4515.87",
+    "status": "Active",
+    "trade_time": "21 Aug 04:28 am",
+    "time_identified": "2026-08-20 22:59:11"
   }
 ]
