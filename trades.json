@@ -9,8 +9,8 @@
     "sl": "29312.77",
     "tp": "29488.75",
     "status": "Active",
-    "trade_time": "22 Aug 02:57 am",
-    "time_identified": "2026-08-21 21:27:18"
+    "trade_time": "22 Aug 03:17 am",
+    "time_identified": "2026-08-21 21:47:24"
   },
   {
     "id": "S&P500_15M_Trendline_7687.75_7677.85_7714.00",
@@ -22,8 +22,8 @@
     "sl": "7677.85",
     "tp": "7714.00",
     "status": "Active",
-    "trade_time": "22 Aug 02:57 am",
-    "time_identified": "2026-08-21 21:27:18"
+    "trade_time": "22 Aug 03:17 am",
+    "time_identified": "2026-08-21 21:47:24"
   },
   {
     "id": "USDJPY_15M_Trendline_158.86200_159.12433_158.34700",
@@ -35,8 +35,8 @@
     "sl": "159.12433",
     "tp": "158.34700",
     "status": "Active",
-    "trade_time": "22 Aug 02:57 am",
-    "time_identified": "2026-08-21 21:27:18"
+    "trade_time": "22 Aug 03:17 am",
+    "time_identified": "2026-08-21 21:47:24"
   },
   {
     "id": "GBPUSD_15M_Trendline_1.36480_1.36588_1.36192",
@@ -48,8 +48,8 @@
     "sl": "1.36588",
     "tp": "1.36192",
     "status": "Active",
-    "trade_time": "22 Aug 02:56 am",
-    "time_identified": "2026-08-21 21:27:18"
+    "trade_time": "22 Aug 03:17 am",
+    "time_identified": "2026-08-21 21:47:24"
   },
   {
     "id": "EURUSD_1H_Trendline_1.16781_1.16589_1.17151",
@@ -61,7 +61,7 @@
     "sl": "1.16589",
     "tp": "1.17151",
     "status": "Active",
-    "trade_time": "22 Aug 02:56 am",
-    "time_identified": "2026-08-21 21:27:18"
+    "trade_time": "22 Aug 03:16 am",
+    "time_identified": "2026-08-21 21:47:24"
   }
 ]
