@@ -1,54 +1,28 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7667.25_7672.03_7657.75",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7667.25",
-    "sl": "7672.03",
-    "tp": "7657.75",
-    "status": "Active",
-    "trade_time": "21 Aug 05:30 am",
-    "time_identified": "2026-08-21 00:01:02"
-  },
-  {
-    "id": "XAUUSD_15M_Trendline_4583.60_4596.76_4544.11",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4583.60",
-    "sl": "4596.76",
-    "tp": "4544.11",
-    "status": "Active",
-    "trade_time": "21 Aug 05:30 am",
-    "time_identified": "2026-08-21 00:01:02"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.36439_1.36572_1.36212",
+    "id": "GBPUSD_15M_Trendline_1.36500_1.36578_1.36266",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.36439",
-    "sl": "1.36572",
-    "tp": "1.36212",
+    "entry": "1.36500",
+    "sl": "1.36578",
+    "tp": "1.36266",
     "status": "Active",
-    "trade_time": "21 Aug 05:30 am",
-    "time_identified": "2026-08-21 00:01:02"
+    "trade_time": "21 Aug 07:04 am",
+    "time_identified": "2026-08-21 01:35:11"
   },
   {
-    "id": "EURUSD_5M_Trendline_1.16918_1.16978_1.16738",
+    "id": "EURUSD_5M_Trendline_1.16959_1.16985_1.16880",
     "symbol": "EURUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.16918",
-    "sl": "1.16978",
-    "tp": "1.16738",
+    "entry": "1.16959",
+    "sl": "1.16985",
+    "tp": "1.16880",
     "status": "Active",
-    "trade_time": "21 Aug 05:30 am",
-    "time_identified": "2026-08-21 00:01:02"
+    "trade_time": "21 Aug 07:04 am",
+    "time_identified": "2026-08-21 01:35:11"
   }
 ]
