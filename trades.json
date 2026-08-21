@@ -1,41 +1,54 @@
 [
   {
-    "id": "S&P500_5M_Trendline_7691.75_7679.72_7714.00",
-    "symbol": "S&P500",
-    "timeframe": "5M",
+    "id": "NASDAQ_15M_Trendline_29376.25_29311.48_29488.75",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7691.75",
-    "sl": "7679.72",
-    "tp": "7714.00",
+    "entry": "29376.25",
+    "sl": "29311.48",
+    "tp": "29488.75",
     "status": "Active",
-    "trade_time": "22 Aug 01:45 am",
-    "time_identified": "2026-08-21 20:16:08"
+    "trade_time": "22 Aug 02:13 am",
+    "time_identified": "2026-08-21 20:43:11"
   },
   {
-    "id": "USDJPY_15M_Trendline_158.99200_159.15807_158.49381",
+    "id": "S&P500_15M_Trendline_7689.00_7677.63_7714.00",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7689.00",
+    "sl": "7677.63",
+    "tp": "7714.00",
+    "status": "Active",
+    "trade_time": "22 Aug 02:12 am",
+    "time_identified": "2026-08-21 20:43:11"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_158.99699_159.15250_158.53047",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.99200",
-    "sl": "159.15807",
-    "tp": "158.49381",
+    "entry": "158.99699",
+    "sl": "159.15250",
+    "tp": "158.53047",
     "status": "Active",
-    "trade_time": "22 Aug 01:45 am",
-    "time_identified": "2026-08-21 20:16:08"
+    "trade_time": "22 Aug 02:12 am",
+    "time_identified": "2026-08-21 20:43:11"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.36465_1.36597_1.36192",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
+    "id": "EURUSD_1H_Trendline_1.16781_1.16576_1.17151",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.36465",
-    "sl": "1.36597",
-    "tp": "1.36192",
+    "signal": "BUY",
+    "entry": "1.16781",
+    "sl": "1.16576",
+    "tp": "1.17151",
     "status": "Active",
-    "trade_time": "22 Aug 01:45 am",
-    "time_identified": "2026-08-21 20:16:08"
+    "trade_time": "22 Aug 02:12 am",
+    "time_identified": "2026-08-21 20:43:11"
   }
 ]
