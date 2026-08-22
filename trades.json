@@ -9,8 +9,8 @@
     "sl": "29312.77",
     "tp": "29488.75",
     "status": "Active",
-    "trade_time": "22 Aug 05:24 am",
-    "time_identified": "2026-08-21 23:54:27"
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
   },
   {
     "id": "S&P500_15M_Trendline_7687.75_7677.85_7714.00",
@@ -22,21 +22,8 @@
     "sl": "7677.85",
     "tp": "7714.00",
     "status": "Active",
-    "trade_time": "22 Aug 05:24 am",
-    "time_identified": "2026-08-21 23:54:27"
-  },
-  {
-    "id": "USDJPY_5M_Trendline_158.94000_158.89747_159.05200",
-    "symbol": "USDJPY",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "158.94000",
-    "sl": "158.89747",
-    "tp": "159.05200",
-    "status": "Active",
-    "trade_time": "22 Aug 05:24 am",
-    "time_identified": "2026-08-21 23:54:27"
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
   },
   {
     "id": "USDJPY_15M_Trendline_158.94000_159.12679_158.37964",
@@ -48,7 +35,46 @@
     "sl": "159.12679",
     "tp": "158.37964",
     "status": "Active",
-    "trade_time": "22 Aug 05:24 am",
-    "time_identified": "2026-08-21 23:54:27"
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_158.94000_158.89747_159.05200",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.94000",
+    "sl": "158.89747",
+    "tp": "159.05200",
+    "status": "Active",
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.36480_1.36593_1.36192",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.36480",
+    "sl": "1.36593",
+    "tp": "1.36192",
+    "status": "Active",
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.16781_1.16576_1.17151",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16781",
+    "sl": "1.16576",
+    "tp": "1.17151",
+    "status": "Active",
+    "trade_time": "22 Aug 05:54 am",
+    "time_identified": "2026-08-22 00:25:03"
   }
 ]
