@@ -9,21 +9,8 @@
     "sl": "7677.71",
     "tp": "7714.00",
     "status": "Active",
-    "trade_time": "24 Aug 01:00 am",
-    "time_identified": "2026-08-23 19:30:29"
-  },
-  {
-    "id": "GBPUSD_15M_Trendline_1.36480_1.36593_1.36192",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.36480",
-    "sl": "1.36593",
-    "tp": "1.36192",
-    "status": "Active",
-    "trade_time": "24 Aug 01:00 am",
-    "time_identified": "2026-08-23 19:30:29"
+    "trade_time": "24 Aug 01:16 am",
+    "time_identified": "2026-08-23 19:46:37"
   },
   {
     "id": "EURUSD_1H_Trendline_1.16781_1.16576_1.17151",
@@ -35,7 +22,7 @@
     "sl": "1.16576",
     "tp": "1.17151",
     "status": "Active",
-    "trade_time": "24 Aug 01:00 am",
-    "time_identified": "2026-08-23 19:30:29"
+    "trade_time": "24 Aug 01:16 am",
+    "time_identified": "2026-08-23 19:46:37"
   }
 ]
