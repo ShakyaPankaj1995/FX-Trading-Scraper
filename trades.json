@@ -1,15 +1,15 @@
 [
   {
-    "id": "EURUSD_5M_Trendline_1.16836_1.16870_1.16734",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
+    "id": "GBPUSD_15M_Trendline_1.36413_1.36381_1.36506",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.16836",
-    "sl": "1.16870",
-    "tp": "1.16734",
+    "signal": "BUY",
+    "entry": "1.36413",
+    "sl": "1.36381",
+    "tp": "1.36506",
     "status": "Active",
-    "trade_time": "24 Aug 10:39 am",
-    "time_identified": "2026-08-24 05:10:06"
+    "trade_time": "24 Aug 11:20 am",
+    "time_identified": "2026-08-24 05:51:15"
   }
 ]

@@ -83705,5 +83705,18 @@
     "status": "Active",
     "trade_time": "24 Aug 10:39 am",
     "time_identified": "2026-08-24 05:10:06"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.36413_1.36381_1.36506",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.36413",
+    "sl": "1.36381",
+    "tp": "1.36506",
+    "status": "Active",
+    "trade_time": "24 Aug 11:20 am",
+    "time_identified": "2026-08-24 05:51:15"
   }
 ]
