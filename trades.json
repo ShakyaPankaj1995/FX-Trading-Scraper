@@ -1,28 +1,28 @@
 [
   {
-    "id": "GBPUSD_5M_Trendline_1.36348_1.36237_1.36517",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
+    "id": "XAUUSD_15M_Trendline_4708.90_4724.24_4662.87",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.36348",
-    "sl": "1.36237",
-    "tp": "1.36517",
+    "signal": "SELL",
+    "entry": "4708.90",
+    "sl": "4724.24",
+    "tp": "4662.87",
     "status": "Active",
-    "trade_time": "25 Aug 08:55 pm",
-    "time_identified": "2026-08-25 15:25:36"
+    "trade_time": "25 Aug 09:36 pm",
+    "time_identified": "2026-08-25 16:06:52"
   },
   {
-    "id": "EURUSD_1H_Trendline_1.16741_1.16843_1.16550",
+    "id": "EURUSD_1H_Trendline_1.16754_1.16843_1.16550",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.16741",
+    "entry": "1.16754",
     "sl": "1.16843",
     "tp": "1.16550",
     "status": "Active",
-    "trade_time": "25 Aug 08:55 pm",
-    "time_identified": "2026-08-25 15:25:36"
+    "trade_time": "25 Aug 09:36 pm",
+    "time_identified": "2026-08-25 16:06:52"
   }
 ]
