@@ -1,41 +1,41 @@
 [
   {
-    "id": "S&P500_15M_Trendline_7692.50_7700.30_7669.09",
+    "id": "S&P500_15M_Trendline_7691.00_7699.74_7664.78",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7692.50",
-    "sl": "7700.30",
-    "tp": "7669.09",
+    "entry": "7691.00",
+    "sl": "7699.74",
+    "tp": "7664.78",
     "status": "Active",
-    "trade_time": "26 Aug 02:20 am",
-    "time_identified": "2026-08-25 20:50:24"
+    "trade_time": "26 Aug 02:42 am",
+    "time_identified": "2026-08-25 21:12:54"
   },
   {
-    "id": "GBPUSD_1H_Trendline_1.36491_1.36651_1.36229",
+    "id": "GBPUSD_1H_Trendline_1.36502_1.36652_1.36229",
     "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.36491",
-    "sl": "1.36651",
+    "entry": "1.36502",
+    "sl": "1.36652",
     "tp": "1.36229",
     "status": "Active",
-    "trade_time": "26 Aug 02:20 am",
-    "time_identified": "2026-08-25 20:50:24"
+    "trade_time": "26 Aug 02:42 am",
+    "time_identified": "2026-08-25 21:12:54"
   },
   {
-    "id": "EURUSD_1H_Trendline_1.16781_1.16849_1.16580",
+    "id": "EURUSD_1H_Trendline_1.16781_1.16854_1.16563",
     "symbol": "EURUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
     "entry": "1.16781",
-    "sl": "1.16849",
-    "tp": "1.16580",
+    "sl": "1.16854",
+    "tp": "1.16563",
     "status": "Active",
-    "trade_time": "26 Aug 02:19 am",
-    "time_identified": "2026-08-25 20:50:24"
+    "trade_time": "26 Aug 02:42 am",
+    "time_identified": "2026-08-25 21:12:54"
   }
 ]
