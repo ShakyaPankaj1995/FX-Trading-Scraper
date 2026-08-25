@@ -84524,5 +84524,44 @@
     "status": "Active",
     "trade_time": "26 Aug 02:42 am",
     "time_identified": "2026-08-25 21:12:54"
+  },
+  {
+    "id": "GBPUSD_15M_CRTAMD_1.36489_1.36539_1.36349",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "1.36489",
+    "sl": "1.36539",
+    "tp": "1.36349",
+    "status": "Active",
+    "trade_time": "26 Aug 03:12 am",
+    "time_identified": "2026-08-25 21:43:14"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.36489_1.36653_1.36229",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.36489",
+    "sl": "1.36653",
+    "tp": "1.36229",
+    "status": "Active",
+    "trade_time": "26 Aug 03:12 am",
+    "time_identified": "2026-08-25 21:43:14"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.16795_1.16856_1.16613",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16795",
+    "sl": "1.16856",
+    "tp": "1.16613",
+    "status": "Active",
+    "trade_time": "26 Aug 03:12 am",
+    "time_identified": "2026-08-25 21:43:14"
   }
 ]
