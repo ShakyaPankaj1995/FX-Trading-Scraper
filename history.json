@@ -83991,5 +83991,31 @@
     "status": "Active",
     "trade_time": "25 Aug 09:02 am",
     "time_identified": "2026-08-25 03:32:22"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.16754_1.16819_1.16591",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16754",
+    "sl": "1.16819",
+    "tp": "1.16591",
+    "status": "Active",
+    "trade_time": "25 Aug 02:47 pm",
+    "time_identified": "2026-08-25 09:17:44"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16754_1.16834_1.16550",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16754",
+    "sl": "1.16834",
+    "tp": "1.16550",
+    "status": "Active",
+    "trade_time": "25 Aug 02:47 pm",
+    "time_identified": "2026-08-25 09:17:44"
   }
 ]
