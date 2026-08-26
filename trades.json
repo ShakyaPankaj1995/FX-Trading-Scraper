@@ -1,28 +1,28 @@
 [
   {
-    "id": "GBPUSD_15M_Trendline_1.36359_1.36309_1.36506",
+    "id": "GBPUSD_15M_Trendline_1.36331_1.36309_1.36397",
     "symbol": "GBPUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.36359",
+    "entry": "1.36331",
     "sl": "1.36309",
-    "tp": "1.36506",
+    "tp": "1.36397",
     "status": "Active",
-    "trade_time": "26 Aug 09:36 am",
-    "time_identified": "2026-08-26 04:07:17"
+    "trade_time": "26 Aug 10:21 am",
+    "time_identified": "2026-08-26 04:52:17"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.16673_1.16583_1.16904",
+    "id": "EURUSD_15M_Trendline_1.16645_1.16582_1.16836",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.16673",
-    "sl": "1.16583",
-    "tp": "1.16904",
+    "entry": "1.16645",
+    "sl": "1.16582",
+    "tp": "1.16836",
     "status": "Active",
-    "trade_time": "26 Aug 09:36 am",
-    "time_identified": "2026-08-26 04:07:17"
+    "trade_time": "26 Aug 10:21 am",
+    "time_identified": "2026-08-26 04:52:17"
   }
 ]
