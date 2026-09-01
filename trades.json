@@ -1,15 +1,1 @@
-[
-  {
-    "id": "XAUUSD_15M_Trendline_4481.70_4464.40_4510.50",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4481.70",
-    "sl": "4464.40",
-    "tp": "4510.50",
-    "status": "Active",
-    "trade_time": "01 Sept 12:20 pm",
-    "time_identified": "2026-09-01 06:50:33"
-  }
-]
+[]
