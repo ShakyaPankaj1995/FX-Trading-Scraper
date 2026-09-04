@@ -1,28 +1,54 @@
 [
   {
-    "id": "XAUUSD_15M_Trendline_4471.00_4508.09_4412.00",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
+    "id": "S&P500_5M_Trendline_7715.00_7708.54_7726.75",
+    "symbol": "S&P500",
+    "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4471.00",
-    "sl": "4508.09",
-    "tp": "4412.00",
+    "signal": "BUY",
+    "entry": "7715.00",
+    "sl": "7708.54",
+    "tp": "7726.75",
     "status": "Active",
-    "trade_time": "05 Sept 12:42 am",
-    "time_identified": "2026-09-04 19:12:19"
+    "trade_time": "05 Sept 02:57 am",
+    "time_identified": "2026-09-04 21:27:43"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.35159_1.35300_1.34896",
-    "symbol": "GBPUSD",
+    "id": "USDJPY_15M_Trendline_156.22099_156.37493_155.75918",
+    "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.35159",
-    "sl": "1.35300",
-    "tp": "1.34896",
+    "entry": "156.22099",
+    "sl": "156.37493",
+    "tp": "155.75918",
     "status": "Active",
-    "trade_time": "05 Sept 12:41 am",
-    "time_identified": "2026-09-04 19:12:19"
+    "trade_time": "05 Sept 02:57 am",
+    "time_identified": "2026-09-04 21:27:43"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.16212_1.16201_1.16242",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16212",
+    "sl": "1.16201",
+    "tp": "1.16242",
+    "status": "Active",
+    "trade_time": "05 Sept 02:57 am",
+    "time_identified": "2026-09-04 21:27:43"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.16212_1.16307_1.15926",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.16212",
+    "sl": "1.16307",
+    "tp": "1.15926",
+    "status": "Active",
+    "trade_time": "05 Sept 02:57 am",
+    "time_identified": "2026-09-04 21:27:43"
   }
 ]
