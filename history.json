@@ -85772,5 +85772,18 @@
     "status": "Active",
     "trade_time": "05 Sept 06:24 am",
     "time_identified": "2026-09-05 00:54:34"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4482.00_4579.80_4329.20",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4482.00",
+    "sl": "4579.80",
+    "tp": "4329.20",
+    "status": "Active",
+    "trade_time": "05 Sept 10:29 am",
+    "time_identified": "2026-09-05 05:00:12"
   }
 ]
