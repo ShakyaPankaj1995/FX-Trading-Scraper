@@ -9,8 +9,8 @@
     "sl": "4579.80",
     "tp": "4329.20",
     "status": "Active",
-    "trade_time": "06 Sept 04:20 am",
-    "time_identified": "2026-09-05 22:51:14"
+    "trade_time": "06 Sept 05:46 am",
+    "time_identified": "2026-09-06 00:16:19"
   },
   {
     "id": "EURUSD_5M_Trendline_1.16212_1.16200_1.16246",
@@ -22,8 +22,8 @@
     "sl": "1.16200",
     "tp": "1.16246",
     "status": "Active",
-    "trade_time": "06 Sept 04:20 am",
-    "time_identified": "2026-09-05 22:51:14"
+    "trade_time": "06 Sept 05:45 am",
+    "time_identified": "2026-09-06 00:16:19"
   },
   {
     "id": "EURUSD_15M_Trendline_1.16212_1.16308_1.15922",
@@ -35,7 +35,7 @@
     "sl": "1.16308",
     "tp": "1.15922",
     "status": "Active",
-    "trade_time": "06 Sept 04:20 am",
-    "time_identified": "2026-09-05 22:51:14"
+    "trade_time": "06 Sept 05:45 am",
+    "time_identified": "2026-09-06 00:16:19"
   }
 ]
