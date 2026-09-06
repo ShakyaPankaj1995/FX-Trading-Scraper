@@ -9,21 +9,8 @@
     "sl": "29610.96",
     "tp": "29468.00",
     "status": "Active",
-    "trade_time": "06 Sept 02:26 pm",
-    "time_identified": "2026-09-06 08:56:26"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.16212_1.16200_1.16246",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.16212",
-    "sl": "1.16200",
-    "tp": "1.16246",
-    "status": "Active",
-    "trade_time": "06 Sept 02:25 pm",
-    "time_identified": "2026-09-06 08:56:26"
+    "trade_time": "06 Sept 05:59 pm",
+    "time_identified": "2026-09-06 12:29:45"
   },
   {
     "id": "EURUSD_15M_Trendline_1.16212_1.16308_1.15922",
@@ -35,7 +22,20 @@
     "sl": "1.16308",
     "tp": "1.15922",
     "status": "Active",
-    "trade_time": "06 Sept 02:25 pm",
-    "time_identified": "2026-09-06 08:56:26"
+    "trade_time": "06 Sept 05:59 pm",
+    "time_identified": "2026-09-06 12:29:45"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.16212_1.16200_1.16246",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.16212",
+    "sl": "1.16200",
+    "tp": "1.16246",
+    "status": "Active",
+    "trade_time": "06 Sept 05:59 pm",
+    "time_identified": "2026-09-06 12:29:45"
   }
 ]
