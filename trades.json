@@ -1,15 +1,15 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_4401.50_4385.01_4450.96",
-    "symbol": "XAUUSD",
-    "timeframe": "1H",
+    "id": "S&P500_15M_Trendline_7595.50_7578.38_7646.88",
+    "symbol": "S&P500",
+    "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "4401.50",
-    "sl": "4385.01",
-    "tp": "4450.96",
+    "entry": "7595.50",
+    "sl": "7578.38",
+    "tp": "7646.88",
     "status": "Active",
-    "trade_time": "10 Sept 09:55 pm",
-    "time_identified": "2026-09-10 16:25:55"
+    "trade_time": "11 Sept 12:41 am",
+    "time_identified": "2026-09-10 19:11:12"
   }
 ]
