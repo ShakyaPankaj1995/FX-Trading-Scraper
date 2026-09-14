@@ -1,28 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29570.00_29686.87_29219.40",
+    "id": "NASDAQ_5M_Trendline_29489.75_29421.04_29604.50",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "29489.75",
+    "sl": "29421.04",
+    "tp": "29604.50",
+    "status": "Active",
+    "trade_time": "15 Sept 03:39 am",
+    "time_identified": "2026-09-14 22:09:58"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_29489.75_29693.70_28877.91",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "29570.00",
-    "sl": "29686.87",
-    "tp": "29219.40",
+    "entry": "29489.75",
+    "sl": "29693.70",
+    "tp": "28877.91",
     "status": "Active",
-    "trade_time": "15 Sept 12:24 am",
-    "time_identified": "2026-09-14 18:54:53"
+    "trade_time": "15 Sept 03:39 am",
+    "time_identified": "2026-09-14 22:09:58"
   },
   {
-    "id": "XAUUSD_15M_Trendline_4349.90_4350.98_4346.67",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
+    "id": "USDJPY_1H_CRTAMD_154.30000_154.45241_154.02699",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "154.30000",
+    "sl": "154.45241",
+    "tp": "154.02699",
+    "status": "Active",
+    "trade_time": "15 Sept 03:39 am",
+    "time_identified": "2026-09-14 22:09:58"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_154.32001_154.47375_153.96899",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4349.90",
-    "sl": "4350.98",
-    "tp": "4346.67",
+    "entry": "154.32001",
+    "sl": "154.47375",
+    "tp": "153.96899",
     "status": "Active",
-    "trade_time": "15 Sept 12:24 am",
-    "time_identified": "2026-09-14 18:54:53"
+    "trade_time": "15 Sept 03:39 am",
+    "time_identified": "2026-09-14 22:09:58"
   }
 ]
