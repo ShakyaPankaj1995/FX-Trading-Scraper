@@ -9,8 +9,8 @@
     "sl": "4408.95",
     "tp": "4435.20",
     "status": "Active",
-    "trade_time": "19 Sept 02:30 am",
-    "time_identified": "2026-09-18 21:00:47"
+    "trade_time": "19 Sept 04:37 am",
+    "time_identified": "2026-09-18 23:07:43"
   },
   {
     "id": "USDJPY_15M_Trendline_156.84300_156.46194_157.98619",
@@ -22,20 +22,33 @@
     "sl": "156.46194",
     "tp": "157.98619",
     "status": "Active",
-    "trade_time": "19 Sept 02:30 am",
-    "time_identified": "2026-09-18 21:00:47"
+    "trade_time": "19 Sept 04:37 am",
+    "time_identified": "2026-09-18 23:07:43"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.14890_1.14976_1.14629",
+    "id": "EURUSD_1H_Trendline_1.14903_1.15097_1.14587",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.14903",
+    "sl": "1.15097",
+    "tp": "1.14587",
+    "status": "Active",
+    "trade_time": "19 Sept 04:37 am",
+    "time_identified": "2026-09-18 23:07:43"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.14890_1.14975_1.14634",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
     "entry": "1.14890",
-    "sl": "1.14976",
-    "tp": "1.14629",
+    "sl": "1.14975",
+    "tp": "1.14634",
     "status": "Active",
-    "trade_time": "19 Sept 02:30 am",
-    "time_identified": "2026-09-18 21:00:47"
+    "trade_time": "19 Sept 04:37 am",
+    "time_identified": "2026-09-18 23:07:43"
   }
 ]
