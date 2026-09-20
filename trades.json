@@ -9,33 +9,7 @@
     "sl": "156.46194",
     "tp": "157.98619",
     "status": "Active",
-    "trade_time": "21 Sept 12:48 am",
-    "time_identified": "2026-09-20 19:18:44"
-  },
-  {
-    "id": "EURUSD_1H_Trendline_1.14903_1.15097_1.14587",
-    "symbol": "EURUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.14903",
-    "sl": "1.15097",
-    "tp": "1.14587",
-    "status": "Active",
-    "trade_time": "21 Sept 12:48 am",
-    "time_identified": "2026-09-20 19:18:44"
-  },
-  {
-    "id": "EURUSD_15M_Trendline_1.14890_1.14975_1.14634",
-    "symbol": "EURUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.14890",
-    "sl": "1.14975",
-    "tp": "1.14634",
-    "status": "Active",
-    "trade_time": "21 Sept 12:48 am",
-    "time_identified": "2026-09-20 19:18:44"
+    "trade_time": "21 Sept 03:07 am",
+    "time_identified": "2026-09-20 21:37:36"
   }
 ]
