@@ -87111,5 +87111,31 @@
     "status": "Active",
     "trade_time": "22 Sept 11:52 pm",
     "time_identified": "2026-09-22 18:22:44"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_157.41000_157.72529_156.81599",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "157.41000",
+    "sl": "157.72529",
+    "tp": "156.81599",
+    "status": "Active",
+    "trade_time": "23 Sept 02:59 am",
+    "time_identified": "2026-09-22 21:29:46"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.14521_1.14484_1.14633",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.14521",
+    "sl": "1.14484",
+    "tp": "1.14633",
+    "status": "Active",
+    "trade_time": "23 Sept 02:59 am",
+    "time_identified": "2026-09-22 21:29:46"
   }
 ]
