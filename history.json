@@ -87397,5 +87397,44 @@
     "status": "Active",
     "trade_time": "25 Sept 08:50 pm",
     "time_identified": "2026-09-25 15:21:15"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7799.00_7806.88_7775.35",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7799.00",
+    "sl": "7806.88",
+    "tp": "7775.35",
+    "status": "Active",
+    "trade_time": "26 Sept 12:50 am",
+    "time_identified": "2026-09-25 19:20:50"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4328.70_4349.06_4289.20",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4328.70",
+    "sl": "4349.06",
+    "tp": "4289.20",
+    "status": "Active",
+    "trade_time": "26 Sept 12:50 am",
+    "time_identified": "2026-09-25 19:20:50"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.32531_1.32739_1.32059",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.32531",
+    "sl": "1.32739",
+    "tp": "1.32059",
+    "status": "Active",
+    "trade_time": "26 Sept 12:50 am",
+    "time_identified": "2026-09-25 19:20:50"
   }
 ]
