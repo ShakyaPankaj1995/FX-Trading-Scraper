@@ -87280,5 +87280,57 @@
     "status": "Active",
     "trade_time": "25 Sept 10:55 am",
     "time_identified": "2026-09-25 05:26:13"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7786.25_7798.85_7748.46",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7786.25",
+    "sl": "7798.85",
+    "tp": "7748.46",
+    "status": "Active",
+    "trade_time": "25 Sept 03:51 pm",
+    "time_identified": "2026-09-25 10:21:13"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4335.80_4359.65_4278.30",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4335.80",
+    "sl": "4359.65",
+    "tp": "4278.30",
+    "status": "Active",
+    "trade_time": "25 Sept 03:50 pm",
+    "time_identified": "2026-09-25 10:21:13"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_157.87100_157.44290_159.03600",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "157.87100",
+    "sl": "157.44290",
+    "tp": "159.03600",
+    "status": "Active",
+    "trade_time": "25 Sept 03:50 pm",
+    "time_identified": "2026-09-25 10:21:13"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.32484_1.32679_1.32059",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.32484",
+    "sl": "1.32679",
+    "tp": "1.32059",
+    "status": "Active",
+    "trade_time": "25 Sept 03:50 pm",
+    "time_identified": "2026-09-25 10:21:13"
   }
 ]
