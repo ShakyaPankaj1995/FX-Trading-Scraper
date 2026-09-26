@@ -9,8 +9,8 @@
     "sl": "31005.37",
     "tp": "30684.00",
     "status": "Active",
-    "trade_time": "26 Sept 03:59 am",
-    "time_identified": "2026-09-25 22:30:02"
+    "trade_time": "26 Sept 06:16 am",
+    "time_identified": "2026-09-26 00:47:07"
   },
   {
     "id": "S&P500_1H_Trendline_7805.75_7808.22_7798.33",
@@ -22,8 +22,8 @@
     "sl": "7808.22",
     "tp": "7798.33",
     "status": "Active",
-    "trade_time": "26 Sept 03:59 am",
-    "time_identified": "2026-09-25 22:30:02"
+    "trade_time": "26 Sept 06:16 am",
+    "time_identified": "2026-09-26 00:47:07"
   },
   {
     "id": "XAUUSD_5M_Trendline_4320.50_4319.87_4322.39",
@@ -35,8 +35,8 @@
     "sl": "4319.87",
     "tp": "4322.39",
     "status": "Active",
-    "trade_time": "26 Sept 03:59 am",
-    "time_identified": "2026-09-25 22:30:02"
+    "trade_time": "26 Sept 06:16 am",
+    "time_identified": "2026-09-26 00:47:07"
   },
   {
     "id": "EURUSD_5M_Trendline_1.13921_1.13897_1.13994",
@@ -48,20 +48,20 @@
     "sl": "1.13897",
     "tp": "1.13994",
     "status": "Active",
-    "trade_time": "26 Sept 03:59 am",
-    "time_identified": "2026-09-25 22:30:02"
+    "trade_time": "26 Sept 06:16 am",
+    "time_identified": "2026-09-26 00:47:07"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.13921_1.13856_1.14116",
+    "id": "EURUSD_15M_Trendline_1.13921_1.13852_1.14128",
     "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
     "entry": "1.13921",
-    "sl": "1.13856",
-    "tp": "1.14116",
+    "sl": "1.13852",
+    "tp": "1.14128",
     "status": "Active",
-    "trade_time": "26 Sept 03:59 am",
-    "time_identified": "2026-09-25 22:30:02"
+    "trade_time": "26 Sept 06:16 am",
+    "time_identified": "2026-09-26 00:47:07"
   }
 ]
