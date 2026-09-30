@@ -87722,5 +87722,31 @@
     "status": "Active",
     "trade_time": "30 Sept 03:46 am",
     "time_identified": "2026-09-29 22:17:18"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_30563.75_30542.77_30626.70",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "30563.75",
+    "sl": "30542.77",
+    "tp": "30626.70",
+    "status": "Active",
+    "trade_time": "30 Sept 12:20 pm",
+    "time_identified": "2026-09-30 06:50:37"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7737.50_7735.06_7744.81",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7737.50",
+    "sl": "7735.06",
+    "tp": "7744.81",
+    "status": "Active",
+    "trade_time": "30 Sept 12:20 pm",
+    "time_identified": "2026-09-30 06:50:37"
   }
 ]
