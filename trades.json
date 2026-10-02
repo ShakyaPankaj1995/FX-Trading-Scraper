@@ -1,15 +1,54 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_30844.25_30938.12_30562.65",
+    "id": "NASDAQ_15M_Trendline_30843.75_30945.38_30538.88",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "30844.25",
-    "sl": "30938.12",
-    "tp": "30562.65",
+    "entry": "30843.75",
+    "sl": "30945.38",
+    "tp": "30538.88",
     "status": "Active",
-    "trade_time": "02 Oct 04:55 am",
-    "time_identified": "2026-10-01 23:26:05"
+    "trade_time": "02 Oct 07:51 am",
+    "time_identified": "2026-10-02 02:21:40"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7733.50_7749.90_7684.29",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7733.50",
+    "sl": "7749.90",
+    "tp": "7684.29",
+    "status": "Active",
+    "trade_time": "02 Oct 07:51 am",
+    "time_identified": "2026-10-02 02:21:40"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.31980_1.32027_1.31839",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.31980",
+    "sl": "1.32027",
+    "tp": "1.31839",
+    "status": "Active",
+    "trade_time": "02 Oct 07:51 am",
+    "time_identified": "2026-10-02 02:21:40"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.31980_1.32083_1.31813",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.31980",
+    "sl": "1.32083",
+    "tp": "1.31813",
+    "status": "Active",
+    "trade_time": "02 Oct 07:51 am",
+    "time_identified": "2026-10-02 02:21:40"
   }
 ]
