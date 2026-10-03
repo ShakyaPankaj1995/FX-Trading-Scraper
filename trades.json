@@ -9,8 +9,8 @@
     "sl": "30940.56",
     "tp": "31282.50",
     "status": "Active",
-    "trade_time": "03 Oct 10:22 pm",
-    "time_identified": "2026-10-03 16:52:13"
+    "trade_time": "04 Oct 01:02 am",
+    "time_identified": "2026-10-03 19:33:05"
   },
   {
     "id": "S&P500_1H_Trendline_7777.25_7796.95_7718.16",
@@ -22,8 +22,8 @@
     "sl": "7796.95",
     "tp": "7718.16",
     "status": "Active",
-    "trade_time": "03 Oct 10:22 pm",
-    "time_identified": "2026-10-03 16:52:13"
+    "trade_time": "04 Oct 01:02 am",
+    "time_identified": "2026-10-03 19:33:05"
   },
   {
     "id": "USDJPY_15M_Trendline_157.77901_157.91843_157.36074",
@@ -35,7 +35,7 @@
     "sl": "157.91843",
     "tp": "157.36074",
     "status": "Active",
-    "trade_time": "03 Oct 10:21 pm",
-    "time_identified": "2026-10-03 16:52:13"
+    "trade_time": "04 Oct 01:02 am",
+    "time_identified": "2026-10-03 19:33:05"
   }
 ]
