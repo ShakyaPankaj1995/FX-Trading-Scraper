@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "USDJPY_5M_Trendline_157.82001_157.91415_157.56100",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "157.82001",
+    "sl": "157.91415",
+    "tp": "157.56100",
+    "status": "Active",
+    "trade_time": "05 Oct 02:22 pm",
+    "time_identified": "2026-10-05 08:52:20"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_157.82001_158.24503_156.93300",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "157.82001",
+    "sl": "158.24503",
+    "tp": "156.93300",
+    "status": "Active",
+    "trade_time": "05 Oct 02:22 pm",
+    "time_identified": "2026-10-05 08:52:20"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.32373_1.32592_1.31909",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.32373",
+    "sl": "1.32592",
+    "tp": "1.31909",
+    "status": "Active",
+    "trade_time": "05 Oct 02:22 pm",
+    "time_identified": "2026-10-05 08:52:20"
+  }
+]
