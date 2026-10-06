@@ -1,15 +1,28 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_4190.40_4220.08_4130.70",
+    "id": "NASDAQ_15M_Trendline_31500.00_31441.19_31616.50",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "31500.00",
+    "sl": "31441.19",
+    "tp": "31616.50",
+    "status": "Active",
+    "trade_time": "07 Oct 02:33 am",
+    "time_identified": "2026-10-06 21:03:12"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_4192.30_4220.54_4130.70",
     "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "4190.40",
-    "sl": "4220.08",
+    "entry": "4192.30",
+    "sl": "4220.54",
     "tp": "4130.70",
     "status": "Active",
-    "trade_time": "06 Oct 09:49 pm",
-    "time_identified": "2026-10-06 16:20:13"
+    "trade_time": "07 Oct 02:32 am",
+    "time_identified": "2026-10-06 21:03:12"
   }
 ]
