@@ -1,15 +1,15 @@
 [
   {
-    "id": "EURUSD_1H_Trendline_1.12473_1.12516_1.12346",
-    "symbol": "EURUSD",
+    "id": "XAUUSD_1H_Trendline_4190.40_4220.08_4130.70",
+    "symbol": "XAUUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.12473",
-    "sl": "1.12516",
-    "tp": "1.12346",
+    "entry": "4190.40",
+    "sl": "4220.08",
+    "tp": "4130.70",
     "status": "Active",
-    "trade_time": "06 Oct 03:24 pm",
-    "time_identified": "2026-10-06 09:55:01"
+    "trade_time": "06 Oct 09:49 pm",
+    "time_identified": "2026-10-06 16:20:13"
   }
 ]
