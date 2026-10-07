@@ -1,41 +1,41 @@
 [
   {
-    "id": "GBPUSD_5M_CRTAMD_1.32162_1.32171_1.32146",
-    "symbol": "GBPUSD",
-    "timeframe": "5M",
-    "strategy": "CRT (AMD)",
-    "signal": "SELL",
-    "entry": "1.32162",
-    "sl": "1.32171",
-    "tp": "1.32146",
-    "status": "Active",
-    "trade_time": "08 Oct 01:01 am",
-    "time_identified": "2026-10-07 19:31:46"
-  },
-  {
-    "id": "GBPUSD_1H_Trendline_1.32162_1.31809_1.32852",
-    "symbol": "GBPUSD",
-    "timeframe": "1H",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.32162",
-    "sl": "1.31809",
-    "tp": "1.32852",
-    "status": "Active",
-    "trade_time": "08 Oct 01:01 am",
-    "time_identified": "2026-10-07 19:31:46"
-  },
-  {
-    "id": "EURUSD_15M_Trendline_1.12020_1.12122_1.11713",
-    "symbol": "EURUSD",
+    "id": "NASDAQ_15M_Trendline_31450.75_31532.17_31206.49",
+    "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "1.12020",
-    "sl": "1.12122",
-    "tp": "1.11713",
+    "entry": "31450.75",
+    "sl": "31532.17",
+    "tp": "31206.49",
     "status": "Active",
-    "trade_time": "08 Oct 01:01 am",
-    "time_identified": "2026-10-07 19:31:46"
+    "trade_time": "08 Oct 05:12 am",
+    "time_identified": "2026-10-07 23:42:39"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7856.75_7857.75_7853.75",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7856.75",
+    "sl": "7857.75",
+    "tp": "7853.75",
+    "status": "Active",
+    "trade_time": "08 Oct 05:12 am",
+    "time_identified": "2026-10-07 23:42:39"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.32181_1.32103_1.32326",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.32181",
+    "sl": "1.32103",
+    "tp": "1.32326",
+    "status": "Active",
+    "trade_time": "08 Oct 05:12 am",
+    "time_identified": "2026-10-07 23:42:39"
   }
 ]
