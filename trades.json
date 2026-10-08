@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "XAUUSD_1H_Trendline_4158.30_4190.35_4091.20",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4158.30",
+    "sl": "4190.35",
+    "tp": "4091.20",
+    "status": "Active",
+    "trade_time": "09 Oct 03:20 am",
+    "time_identified": "2026-10-08 21:50:22"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.32314_1.32575_1.31855",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.32314",
+    "sl": "1.32575",
+    "tp": "1.31855",
+    "status": "Active",
+    "trade_time": "09 Oct 03:20 am",
+    "time_identified": "2026-10-08 21:50:22"
+  }
+]
