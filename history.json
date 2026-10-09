@@ -88502,5 +88502,31 @@
     "status": "Active",
     "trade_time": "09 Oct 01:19 pm",
     "time_identified": "2026-10-09 07:49:36"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7839.00_7865.48_7783.00",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7839.00",
+    "sl": "7865.48",
+    "tp": "7783.00",
+    "status": "Active",
+    "trade_time": "09 Oct 08:12 pm",
+    "time_identified": "2026-10-09 14:43:01"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4209.80_4238.29_4129.20",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4209.80",
+    "sl": "4238.29",
+    "tp": "4129.20",
+    "status": "Active",
+    "trade_time": "09 Oct 08:12 pm",
+    "time_identified": "2026-10-09 14:43:01"
   }
 ]
