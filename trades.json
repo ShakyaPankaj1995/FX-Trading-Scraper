@@ -1,54 +1,41 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7864.25_7868.78_7850.67",
+    "id": "S&P500_1H_Trendline_7866.00_7869.02_7856.95",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7864.25",
-    "sl": "7868.78",
-    "tp": "7850.67",
+    "entry": "7866.00",
+    "sl": "7869.02",
+    "tp": "7856.95",
     "status": "Active",
-    "trade_time": "10 Oct 01:16 am",
-    "time_identified": "2026-10-09 19:46:49"
+    "trade_time": "10 Oct 05:03 am",
+    "time_identified": "2026-10-09 23:34:10"
   },
   {
-    "id": "USDJPY_15M_Trendline_158.23801_158.12522_158.43100",
-    "symbol": "USDJPY",
-    "timeframe": "15M",
+    "id": "XAUUSD_5M_Trendline_4220.30_4215.54_4227.80",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "158.23801",
-    "sl": "158.12522",
-    "tp": "158.43100",
+    "entry": "4220.30",
+    "sl": "4215.54",
+    "tp": "4227.80",
     "status": "Active",
-    "trade_time": "10 Oct 01:16 am",
-    "time_identified": "2026-10-09 19:46:49"
+    "trade_time": "10 Oct 05:03 am",
+    "time_identified": "2026-10-09 23:34:10"
   },
   {
-    "id": "USDJPY_1H_Trendline_158.23801_158.58814_157.50400",
+    "id": "USDJPY_1H_Trendline_158.26700_158.58878_157.50400",
     "symbol": "USDJPY",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "158.23801",
-    "sl": "158.58814",
+    "entry": "158.26700",
+    "sl": "158.58878",
     "tp": "157.50400",
     "status": "Active",
-    "trade_time": "10 Oct 01:16 am",
-    "time_identified": "2026-10-09 19:46:49"
-  },
-  {
-    "id": "EURUSD_5M_Trendline_1.12032_1.12072_1.11957",
-    "symbol": "EURUSD",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.12032",
-    "sl": "1.12072",
-    "tp": "1.11957",
-    "status": "Active",
-    "trade_time": "10 Oct 01:16 am",
-    "time_identified": "2026-10-09 19:46:49"
+    "trade_time": "10 Oct 05:03 am",
+    "time_identified": "2026-10-09 23:34:10"
   }
 ]
