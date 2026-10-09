@@ -1,28 +1,54 @@
 [
   {
-    "id": "S&P500_1H_Trendline_7839.00_7865.48_7783.00",
+    "id": "S&P500_1H_Trendline_7864.25_7868.78_7850.67",
     "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7839.00",
-    "sl": "7865.48",
-    "tp": "7783.00",
+    "entry": "7864.25",
+    "sl": "7868.78",
+    "tp": "7850.67",
     "status": "Active",
-    "trade_time": "09 Oct 08:12 pm",
-    "time_identified": "2026-10-09 14:43:01"
+    "trade_time": "10 Oct 01:16 am",
+    "time_identified": "2026-10-09 19:46:49"
   },
   {
-    "id": "XAUUSD_15M_Trendline_4209.80_4238.29_4129.20",
-    "symbol": "XAUUSD",
+    "id": "USDJPY_15M_Trendline_158.23801_158.12522_158.43100",
+    "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4209.80",
-    "sl": "4238.29",
-    "tp": "4129.20",
+    "signal": "BUY",
+    "entry": "158.23801",
+    "sl": "158.12522",
+    "tp": "158.43100",
     "status": "Active",
-    "trade_time": "09 Oct 08:12 pm",
-    "time_identified": "2026-10-09 14:43:01"
+    "trade_time": "10 Oct 01:16 am",
+    "time_identified": "2026-10-09 19:46:49"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_158.23801_158.58814_157.50400",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "158.23801",
+    "sl": "158.58814",
+    "tp": "157.50400",
+    "status": "Active",
+    "trade_time": "10 Oct 01:16 am",
+    "time_identified": "2026-10-09 19:46:49"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.12032_1.12072_1.11957",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.12032",
+    "sl": "1.12072",
+    "tp": "1.11957",
+    "status": "Active",
+    "trade_time": "10 Oct 01:16 am",
+    "time_identified": "2026-10-09 19:46:49"
   }
 ]
