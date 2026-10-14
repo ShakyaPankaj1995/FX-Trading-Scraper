@@ -88983,5 +88983,18 @@
     "status": "Active",
     "trade_time": "14 Oct 11:49 am",
     "time_identified": "2026-10-14 06:19:36"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_158.06100_157.80343_158.51700",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.06100",
+    "sl": "157.80343",
+    "tp": "158.51700",
+    "status": "Active",
+    "trade_time": "15 Oct 04:53 am",
+    "time_identified": "2026-10-14 23:24:04"
   }
 ]
