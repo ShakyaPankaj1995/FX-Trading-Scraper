@@ -9,8 +9,8 @@
     "sl": "29471.38",
     "tp": "29268.75",
     "status": "Active",
-    "trade_time": "18 Oct 10:14 am",
-    "time_identified": "2026-10-18 04:44:57"
+    "trade_time": "18 Oct 02:37 pm",
+    "time_identified": "2026-10-18 09:07:52"
   },
   {
     "id": "S&P500_5M_Trendline_7704.25_7715.71_7676.00",
@@ -22,8 +22,8 @@
     "sl": "7715.71",
     "tp": "7676.00",
     "status": "Active",
-    "trade_time": "18 Oct 10:14 am",
-    "time_identified": "2026-10-18 04:44:57"
+    "trade_time": "18 Oct 02:37 pm",
+    "time_identified": "2026-10-18 09:07:52"
   },
   {
     "id": "XAUUSD_15M_Trendline_4181.10_4168.38_4219.25",
@@ -35,7 +35,7 @@
     "sl": "4168.38",
     "tp": "4219.25",
     "status": "Active",
-    "trade_time": "18 Oct 10:14 am",
-    "time_identified": "2026-10-18 04:44:57"
+    "trade_time": "18 Oct 02:37 pm",
+    "time_identified": "2026-10-18 09:07:52"
   }
 ]
