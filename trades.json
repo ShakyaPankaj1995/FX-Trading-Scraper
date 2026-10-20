@@ -1,28 +1,28 @@
 [
   {
-    "id": "XAUUSD_15M_Trendline_4139.30_4129.84_4167.68",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
+    "id": "NASDAQ_1H_Trendline_29966.00_30189.54_29391.75",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4139.30",
-    "sl": "4129.84",
-    "tp": "4167.68",
+    "signal": "SELL",
+    "entry": "29966.00",
+    "sl": "30189.54",
+    "tp": "29391.75",
     "status": "Active",
-    "trade_time": "21 Oct 01:04 am",
-    "time_identified": "2026-10-20 19:34:25"
+    "trade_time": "21 Oct 04:05 am",
+    "time_identified": "2026-10-20 22:35:39"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.33801_1.33613_1.34086",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
+    "id": "S&P500_1H_Trendline_7784.75_7806.84_7718.48",
+    "symbol": "S&P500",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "1.33801",
-    "sl": "1.33613",
-    "tp": "1.34086",
+    "signal": "SELL",
+    "entry": "7784.75",
+    "sl": "7806.84",
+    "tp": "7718.48",
     "status": "Active",
-    "trade_time": "21 Oct 01:04 am",
-    "time_identified": "2026-10-20 19:34:25"
+    "trade_time": "21 Oct 04:05 am",
+    "time_identified": "2026-10-20 22:35:39"
   }
 ]
