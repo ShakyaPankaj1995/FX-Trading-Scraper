@@ -1,28 +1,41 @@
 [
   {
-    "id": "S&P500_15M_Trendline_7765.50_7760.29_7781.14",
-    "symbol": "S&P500",
-    "timeframe": "15M",
+    "id": "NASDAQ_1H_Trendline_29598.00_29569.95_29682.16",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "7765.50",
-    "sl": "7760.29",
-    "tp": "7781.14",
+    "entry": "29598.00",
+    "sl": "29569.95",
+    "tp": "29682.16",
     "status": "Active",
-    "trade_time": "22 Oct 06:18 am",
-    "time_identified": "2026-10-22 00:48:30"
+    "trade_time": "22 Oct 10:56 am",
+    "time_identified": "2026-10-22 05:26:59"
   },
   {
-    "id": "GBPUSD_15M_Trendline_1.33958_1.34063_1.33785",
-    "symbol": "GBPUSD",
-    "timeframe": "15M",
+    "id": "S&P500_1H_Trendline_7745.50_7727.86_7798.43",
+    "symbol": "S&P500",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.33958",
-    "sl": "1.34063",
-    "tp": "1.33785",
+    "signal": "BUY",
+    "entry": "7745.50",
+    "sl": "7727.86",
+    "tp": "7798.43",
     "status": "Active",
-    "trade_time": "22 Oct 06:18 am",
-    "time_identified": "2026-10-22 00:48:30"
+    "trade_time": "22 Oct 10:56 am",
+    "time_identified": "2026-10-22 05:26:59"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.33985_1.33923_1.34084",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.33985",
+    "sl": "1.33923",
+    "tp": "1.34084",
+    "status": "Active",
+    "trade_time": "22 Oct 10:56 am",
+    "time_identified": "2026-10-22 05:26:59"
   }
 ]
