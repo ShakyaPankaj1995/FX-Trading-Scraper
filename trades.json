@@ -1,15 +1,28 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_29858.00_29790.42_30060.74",
-    "symbol": "NASDAQ",
+    "id": "S&P500_15M_Trendline_7765.50_7760.29_7781.14",
+    "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29858.00",
-    "sl": "29790.42",
-    "tp": "30060.74",
+    "entry": "7765.50",
+    "sl": "7760.29",
+    "tp": "7781.14",
     "status": "Active",
-    "trade_time": "22 Oct 03:59 am",
-    "time_identified": "2026-10-21 22:29:21"
+    "trade_time": "22 Oct 06:18 am",
+    "time_identified": "2026-10-22 00:48:30"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.33958_1.34063_1.33785",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33958",
+    "sl": "1.34063",
+    "tp": "1.33785",
+    "status": "Active",
+    "trade_time": "22 Oct 06:18 am",
+    "time_identified": "2026-10-22 00:48:30"
   }
 ]
