@@ -89633,5 +89633,31 @@
     "status": "Active",
     "trade_time": "23 Oct 03:46 pm",
     "time_identified": "2026-10-23 10:17:14"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7687.75_7705.27_7648.50",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7687.75",
+    "sl": "7705.27",
+    "tp": "7648.50",
+    "status": "Active",
+    "trade_time": "23 Oct 08:48 pm",
+    "time_identified": "2026-10-23 15:19:07"
+  },
+  {
+    "id": "XAUUSD_15M_CRTAMD_4009.50_4022.33_3989.10",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "CRT (AMD)",
+    "signal": "SELL",
+    "entry": "4009.50",
+    "sl": "4022.33",
+    "tp": "3989.10",
+    "status": "Active",
+    "trade_time": "23 Oct 08:48 pm",
+    "time_identified": "2026-10-23 15:19:07"
   }
 ]
