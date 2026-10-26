@@ -1,41 +1,28 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_29180.00_29243.00_29053.50",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "29180.00",
-    "sl": "29243.00",
-    "tp": "29053.50",
-    "status": "Active",
-    "trade_time": "26 Oct 11:32 am",
-    "time_identified": "2026-10-26 06:02:12"
-  },
-  {
-    "id": "S&P500_5M_Trendline_7679.00_7682.21_7669.36",
-    "symbol": "S&P500",
-    "timeframe": "5M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "7679.00",
-    "sl": "7682.21",
-    "tp": "7669.36",
-    "status": "Active",
-    "trade_time": "26 Oct 11:32 am",
-    "time_identified": "2026-10-26 06:02:12"
-  },
-  {
-    "id": "XAUUSD_15M_Trendline_4025.80_4030.42_4011.93",
+    "id": "XAUUSD_5M_Trendline_4036.40_4039.29_4027.72",
     "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4036.40",
+    "sl": "4039.29",
+    "tp": "4027.72",
+    "status": "Active",
+    "trade_time": "26 Oct 06:11 pm",
+    "time_identified": "2026-10-26 12:41:17"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.11970_1.11883_1.12196",
+    "symbol": "EURUSD",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "4025.80",
-    "sl": "4030.42",
-    "tp": "4011.93",
+    "signal": "BUY",
+    "entry": "1.11970",
+    "sl": "1.11883",
+    "tp": "1.12196",
     "status": "Active",
-    "trade_time": "26 Oct 11:31 am",
-    "time_identified": "2026-10-26 06:02:12"
+    "trade_time": "26 Oct 06:10 pm",
+    "time_identified": "2026-10-26 12:41:17"
   }
 ]
