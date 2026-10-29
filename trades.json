@@ -1,41 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_29593.50_29295.78_30178.00",
-    "symbol": "NASDAQ",
+    "id": "S&P500_1H_Trendline_7720.25_7706.60_7761.21",
+    "symbol": "S&P500",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "29593.50",
-    "sl": "29295.78",
-    "tp": "30178.00",
+    "entry": "7720.25",
+    "sl": "7706.60",
+    "tp": "7761.21",
     "status": "Active",
-    "trade_time": "29 Oct 09:06 pm",
-    "time_identified": "2026-10-29 15:36:26"
+    "trade_time": "30 Oct 02:01 am",
+    "time_identified": "2026-10-29 20:31:41"
   },
   {
-    "id": "XAUUSD_5M_Trendline_4032.00_4020.30_4049.80",
+    "id": "XAUUSD_5M_Trendline_4036.40_4042.49_4021.20",
     "symbol": "XAUUSD",
     "timeframe": "5M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "4032.00",
-    "sl": "4020.30",
-    "tp": "4049.80",
+    "signal": "SELL",
+    "entry": "4036.40",
+    "sl": "4042.49",
+    "tp": "4021.20",
     "status": "Active",
-    "trade_time": "29 Oct 09:06 pm",
-    "time_identified": "2026-10-29 15:36:26"
+    "trade_time": "30 Oct 02:01 am",
+    "time_identified": "2026-10-29 20:31:41"
   },
   {
-    "id": "EURUSD_15M_Trendline_1.11607_1.11717_1.11276",
-    "symbol": "EURUSD",
+    "id": "USDJPY_15M_Trendline_157.67999_157.63900_157.80297",
+    "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "1.11607",
-    "sl": "1.11717",
-    "tp": "1.11276",
+    "signal": "BUY",
+    "entry": "157.67999",
+    "sl": "157.63900",
+    "tp": "157.80297",
     "status": "Active",
-    "trade_time": "29 Oct 09:05 pm",
-    "time_identified": "2026-10-29 15:36:26"
+    "trade_time": "30 Oct 02:01 am",
+    "time_identified": "2026-10-29 20:31:41"
+  },
+  {
+    "id": "EURUSD_1H_Trendline_1.11807_1.11962_1.11342",
+    "symbol": "EURUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.11807",
+    "sl": "1.11962",
+    "tp": "1.11342",
+    "status": "Active",
+    "trade_time": "30 Oct 02:01 am",
+    "time_identified": "2026-10-29 20:31:41"
   }
 ]
