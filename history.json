@@ -90192,5 +90192,31 @@
     "status": "Active",
     "trade_time": "31 Oct 12:00 pm",
     "time_identified": "2026-10-31 06:30:12"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_28534.00_28637.31_28232.75",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28534.00",
+    "sl": "28637.31",
+    "tp": "28232.75",
+    "status": "Active",
+    "trade_time": "31 Oct 06:27 pm",
+    "time_identified": "2026-10-31 12:57:34"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7614.00_7635.10_7558.25",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7614.00",
+    "sl": "7635.10",
+    "tp": "7558.25",
+    "status": "Active",
+    "trade_time": "31 Oct 06:27 pm",
+    "time_identified": "2026-10-31 12:57:34"
   }
 ]
