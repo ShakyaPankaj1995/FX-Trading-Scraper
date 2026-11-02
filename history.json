@@ -90218,5 +90218,31 @@
     "status": "Active",
     "trade_time": "31 Oct 06:27 pm",
     "time_identified": "2026-10-31 12:57:34"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_157.94200_158.47743_156.95700",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "157.94200",
+    "sl": "158.47743",
+    "tp": "156.95700",
+    "status": "Active",
+    "trade_time": "02 Nov 08:17 am",
+    "time_identified": "2026-11-02 02:48:17"
+  },
+  {
+    "id": "GBPUSD_1H_Trendline_1.33806_1.33563_1.34335",
+    "symbol": "GBPUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.33806",
+    "sl": "1.33563",
+    "tp": "1.34335",
+    "status": "Active",
+    "trade_time": "02 Nov 08:17 am",
+    "time_identified": "2026-11-02 02:48:17"
   }
 ]
