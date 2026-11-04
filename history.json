@@ -90400,5 +90400,70 @@
     "status": "Active",
     "trade_time": "04 Nov 10:59 pm",
     "time_identified": "2026-11-04 17:29:34"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_28646.75_28703.10_28510.50",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28646.75",
+    "sl": "28703.10",
+    "tp": "28510.50",
+    "status": "Active",
+    "trade_time": "05 Nov 04:15 am",
+    "time_identified": "2026-11-04 22:45:18"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_28646.75_28832.01_28090.97",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28646.75",
+    "sl": "28832.01",
+    "tp": "28090.97",
+    "status": "Active",
+    "trade_time": "05 Nov 04:15 am",
+    "time_identified": "2026-11-04 22:45:18"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7734.50_7747.79_7712.75",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7734.50",
+    "sl": "7747.79",
+    "tp": "7712.75",
+    "status": "Active",
+    "trade_time": "05 Nov 04:15 am",
+    "time_identified": "2026-11-04 22:45:18"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_158.34801_158.31036_158.46096",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.34801",
+    "sl": "158.31036",
+    "tp": "158.46096",
+    "status": "Active",
+    "trade_time": "05 Nov 04:15 am",
+    "time_identified": "2026-11-04 22:45:18"
+  },
+  {
+    "id": "EURUSD_5M_Trendline_1.12347_1.12232_1.12692",
+    "symbol": "EURUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.12347",
+    "sl": "1.12232",
+    "tp": "1.12692",
+    "status": "Active",
+    "trade_time": "05 Nov 04:14 am",
+    "time_identified": "2026-11-04 22:45:18"
   }
 ]
