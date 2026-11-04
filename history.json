@@ -90335,5 +90335,70 @@
     "status": "Active",
     "trade_time": "03 Nov 10:47 pm",
     "time_identified": "2026-11-03 17:17:43"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_28688.00_28857.86_28178.43",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28688.00",
+    "sl": "28857.86",
+    "tp": "28178.43",
+    "status": "Active",
+    "trade_time": "04 Nov 10:59 pm",
+    "time_identified": "2026-11-04 17:29:34"
+  },
+  {
+    "id": "USDJPY_5M_Trendline_158.25200_158.09946_158.67000",
+    "symbol": "USDJPY",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.25200",
+    "sl": "158.09946",
+    "tp": "158.67000",
+    "status": "Active",
+    "trade_time": "04 Nov 10:59 pm",
+    "time_identified": "2026-11-04 17:29:34"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.34756_1.34601_1.35026",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.34756",
+    "sl": "1.34601",
+    "tp": "1.35026",
+    "status": "Active",
+    "trade_time": "04 Nov 10:59 pm",
+    "time_identified": "2026-11-04 17:29:34"
+  },
+  {
+    "id": "GBPUSD_5M_Trendline_1.34756_1.34802_1.34633",
+    "symbol": "GBPUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.34756",
+    "sl": "1.34802",
+    "tp": "1.34633",
+    "status": "Active",
+    "trade_time": "04 Nov 10:59 pm",
+    "time_identified": "2026-11-04 17:29:34"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.12397_1.12287_1.12729",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.12397",
+    "sl": "1.12287",
+    "tp": "1.12729",
+    "status": "Active",
+    "trade_time": "04 Nov 10:59 pm",
+    "time_identified": "2026-11-04 17:29:34"
   }
 ]
