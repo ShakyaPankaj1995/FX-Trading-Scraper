@@ -90660,5 +90660,31 @@
     "status": "Active",
     "trade_time": "08 Nov 07:08 am",
     "time_identified": "2026-11-08 01:38:35"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7402.00_7378.38_7469.00",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7402.00",
+    "sl": "7378.38",
+    "tp": "7469.00",
+    "status": "Active",
+    "trade_time": "08 Nov 01:26 pm",
+    "time_identified": "2026-11-08 07:56:35"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_4074.90_4096.20_4035.10",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "4074.90",
+    "sl": "4096.20",
+    "tp": "4035.10",
+    "status": "Active",
+    "trade_time": "08 Nov 01:26 pm",
+    "time_identified": "2026-11-08 07:56:35"
   }
 ]
