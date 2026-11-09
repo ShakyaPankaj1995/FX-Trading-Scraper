@@ -1,15 +1,15 @@
 [
   {
-    "id": "NASDAQ_5M_Trendline_27132.00_27259.40_26882.25",
-    "symbol": "NASDAQ",
-    "timeframe": "5M",
+    "id": "USDJPY_1H_Trendline_157.99200_157.75471_158.65300",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
     "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "27132.00",
-    "sl": "27259.40",
-    "tp": "26882.25",
+    "signal": "BUY",
+    "entry": "157.99200",
+    "sl": "157.75471",
+    "tp": "158.65300",
     "status": "Active",
-    "trade_time": "09 Nov 07:34 am",
-    "time_identified": "2026-11-09 02:04:26"
+    "trade_time": "09 Nov 03:08 pm",
+    "time_identified": "2026-11-09 09:38:20"
   }
 ]
