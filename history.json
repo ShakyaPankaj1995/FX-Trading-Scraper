@@ -90829,5 +90829,44 @@
     "status": "Active",
     "trade_time": "10 Nov 03:50 pm",
     "time_identified": "2026-11-10 10:20:29"
+  },
+  {
+    "id": "NASDAQ_5M_Trendline_27900.75_27962.50_27715.50",
+    "symbol": "NASDAQ",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "27900.75",
+    "sl": "27962.50",
+    "tp": "27715.50",
+    "status": "Active",
+    "trade_time": "11 Nov 04:15 am",
+    "time_identified": "2026-11-10 22:45:55"
+  },
+  {
+    "id": "GBPUSD_15M_Trendline_1.33461_1.33558_1.33171",
+    "symbol": "GBPUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.33461",
+    "sl": "1.33558",
+    "tp": "1.33171",
+    "status": "Active",
+    "trade_time": "11 Nov 04:15 am",
+    "time_identified": "2026-11-10 22:45:55"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.11669_1.11754_1.11495",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "1.11669",
+    "sl": "1.11754",
+    "tp": "1.11495",
+    "status": "Active",
+    "trade_time": "11 Nov 04:15 am",
+    "time_identified": "2026-11-10 22:45:55"
   }
 ]
