@@ -1,41 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_28076.75_28375.46_27516.00",
+    "id": "NASDAQ_1H_Trendline_28231.50_28242.36_28198.93",
     "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "28076.75",
-    "sl": "28375.46",
-    "tp": "27516.00",
+    "entry": "28231.50",
+    "sl": "28242.36",
+    "tp": "28198.93",
     "status": "Active",
-    "trade_time": "11 Nov 07:47 am",
-    "time_identified": "2026-11-11 02:17:09"
+    "trade_time": "11 Nov 02:59 pm",
+    "time_identified": "2026-11-11 09:30:08"
   },
   {
-    "id": "S&P500_15M_Trendline_7577.50_7608.38_7493.00",
+    "id": "S&P500_15M_Trendline_7588.75_7606.90_7534.29",
     "symbol": "S&P500",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7577.50",
-    "sl": "7608.38",
-    "tp": "7493.00",
+    "entry": "7588.75",
+    "sl": "7606.90",
+    "tp": "7534.29",
     "status": "Active",
-    "trade_time": "11 Nov 07:46 am",
-    "time_identified": "2026-11-11 02:17:09"
+    "trade_time": "11 Nov 02:59 pm",
+    "time_identified": "2026-11-11 09:30:08"
   },
   {
-    "id": "EURUSD_1H_Trendline_1.11707_1.11331_1.12537",
-    "symbol": "EURUSD",
-    "timeframe": "1H",
+    "id": "S&P500_5M_Trendline_7588.75_7578.51_7604.50",
+    "symbol": "S&P500",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "1.11707",
-    "sl": "1.11331",
-    "tp": "1.12537",
+    "entry": "7588.75",
+    "sl": "7578.51",
+    "tp": "7604.50",
     "status": "Active",
-    "trade_time": "11 Nov 07:46 am",
-    "time_identified": "2026-11-11 02:17:09"
+    "trade_time": "11 Nov 02:59 pm",
+    "time_identified": "2026-11-11 09:30:08"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_4057.80_4056.21_4062.58",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "4057.80",
+    "sl": "4056.21",
+    "tp": "4062.58",
+    "status": "Active",
+    "trade_time": "11 Nov 02:59 pm",
+    "time_identified": "2026-11-11 09:30:08"
   }
 ]
