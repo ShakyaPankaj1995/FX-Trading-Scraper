@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "NASDAQ_15M_Trendline_28168.00_28094.72_28387.83",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "28168.00",
+    "sl": "28094.72",
+    "tp": "28387.83",
+    "status": "Active",
+    "trade_time": "12 Nov 05:02 am",
+    "time_identified": "2026-11-11 23:32:09"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_28168.00_28295.96_27784.13",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "28168.00",
+    "sl": "28295.96",
+    "tp": "27784.13",
+    "status": "Active",
+    "trade_time": "12 Nov 05:02 am",
+    "time_identified": "2026-11-11 23:32:09"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7603.25_7577.39_7671.50",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7603.25",
+    "sl": "7577.39",
+    "tp": "7671.50",
+    "status": "Active",
+    "trade_time": "12 Nov 05:01 am",
+    "time_identified": "2026-11-11 23:32:09"
+  }
+]
