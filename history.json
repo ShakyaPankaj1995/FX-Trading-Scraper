@@ -91024,5 +91024,18 @@
     "status": "Active",
     "trade_time": "12 Nov 09:34 am",
     "time_identified": "2026-11-12 04:04:21"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_28256.25_27972.83_28697.00",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "28256.25",
+    "sl": "27972.83",
+    "tp": "28697.00",
+    "status": "Active",
+    "trade_time": "12 Nov 06:01 pm",
+    "time_identified": "2026-11-12 12:32:00"
   }
 ]
