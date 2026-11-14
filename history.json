@@ -91128,5 +91128,18 @@
     "status": "Active",
     "trade_time": "14 Nov 07:14 am",
     "time_identified": "2026-11-14 01:44:26"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7584.75_7529.76_7674.75",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "7584.75",
+    "sl": "7529.76",
+    "tp": "7674.75",
+    "status": "Active",
+    "trade_time": "14 Nov 01:32 pm",
+    "time_identified": "2026-11-14 08:02:16"
   }
 ]
