@@ -1,28 +1,28 @@
 [
   {
-    "id": "XAUUSD_5M_Trendline_3879.20_3874.00_3894.60",
-    "symbol": "XAUUSD",
+    "id": "NASDAQ_5M_Trendline_27927.25_27846.19_28111.75",
+    "symbol": "NASDAQ",
     "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "3879.20",
-    "sl": "3874.00",
-    "tp": "3894.60",
+    "entry": "27927.25",
+    "sl": "27846.19",
+    "tp": "28111.75",
     "status": "Active",
-    "trade_time": "14 Nov 03:09 am",
-    "time_identified": "2026-11-13 21:39:20"
+    "trade_time": "14 Nov 07:14 am",
+    "time_identified": "2026-11-14 01:44:26"
   },
   {
-    "id": "USDJPY_1H_Trendline_159.69299_159.39058_160.18800",
-    "symbol": "USDJPY",
-    "timeframe": "1H",
+    "id": "S&P500_5M_Trendline_7561.00_7546.87_7590.00",
+    "symbol": "S&P500",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "BUY",
-    "entry": "159.69299",
-    "sl": "159.39058",
-    "tp": "160.18800",
+    "entry": "7561.00",
+    "sl": "7546.87",
+    "tp": "7590.00",
     "status": "Active",
-    "trade_time": "14 Nov 03:09 am",
-    "time_identified": "2026-11-13 21:39:20"
+    "trade_time": "14 Nov 07:14 am",
+    "time_identified": "2026-11-14 01:44:26"
   }
 ]
