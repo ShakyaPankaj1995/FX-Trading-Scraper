@@ -91193,5 +91193,18 @@
     "status": "Active",
     "trade_time": "17 Nov 11:38 pm",
     "time_identified": "2026-11-17 18:08:53"
+  },
+  {
+    "id": "S&P500_5M_Trendline_7393.00_7394.04_7389.89",
+    "symbol": "S&P500",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7393.00",
+    "sl": "7394.04",
+    "tp": "7389.89",
+    "status": "Active",
+    "trade_time": "18 Nov 01:31 pm",
+    "time_identified": "2026-11-18 08:01:57"
   }
 ]
