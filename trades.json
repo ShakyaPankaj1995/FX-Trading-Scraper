@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "NASDAQ_1H_Trendline_27362.50_27711.99_26658.50",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "27362.50",
+    "sl": "27711.99",
+    "tp": "26658.50",
+    "status": "Active",
+    "trade_time": "19 Nov 04:51 am",
+    "time_identified": "2026-11-18 23:21:45"
+  },
+  {
+    "id": "NASDAQ_15M_Trendline_27362.50_27452.95_27091.16",
+    "symbol": "NASDAQ",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "27362.50",
+    "sl": "27452.95",
+    "tp": "27091.16",
+    "status": "Active",
+    "trade_time": "19 Nov 04:51 am",
+    "time_identified": "2026-11-18 23:21:45"
+  },
+  {
+    "id": "S&P500_15M_Trendline_7366.50_7400.35_7305.25",
+    "symbol": "S&P500",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7366.50",
+    "sl": "7400.35",
+    "tp": "7305.25",
+    "status": "Active",
+    "trade_time": "19 Nov 04:51 am",
+    "time_identified": "2026-11-18 23:21:45"
+  },
+  {
+    "id": "XAUUSD_5M_Trendline_3737.20_3739.59_3730.04",
+    "symbol": "XAUUSD",
+    "timeframe": "5M",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "3737.20",
+    "sl": "3739.59",
+    "tp": "3730.04",
+    "status": "Active",
+    "trade_time": "19 Nov 04:51 am",
+    "time_identified": "2026-11-18 23:21:45"
+  }
+]
