@@ -1,15 +1,54 @@
 [
   {
-    "id": "XAUUSD_1H_Trendline_3614.10_3638.12_3542.04",
-    "symbol": "XAUUSD",
+    "id": "NASDAQ_1H_Trendline_26819.25_26909.09_26549.73",
+    "symbol": "NASDAQ",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "3614.10",
-    "sl": "3638.12",
-    "tp": "3542.04",
+    "entry": "26819.25",
+    "sl": "26909.09",
+    "tp": "26549.73",
     "status": "Active",
-    "trade_time": "23 Nov 03:14 pm",
-    "time_identified": "2026-11-23 09:44:37"
+    "trade_time": "24 Nov 03:11 am",
+    "time_identified": "2026-11-23 21:41:29"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7267.25_7293.84_7187.48",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7267.25",
+    "sl": "7293.84",
+    "tp": "7187.48",
+    "status": "Active",
+    "trade_time": "24 Nov 03:11 am",
+    "time_identified": "2026-11-23 21:41:29"
+  },
+  {
+    "id": "XAUUSD_15M_Trendline_3635.30_3600.90_3691.00",
+    "symbol": "XAUUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "3635.30",
+    "sl": "3600.90",
+    "tp": "3691.00",
+    "status": "Active",
+    "trade_time": "24 Nov 03:11 am",
+    "time_identified": "2026-11-23 21:41:29"
+  },
+  {
+    "id": "USDJPY_15M_Trendline_158.98900_158.79854_159.50301",
+    "symbol": "USDJPY",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "158.98900",
+    "sl": "158.79854",
+    "tp": "159.50301",
+    "status": "Active",
+    "trade_time": "24 Nov 03:11 am",
+    "time_identified": "2026-11-23 21:41:29"
   }
 ]
