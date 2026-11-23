@@ -91388,5 +91388,18 @@
     "status": "Active",
     "trade_time": "23 Nov 07:08 am",
     "time_identified": "2026-11-23 01:38:47"
+  },
+  {
+    "id": "XAUUSD_1H_Trendline_3614.10_3638.12_3542.04",
+    "symbol": "XAUUSD",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "3614.10",
+    "sl": "3638.12",
+    "tp": "3542.04",
+    "status": "Active",
+    "trade_time": "23 Nov 03:14 pm",
+    "time_identified": "2026-11-23 09:44:37"
   }
 ]
