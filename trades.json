@@ -1,54 +1,54 @@
 [
   {
-    "id": "NASDAQ_1H_Trendline_26819.25_26909.09_26549.73",
+    "id": "NASDAQ_5M_Trendline_26860.50_26911.27_26708.20",
     "symbol": "NASDAQ",
-    "timeframe": "1H",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "26819.25",
-    "sl": "26909.09",
-    "tp": "26549.73",
+    "entry": "26860.50",
+    "sl": "26911.27",
+    "tp": "26708.20",
     "status": "Active",
-    "trade_time": "24 Nov 03:11 am",
-    "time_identified": "2026-11-23 21:41:29"
+    "trade_time": "24 Nov 11:01 am",
+    "time_identified": "2026-11-24 05:31:26"
   },
   {
-    "id": "S&P500_1H_Trendline_7267.25_7293.84_7187.48",
+    "id": "S&P500_5M_Trendline_7274.00_7279.86_7256.43",
     "symbol": "S&P500",
-    "timeframe": "1H",
+    "timeframe": "5M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7267.25",
-    "sl": "7293.84",
-    "tp": "7187.48",
+    "entry": "7274.00",
+    "sl": "7279.86",
+    "tp": "7256.43",
     "status": "Active",
-    "trade_time": "24 Nov 03:11 am",
-    "time_identified": "2026-11-23 21:41:29"
+    "trade_time": "24 Nov 11:01 am",
+    "time_identified": "2026-11-24 05:31:26"
   },
   {
-    "id": "XAUUSD_15M_Trendline_3635.30_3600.90_3691.00",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "3635.30",
-    "sl": "3600.90",
-    "tp": "3691.00",
-    "status": "Active",
-    "trade_time": "24 Nov 03:11 am",
-    "time_identified": "2026-11-23 21:41:29"
-  },
-  {
-    "id": "USDJPY_15M_Trendline_158.98900_158.79854_159.50301",
+    "id": "USDJPY_15M_Trendline_159.12199_159.19996_158.88810",
     "symbol": "USDJPY",
     "timeframe": "15M",
     "strategy": "Trendline",
-    "signal": "BUY",
-    "entry": "158.98900",
-    "sl": "158.79854",
-    "tp": "159.50301",
+    "signal": "SELL",
+    "entry": "159.12199",
+    "sl": "159.19996",
+    "tp": "158.88810",
     "status": "Active",
-    "trade_time": "24 Nov 03:11 am",
-    "time_identified": "2026-11-23 21:41:29"
+    "trade_time": "24 Nov 11:01 am",
+    "time_identified": "2026-11-24 05:31:26"
+  },
+  {
+    "id": "EURUSD_15M_Trendline_1.09123_1.08931_1.09696",
+    "symbol": "EURUSD",
+    "timeframe": "15M",
+    "strategy": "Trendline",
+    "signal": "BUY",
+    "entry": "1.09123",
+    "sl": "1.08931",
+    "tp": "1.09696",
+    "status": "Active",
+    "trade_time": "24 Nov 11:00 am",
+    "time_identified": "2026-11-24 05:31:26"
   }
 ]
