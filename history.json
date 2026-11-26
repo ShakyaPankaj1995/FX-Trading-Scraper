@@ -91622,5 +91622,31 @@
     "status": "Active",
     "trade_time": "26 Nov 07:40 am",
     "time_identified": "2026-11-26 02:10:50"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7239.25_7369.61_6982.50",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7239.25",
+    "sl": "7369.61",
+    "tp": "6982.50",
+    "status": "Active",
+    "trade_time": "26 Nov 04:18 pm",
+    "time_identified": "2026-11-26 10:48:31"
+  },
+  {
+    "id": "USDJPY_1H_Trendline_159.30701_159.69893_158.65601",
+    "symbol": "USDJPY",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "159.30701",
+    "sl": "159.69893",
+    "tp": "158.65601",
+    "status": "Active",
+    "trade_time": "26 Nov 04:18 pm",
+    "time_identified": "2026-11-26 10:48:31"
   }
 ]
