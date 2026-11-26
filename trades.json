@@ -1,54 +1,41 @@
 [
   {
-    "id": "NASDAQ_15M_Trendline_26012.00_26601.20_25027.50",
+    "id": "NASDAQ_15M_Trendline_26240.00_26468.50_25554.50",
     "symbol": "NASDAQ",
     "timeframe": "15M",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "26012.00",
-    "sl": "26601.20",
-    "tp": "25027.50",
+    "entry": "26240.00",
+    "sl": "26468.50",
+    "tp": "25554.50",
     "status": "Active",
-    "trade_time": "26 Nov 12:40 am",
-    "time_identified": "2026-11-25 19:10:38"
+    "trade_time": "26 Nov 07:40 am",
+    "time_identified": "2026-11-26 02:10:50"
   },
   {
-    "id": "S&P500_15M_Trendline_7191.75_7223.75_7095.75",
+    "id": "S&P500_1H_Trendline_7229.25_7368.21_6982.50",
     "symbol": "S&P500",
-    "timeframe": "15M",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "7191.75",
-    "sl": "7223.75",
-    "tp": "7095.75",
+    "entry": "7229.25",
+    "sl": "7368.21",
+    "tp": "6982.50",
     "status": "Active",
-    "trade_time": "26 Nov 12:40 am",
-    "time_identified": "2026-11-25 19:10:38"
+    "trade_time": "26 Nov 07:40 am",
+    "time_identified": "2026-11-26 02:10:50"
   },
   {
-    "id": "XAUUSD_5M_Trendline_3566.20_3576.70_3534.69",
+    "id": "XAUUSD_1H_Trendline_3596.20_3625.65_3507.85",
     "symbol": "XAUUSD",
-    "timeframe": "5M",
+    "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "3566.20",
-    "sl": "3576.70",
-    "tp": "3534.69",
+    "entry": "3596.20",
+    "sl": "3625.65",
+    "tp": "3507.85",
     "status": "Active",
-    "trade_time": "26 Nov 12:40 am",
-    "time_identified": "2026-11-25 19:10:38"
-  },
-  {
-    "id": "XAUUSD_15M_Trendline_3566.20_3595.65_3477.84",
-    "symbol": "XAUUSD",
-    "timeframe": "15M",
-    "strategy": "Trendline",
-    "signal": "SELL",
-    "entry": "3566.20",
-    "sl": "3595.65",
-    "tp": "3477.84",
-    "status": "Active",
-    "trade_time": "26 Nov 12:40 am",
-    "time_identified": "2026-11-25 19:10:38"
+    "trade_time": "26 Nov 07:40 am",
+    "time_identified": "2026-11-26 02:10:50"
   }
 ]
