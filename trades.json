@@ -1,15 +1,15 @@
 [
   {
-    "id": "USDJPY_1H_Trendline_159.23100_159.60733_158.65601",
-    "symbol": "USDJPY",
+    "id": "GBPUSD_1H_Trendline_1.31334_1.31394_1.31153",
+    "symbol": "GBPUSD",
     "timeframe": "1H",
     "strategy": "Trendline",
     "signal": "SELL",
-    "entry": "159.23100",
-    "sl": "159.60733",
-    "tp": "158.65601",
+    "entry": "1.31334",
+    "sl": "1.31394",
+    "tp": "1.31153",
     "status": "Active",
-    "trade_time": "27 Nov 07:57 am",
-    "time_identified": "2026-11-27 02:27:35"
+    "trade_time": "27 Nov 04:38 pm",
+    "time_identified": "2026-11-27 11:08:40"
   }
 ]
