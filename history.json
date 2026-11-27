@@ -91713,5 +91713,31 @@
     "status": "Active",
     "trade_time": "27 Nov 04:38 pm",
     "time_identified": "2026-11-27 11:08:40"
+  },
+  {
+    "id": "NASDAQ_1H_Trendline_26793.00_27337.23_25160.30",
+    "symbol": "NASDAQ",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "26793.00",
+    "sl": "27337.23",
+    "tp": "25160.30",
+    "status": "Active",
+    "trade_time": "28 Nov 01:25 am",
+    "time_identified": "2026-11-27 19:55:22"
+  },
+  {
+    "id": "S&P500_1H_Trendline_7316.50_7351.10_7212.71",
+    "symbol": "S&P500",
+    "timeframe": "1H",
+    "strategy": "Trendline",
+    "signal": "SELL",
+    "entry": "7316.50",
+    "sl": "7351.10",
+    "tp": "7212.71",
+    "status": "Active",
+    "trade_time": "28 Nov 01:25 am",
+    "time_identified": "2026-11-27 19:55:22"
   }
 ]
